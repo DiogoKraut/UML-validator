@@ -13,3 +13,8 @@ xml_file.close()
 json_data = json.dumps(data_dict, indent=2)
 
     
+newJson = open("testeout.json", "w+")
+
+for line in json_data:
+    line = line.replace("@", "")
+    newJson.write(line)
