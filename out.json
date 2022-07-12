@@ -1,0 +1,316 @@
+{
+  "xmiXMI": {
+    "xmlnsuml": "http://www.omg.org/spec/UML/20110701",
+    "xmlnsxmi": "http://www.omg.org/spec/XMI/20110701",
+    "umlModel": {
+      "name": "Class Diagram0",
+      "xmiid": "_cz0YkPu8Eey8_8NuDUUJvQ",
+      "packagedElement": [
+        {
+          "name": "Casa",
+          "xmiid": "_cz0Ykfu8Eey8_8NuDUUJvQ",
+          "xmitype": "uml:Class",
+          "ownedAttribute": [
+            {
+              "name": "attrCasa",
+              "type": "_cz0_vPu8Eey8_8NuDUUJvQ",
+              "visibility": "private",
+              "xmiid": "_cz0Ykvu8Eey8_8NuDUUJvQ",
+              "xmitype": "uml:Property"
+            },
+            {
+              "aggregation": "composite",
+              "association": "_cz0_tfu8Eey8_8NuDUUJvQ",
+              "name": "",
+              "type": "_cz0_pfu8Eey8_8NuDUUJvQ",
+              "visibility": "private",
+              "xmiid": "_cz0Yk_u8Eey8_8NuDUUJvQ",
+              "xmitype": "uml:Property"
+            },
+            {
+              "aggregation": "composite",
+              "association": "_cz0_tvu8Eey8_8NuDUUJvQ",
+              "name": "",
+              "type": "_cz0_pfu8Eey8_8NuDUUJvQ",
+              "visibility": "private",
+              "xmiid": "_cz0YlPu8Eey8_8NuDUUJvQ",
+              "xmitype": "uml:Property"
+            },
+            {
+              "aggregation": "composite",
+              "association": "_cz0_t_u8Eey8_8NuDUUJvQ",
+              "name": "",
+              "type": "_cz0YnPu8Eey8_8NuDUUJvQ",
+              "visibility": "private",
+              "xmiid": "_cz0Ylfu8Eey8_8NuDUUJvQ",
+              "xmitype": "uml:Property"
+            },
+            {
+              "aggregation": "shared",
+              "association": "_cz0_uPu8Eey8_8NuDUUJvQ",
+              "name": "",
+              "type": "_cz0_rfu8Eey8_8NuDUUJvQ",
+              "visibility": "private",
+              "xmiid": "_cz0Ylvu8Eey8_8NuDUUJvQ",
+              "xmitype": "uml:Property"
+            },
+            {
+              "aggregation": "composite",
+              "association": "_cz0_ufu8Eey8_8NuDUUJvQ",
+              "name": "",
+              "type": "_cz0YnPu8Eey8_8NuDUUJvQ",
+              "visibility": "private",
+              "xmiid": "_cz0Yl_u8Eey8_8NuDUUJvQ",
+              "xmitype": "uml:Property"
+            }
+          ],
+          "ownedOperation": [
+            {
+              "name": "TelhadoAreaExterna2",
+              "visibility": "public",
+              "xmiid": "_cz0YmPu8Eey8_8NuDUUJvQ",
+              "xmitype": "uml:Operation",
+              "ownedParameter": {
+                "direction": "return",
+                "type": "_cz0YnPu8Eey8_8NuDUUJvQ",
+                "xmiid": "_cz0Ymfu8Eey8_8NuDUUJvQ",
+                "xmitype": "uml:Parameter"
+              }
+            },
+            {
+              "name": "TelhadoAreaInterna2",
+              "visibility": "public",
+              "xmiid": "_cz0Ymvu8Eey8_8NuDUUJvQ",
+              "xmitype": "uml:Operation",
+              "ownedParameter": {
+                "direction": "return",
+                "type": "_cz0YnPu8Eey8_8NuDUUJvQ",
+                "xmiid": "_cz0Ym_u8Eey8_8NuDUUJvQ",
+                "xmitype": "uml:Parameter"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Telhado",
+          "xmiid": "_cz0YnPu8Eey8_8NuDUUJvQ",
+          "xmitype": "uml:Class",
+          "ownedAttribute": [
+            {
+              "name": "attrTelhado",
+              "type": "_cz0_u_u8Eey8_8NuDUUJvQ",
+              "visibility": "private",
+              "xmiid": "_cz0Ynfu8Eey8_8NuDUUJvQ",
+              "xmitype": "uml:Property"
+            },
+            {
+              "association": "_cz0_t_u8Eey8_8NuDUUJvQ",
+              "name": "",
+              "type": "_cz0Ykfu8Eey8_8NuDUUJvQ",
+              "visibility": "private",
+              "xmiid": "_cz0Ynvu8Eey8_8NuDUUJvQ",
+              "xmitype": "uml:Property"
+            },
+            {
+              "association": "_cz0_ufu8Eey8_8NuDUUJvQ",
+              "name": "",
+              "type": "_cz0Ykfu8Eey8_8NuDUUJvQ",
+              "visibility": "private",
+              "xmiid": "_cz0Yn_u8Eey8_8NuDUUJvQ",
+              "xmitype": "uml:Property"
+            }
+          ],
+          "ownedOperation": [
+            {
+              "name": "TipoTelha",
+              "visibility": "public",
+              "xmiid": "_cz0_oPu8Eey8_8NuDUUJvQ",
+              "xmitype": "uml:Operation",
+              "ownedParameter": {
+                "direction": "return",
+                "type": "_cz0_pPu8Eey8_8NuDUUJvQ",
+                "xmiid": "_cz0_ofu8Eey8_8NuDUUJvQ",
+                "xmitype": "uml:Parameter"
+              }
+            },
+            {
+              "name": "Area",
+              "visibility": "public",
+              "xmiid": "_cz0_ovu8Eey8_8NuDUUJvQ",
+              "xmitype": "uml:Operation",
+              "ownedParameter": {
+                "direction": "return",
+                "type": "_cz0_vPu8Eey8_8NuDUUJvQ",
+                "xmiid": "_cz0_o_u8Eey8_8NuDUUJvQ",
+                "xmitype": "uml:Parameter"
+              }
+            }
+          ]
+        },
+        {
+          "name": "TipoTelha",
+          "xmiid": "_cz0_pPu8Eey8_8NuDUUJvQ",
+          "xmitype": "uml:Class"
+        },
+        {
+          "name": "Parede",
+          "xmiid": "_cz0_pfu8Eey8_8NuDUUJvQ",
+          "xmitype": "uml:Class",
+          "ownedAttribute": [
+            {
+              "name": "attrParede",
+              "type": "_cz0_u_u8Eey8_8NuDUUJvQ",
+              "visibility": "private",
+              "xmiid": "_cz0_pvu8Eey8_8NuDUUJvQ",
+              "xmitype": "uml:Property"
+            },
+            {
+              "association": "_cz0_tfu8Eey8_8NuDUUJvQ",
+              "name": "",
+              "type": "_cz0Ykfu8Eey8_8NuDUUJvQ",
+              "visibility": "private",
+              "xmiid": "_cz0_p_u8Eey8_8NuDUUJvQ",
+              "xmitype": "uml:Property"
+            },
+            {
+              "association": "_cz0_tvu8Eey8_8NuDUUJvQ",
+              "name": "",
+              "type": "_cz0Ykfu8Eey8_8NuDUUJvQ",
+              "visibility": "private",
+              "xmiid": "_cz0_qPu8Eey8_8NuDUUJvQ",
+              "xmitype": "uml:Property"
+            }
+          ],
+          "ownedOperation": [
+            {
+              "name": "Altura",
+              "visibility": "public",
+              "xmiid": "_cz0_qfu8Eey8_8NuDUUJvQ",
+              "xmitype": "uml:Operation",
+              "ownedParameter": {
+                "direction": "return",
+                "type": "_cz0_vPu8Eey8_8NuDUUJvQ",
+                "xmiid": "_cz0_qvu8Eey8_8NuDUUJvQ",
+                "xmitype": "uml:Parameter"
+              }
+            },
+            {
+              "name": "Largura",
+              "visibility": "public",
+              "xmiid": "_cz0_q_u8Eey8_8NuDUUJvQ",
+              "xmitype": "uml:Operation",
+              "ownedParameter": {
+                "direction": "return",
+                "type": "_cz0_vPu8Eey8_8NuDUUJvQ",
+                "xmiid": "_cz0_rPu8Eey8_8NuDUUJvQ",
+                "xmitype": "uml:Parameter"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Espelho",
+          "xmiid": "_cz0_rfu8Eey8_8NuDUUJvQ",
+          "xmitype": "uml:Class",
+          "ownedAttribute": [
+            {
+              "name": "attrEspelho1",
+              "type": "_cz0_u_u8Eey8_8NuDUUJvQ",
+              "visibility": "private",
+              "xmiid": "_cz0_rvu8Eey8_8NuDUUJvQ",
+              "xmitype": "uml:Property"
+            },
+            {
+              "name": "attrEspelho2",
+              "type": "_cz0_u_u8Eey8_8NuDUUJvQ",
+              "visibility": "private",
+              "xmiid": "_cz0_r_u8Eey8_8NuDUUJvQ",
+              "xmitype": "uml:Property"
+            },
+            {
+              "association": "_cz0_uPu8Eey8_8NuDUUJvQ",
+              "name": "",
+              "type": "_cz0Ykfu8Eey8_8NuDUUJvQ",
+              "visibility": "private",
+              "xmiid": "_cz0_sPu8Eey8_8NuDUUJvQ",
+              "xmitype": "uml:Property"
+            }
+          ],
+          "ownedOperation": [
+            {
+              "name": "Altura",
+              "visibility": "public",
+              "xmiid": "_cz0_sfu8Eey8_8NuDUUJvQ",
+              "xmitype": "uml:Operation",
+              "ownedParameter": {
+                "direction": "return",
+                "type": "_cz0_vPu8Eey8_8NuDUUJvQ",
+                "xmiid": "_cz0_svu8Eey8_8NuDUUJvQ",
+                "xmitype": "uml:Parameter"
+              }
+            },
+            {
+              "name": "Largura",
+              "visibility": "public",
+              "xmiid": "_cz0_s_u8Eey8_8NuDUUJvQ",
+              "xmitype": "uml:Operation",
+              "ownedParameter": {
+                "direction": "return",
+                "type": "_cz0_vPu8Eey8_8NuDUUJvQ",
+                "xmiid": "_cz0_tPu8Eey8_8NuDUUJvQ",
+                "xmitype": "uml:Parameter"
+              }
+            }
+          ]
+        },
+        {
+          "memberEnd": "_cz0_p_u8Eey8_8NuDUUJvQ _cz0Yk_u8Eey8_8NuDUUJvQ",
+          "name": "ParedeQuarto",
+          "xmiid": "_cz0_tfu8Eey8_8NuDUUJvQ",
+          "xmitype": "uml:Association"
+        },
+        {
+          "memberEnd": "_cz0_qPu8Eey8_8NuDUUJvQ _cz0YlPu8Eey8_8NuDUUJvQ",
+          "name": "ParedeBanheiro",
+          "xmiid": "_cz0_tvu8Eey8_8NuDUUJvQ",
+          "xmitype": "uml:Association"
+        },
+        {
+          "memberEnd": "_cz0Ynvu8Eey8_8NuDUUJvQ _cz0Ylfu8Eey8_8NuDUUJvQ",
+          "name": "TelhadoAreaInterna",
+          "xmiid": "_cz0_t_u8Eey8_8NuDUUJvQ",
+          "xmitype": "uml:Association"
+        },
+        {
+          "memberEnd": "_cz0_sPu8Eey8_8NuDUUJvQ _cz0Ylvu8Eey8_8NuDUUJvQ",
+          "name": "",
+          "xmiid": "_cz0_uPu8Eey8_8NuDUUJvQ",
+          "xmitype": "uml:Association"
+        },
+        {
+          "memberEnd": "_cz0Yn_u8Eey8_8NuDUUJvQ _cz0Yl_u8Eey8_8NuDUUJvQ",
+          "name": "TelhadoAreaExterna",
+          "xmiid": "_cz0_ufu8Eey8_8NuDUUJvQ",
+          "xmitype": "uml:Association"
+        },
+        {
+          "name": "PrimitiveTypes",
+          "xmiid": "_cz0_uvu8Eey8_8NuDUUJvQ",
+          "xmitype": "uml:Package",
+          "packagedElement": [
+            {
+              "name": "int",
+              "xmiid": "_cz0_u_u8Eey8_8NuDUUJvQ",
+              "xmitype": "uml:PrimitiveType"
+            },
+            {
+              "name": "double",
+              "xmiid": "_cz0_vPu8Eey8_8NuDUUJvQ",
+              "xmitype": "uml:PrimitiveType"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

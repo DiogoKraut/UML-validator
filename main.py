@@ -1,20 +1,26 @@
-import json
-import xmltodict
+import shutil
+import os
 
+def cleaner():
+    replace_list = ["\"xmi:", "\"xmlns:", "\"uml:"]
+    shutil.copy2('./data.json', './temp.txt')
+    newJson = open("out.json", "w")
+    with open("temp.txt", "r") as filej:
+        for line in filej:
+            count=0
+            spc=0
+            for char in line:
+                if(char != " "):
+                    count+=1
+                spc+=1
+                if(count == 2):
+                    if (char == '@'):
+                        line = line.replace("@", "", 1)
+                    for text in replace_list:
+                        if(line.startswith(text, spc-2)):
+                            line = line.replace(text, text[:-1])
+            newJson.write(line)
+        filej.close()
+    os.remove(filej.name)
 
-xml_file = open("test.xmi")
-     
-data_dict = xmltodict.parse(xml_file.read())
-xml_file.close()
- 
-# generate the object using json.dumps()
-# corresponding to json data
- 
-json_data = json.dumps(data_dict, indent=2)
-
-    
-newJson = open("testeout.json", "w+")
-
-for line in json_data:
-    line = line.replace("@", "")
-    newJson.write(line)
+cleaner()
