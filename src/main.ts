@@ -5,7 +5,7 @@ import * as fs from 'fs';
 async function main() {
 
   try {
-    const json = fs.readFileSync('out.json', 'utf-8');
+    const json = fs.readFileSync('cabonOut.json', 'utf-8');
     const data = JSON.parse(json).XMI.Model.packagedElement;
 
     data.forEach((element: MetaClass | MetaAssociation) => {

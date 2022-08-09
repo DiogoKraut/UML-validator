@@ -1,8 +1,9 @@
 import json
+from sys import argv
 import xmltodict
 
-
-with open("test.xmi") as xml_file:
+input = argv[1]
+with open(input) as xml_file:
      
     data_dict = xmltodict.parse(xml_file.read())
     xml_file.close()
@@ -14,6 +15,6 @@ with open("test.xmi") as xml_file:
      
     # Write the json data to output
     # json file
-    with open("data.json", "w") as json_file:
+    with open("out.json", "w") as json_file:
         json_file.write(json_data, )
         json_file.close()
