@@ -1,11 +1,13 @@
 import shutil
 import os
+from sys import argv
 
+output = argv[1]
 def cleaner():
     replace_dict = {"xmi:type":"xmitype"}
     remove_list = ["xmlns:", "uml:", "xmi:"]
-    shutil.copy2('./data.json', './temp.txt')
-    newJson = open("out.json", "w")
+    shutil.copy2('./out.json', './temp.txt')
+    newJson = open(output, "w")
     with open("temp.txt", "r") as filej:
         for line in filej:
             count=0
