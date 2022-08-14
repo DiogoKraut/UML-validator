@@ -5,6 +5,6 @@ export class MetaClass {
   "name": string;
   "id": string;
   "xmitype": string;
-  "ownedAttribute": [MetaAttribute];
-  "ownedOperation": [MetaOperation];
+  "ownedAttribute": MetaAttribute[] = [];
+  "ownedOperation": MetaOperation[] = [];
 }

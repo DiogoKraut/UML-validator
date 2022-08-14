@@ -5,5 +5,5 @@ export class MetaOperation {
   "visibility": string;
   "id": string;
   "xmitype": string;
-  "ownedParameter": [MetaParameter];
+  "ownedParameter": MetaParameter[] = [];
 }
