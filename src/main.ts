@@ -12,11 +12,18 @@ async function main() {
       if(element.xmitype == 'uml:Class') {
         classes.push(element);
       }
-    })
-    const javaClass: MetaClass | undefined = javaClassParser('./GST.java');
+    });
+    const fileList = fs.readdirSync('./java-src');
+    const javaClasses: MetaClass[] = [];
+    fileList.forEach((file) => {
+      console.log(file);
+      const javaClass: MetaClass = javaClassParser(`java-src/${file}`);
+      javaClasses.push(javaClass);
+    });
+
     let found = 'Not Found';
     classes.forEach((metaClass) => {
-      if(metaClass.name == javaClass?.name) found = 'Found';
+      if(metaClass.name == javaClasses[0].name) found = 'Found';
     });
     console.log(found);
 

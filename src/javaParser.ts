@@ -3,7 +3,7 @@ import { MetaClass } from './entities/meta-class.entity'
 import { MetaAttribute } from './entities/meta-attribute.entity';
 import { MetaOperation } from './entities/meta-operation.entity';
 
-export function javaClassParser(filePath: string) : MetaClass | undefined {
+export function javaClassParser(filePath: string) : MetaClass {
   const source = fs.readFileSync(filePath, 'utf-8');
   const lines = source.split(/\r?\n/);
   const newClass = new MetaClass();
@@ -16,7 +16,7 @@ export function javaClassParser(filePath: string) : MetaClass | undefined {
     let i;
     for (i = 0; i < words.length; i++) {
       if (words[1] == 'class' || words[0] == 'class') {
-        newClass.name = words[2]; 
+        newClass.name = words[2];  //todo fix words[0] case
       }
     }
     if (words[words.length] == ';') {
