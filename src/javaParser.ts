@@ -10,7 +10,7 @@ export function javaClassParser(filePath: string) : MetaClass {
   let wasOp = false;
   let count = 0;
   for (const line of lines) {
-    let newLine = ltrim(line);
+    let newLine = trimSpaces(line);
     const words = newLine.split(/[\s;, ]+/);
     let flagAtt = newLine[newLine.length-1] == ";";
     let flagFuncName = false;
@@ -75,7 +75,8 @@ function parseOperation(words: string[], newClass: MetaClass, flag: boolean) {
   newClass.ownedOperation.push(op);
 }
 
-function ltrim(line: string) {
+// remove spaces from the beggining of a line
+function trimSpaces(line: string) {
   if(!line) return line;
   return line.replace(/^\s+/g, '');
 }
