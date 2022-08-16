@@ -17,7 +17,7 @@ export function javaClassParser(filePath: string) : MetaClass {
     let flagClass = false;
 
     // check if it has return type
-    let compLine = line.replace(/[(){}]+/, '');
+    let compLine = newLine.replace(/[(){}]+/, '');
     if (compLine != newLine)
       flagFuncName = true;
 
