@@ -12,7 +12,7 @@ export function javaClassParser(filePath: string) : MetaClass {
   for (const line of lines) {
     let newLine = ltrim(line);
     const words = newLine.split(/[\s;, ]+/);
-    let flag = newLine[newLine.length-1] == ";";
+    let flagAtt = newLine[newLine.length-1] == ";";
     let flagFuncName = false;
     let flagClass = false;
 
@@ -21,7 +21,7 @@ export function javaClassParser(filePath: string) : MetaClass {
     if (compLine != newLine)
       flagFuncName = true;
 
-    // if it is import, empty line or braces, skip
+    // check if it is inside an operation and ignore
     if (wasOp){
       if(newLine[newLine.length-1] == '{' || words[0] == '{')
         count ++;
@@ -32,7 +32,10 @@ export function javaClassParser(filePath: string) : MetaClass {
       }
       continue;
     }
+
+    // if it is import, empty line or braces, skip
     if (words[0] == 'import' || words[0] == '}' || words[0] == '' || words[0] == '{') continue;
+    
     if (words[0] == 'class'){
       newClass.name = words[1];
       flagClass = true;
@@ -42,7 +45,7 @@ export function javaClassParser(filePath: string) : MetaClass {
       flagClass = true;
     }
     if (!flagClass){
-      if (flag) {
+      if (flagAtt) {
         parseAttribute(words, newClass);
       } else {
         wasOp = true;
