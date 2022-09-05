@@ -30,6 +30,7 @@ async function main() {
       }
       // console.log(metaClass.name)
       // console.log(metaClass)
+      // teste
       if(metaClass.name == javaClasses[0].name) found = 'Found';
       console.log(metaClass.ownedAttribute)
     });
