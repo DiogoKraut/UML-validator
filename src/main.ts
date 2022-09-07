@@ -16,7 +16,6 @@ async function main() {
     const fileList = fs.readdirSync('./java-src');
     const javaClasses: MetaClass[] = [];
     fileList.forEach((file) => {
-      console.log(file);
       const javaClass: MetaClass = javaClassParser(`java-src/${file}`);
       javaClasses.push(javaClass);
     });
