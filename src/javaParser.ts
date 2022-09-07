@@ -2,7 +2,7 @@ import * as fs from 'fs'
 import { MetaClass } from './entities/meta-class.entity'
 import { MetaAttribute } from './entities/meta-attribute.entity';
 import { MetaOperation } from './entities/meta-operation.entity';
-import { MetaAssociation } from 'entities/meta-association.entity';
+import { MetaAssociation } from './entities/meta-association.entity';
 
 export function javaClassParser(filePath: string) : MetaClass {
   const source = fs.readFileSync(filePath, 'utf-8');
@@ -54,7 +54,7 @@ export function javaClassParser(filePath: string) : MetaClass {
       }
     }
   }
-  // console.log(JSON.stringify(newClass, null, 2));
+  console.log(JSON.stringify(newClass, null, 2));
   return newClass;
 }
 
@@ -64,7 +64,8 @@ function parseAttribute(words: string[], newClass: MetaClass) {
     attribute = new MetaAttribute();
   } else {
     attribute = new MetaAssociation();
-    words[2].includes('[]') ? attribute!.upperValue!.value = '*' : attribute!.upperValue!.value = '1';
+    attribute.lowerValue!.value = '1';
+    words[1].includes('[]') ? attribute.upperValue!.value = '*' : attribute.upperValue!.value = '1';
   }
   attribute.visibility = words[0];
   attribute.type = words[1];
@@ -88,5 +89,5 @@ function trimSpaces(line: string) {
 }
 
 function isPrimitiveType(type: string) {
-  return type == 'int' || type == 'double' || type == 'float' || type == 'char' || type == 'boolean' || type == 'String' || type == 'long' || type == 'short' || type == 'byte';
+  return type == 'int' || type == 'double' || type == 'float' || type == 'char' || type == 'boolean' || type == 'String' || type == 'long' || type == 'short' || type == 'byte' || type == 'Date';
 }
