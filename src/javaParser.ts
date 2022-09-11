@@ -2,6 +2,7 @@ import * as fs from 'fs'
 import { MetaClass } from './entities/meta-class.entity'
 import { MetaAttribute } from './entities/meta-attribute.entity';
 import { MetaOperation } from './entities/meta-operation.entity';
+import { MetaAssociation } from './entities/meta-association.entity';
 
 export function javaClassParser(filePath: string) : MetaClass {
   const source = fs.readFileSync(filePath, 'utf-8');
@@ -58,8 +59,14 @@ export function javaClassParser(filePath: string) : MetaClass {
 }
 
 function parseAttribute(words: string[], newClass: MetaClass) {
- 
-  const attribute = new MetaAttribute();
+  let attribute;
+  if(isPrimitiveType(words[1])) {
+    attribute = new MetaAttribute();
+  } else {
+    attribute = new MetaAssociation();
+    attribute.lowerValue!.value = '1';
+    words[1].includes('[]') ? attribute.upperValue!.value = '*' : attribute.upperValue!.value = '1';
+  }
   attribute.visibility = words[0];
   attribute.type = words[1];
   attribute.name = words[2];
@@ -79,4 +86,8 @@ function parseOperation(words: string[], newClass: MetaClass, flag: boolean) {
 function trimSpaces(line: string) {
   if(!line) return line;
   return line.replace(/^\s+/g, '');
+}
+
+function isPrimitiveType(type: string) {
+  return type == 'int' || type == 'double' || type == 'float' || type == 'char' || type == 'boolean' || type == 'String' || type == 'long' || type == 'short' || type == 'byte' || type == 'Date';
 }
