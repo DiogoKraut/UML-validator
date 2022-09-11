@@ -41,8 +41,8 @@ async function main() {
 }
 
 function compareAttributes(metaClass: MetaClass, javaClass: MetaClass) {
-  const metaAttributes = metaClass.ownedAttribute;
-  if(!metaAttributes) return;
+  if(!metaClass.ownedAttribute) return;
+  const metaAttributes = Array.isArray(metaClass.ownedAttribute) ? metaClass.ownedAttribute : [metaClass.ownedAttribute];
   const javaAttributes = javaClass.ownedAttribute;
   metaAttributes.forEach((metaAttribute) => {
     if(metaAttribute.name === '') return;
@@ -50,7 +50,7 @@ function compareAttributes(metaClass: MetaClass, javaClass: MetaClass) {
     if(javaAttribute) {
       console.log('\t\tAttribute', chalk.underline.italic.bold(metaAttribute.name), chalk.bgGreen.bold('FOUND'));
       if(metaAttribute.type != javaAttribute.type) {
-        console.log('\t\t\tType mismatch', chalk.bgRed.bold(metaAttribute.type), 'vs', chalk.bgGreen.bold(javaAttribute.type));
+        console.log(`\t\t\t${chalk.bgRed('Parameter mismatch')}: Expected`, chalk.green.bold(metaAttribute.type), 'but found', chalk.red.bold(javaAttribute.type));
       }
     } else {
       console.log('\t\tAttribute', chalk.underline.italic.bold(metaAttribute.name), chalk.bgRed.bold('NOT FOUND'));
@@ -59,16 +59,15 @@ function compareAttributes(metaClass: MetaClass, javaClass: MetaClass) {
 }
 
 function compareOperations(metaClass: MetaClass, javaClass: MetaClass) {
-  const metaOperations = metaClass.ownedOperation;
-  if(!metaOperations) return;
-  console.log(metaOperations);
+  if(!metaClass.ownedOperation) return;
+  const metaOperations = Array.isArray(metaClass.ownedOperation) ? metaClass.ownedOperation : [metaClass.ownedOperation];
   const javaOperations = javaClass.ownedOperation;
   metaOperations.forEach((metaOperation) => {
     const javaOperation = javaOperations.find((javaOperation) => javaOperation.name == metaOperation.name);
     if(javaOperation) {
       console.log('\t\tOperation', chalk.underline.italic.bold(metaOperation.name), chalk.bgGreen.bold('FOUND'));
       if(metaOperation.ownedParameter.length != javaOperation.ownedParameter.length) {
-        console.log('\t\t\tParameter mismatch', chalk.bgRed.bold(metaOperation.ownedParameter.length), 'vs', chalk.bgGreen.bold(javaOperation.ownedParameter.length));
+        console.log(`\t\t\t${chalk.bgRed('Parameter mismatch')}: Expected`, chalk.green.bold(metaOperation.ownedParameter.length), 'parameters, but found', chalk.red.bold(javaOperation.ownedParameter.length));
       }
     } else {
       console.log('\t\tOperation', chalk.underline.italic.bold(metaOperation.name), chalk.bgRed.bold('NOT FOUND'));
