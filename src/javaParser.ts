@@ -54,7 +54,7 @@ export function javaClassParser(filePath: string) : MetaClass {
       }
     }
   }
-  console.log(JSON.stringify(newClass, null, 2));
+  // console.log(JSON.stringify(newClass, null, 2));
   return newClass;
 }
 
