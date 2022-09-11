@@ -21,7 +21,6 @@ with open(input) as xml_file:
                     if(flag):
                         run = False                
     xml_file.close()
-
 with open(input) as xml_file:
     data_dict = xmltodict.parse(xml_file.read())
     xml_file.close()
