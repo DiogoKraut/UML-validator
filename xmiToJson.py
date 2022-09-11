@@ -17,7 +17,6 @@ with open(input) as xml_file:
                     flag = True
                     if(attType and attId and flag and attClass):
                         line = line.replace(attId.group(), (attType.group() + "\" oldId=\""+attId.group()))
-                        print(line)
                 else:
                     if(flag):
                         run = False                
