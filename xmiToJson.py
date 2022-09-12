@@ -17,7 +17,6 @@ with open(input) as xml_file:
                     attId = re.search('(?<=xmi:id=")([A-z_0-9-])+', line)
                     flag = True
                     if(attType and attId and flag and attClass):
-                        # line = line.replace(attId.group(), (attId.group() + "\" oldId=\""+attId.group()))
                         line = line.replace(attId.group(), attType.group())
                         file.write(attType.group()+","+attId.group()+"\n")
                 else:
