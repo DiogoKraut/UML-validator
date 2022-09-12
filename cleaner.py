@@ -2,7 +2,7 @@ import shutil
 import os
 from sys import argv
 
-output = "teste.json"
+output = argv[1]
 def cleaner():
     replace_dict = {"xmi:type":"xmitype"}
     replace_id = {}
