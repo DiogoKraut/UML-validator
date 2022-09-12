@@ -5,6 +5,7 @@ import xmltodict
 
 input = argv[1]
 with open(input) as xml_file:
+    file = open("replaceDict.txt", "w")
     flag = False
     run = True
     for line in xml_file:
@@ -16,10 +17,12 @@ with open(input) as xml_file:
                     attId = re.search('(?<=xmi:id=")([A-z_0-9-])+', line)
                     flag = True
                     if(attType and attId and flag and attClass):
-                        line = line.replace(attId.group(), (attType.group() + "\" oldId=\""+attId.group()))
+                        line = line.replace(attId.group(), attType.group())
+                        file.write(attType.group()+","+attId.group()+"\n")
                 else:
                     if(flag):
-                        run = False                
+                        run = False
+    file.close()                
     xml_file.close()
 with open(input) as xml_file:
     data_dict = xmltodict.parse(xml_file.read())
