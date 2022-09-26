@@ -3,7 +3,10 @@ public class GST {
   private String name;
   private String email;
 
-  public void enrollGrower(){
+  public void enrollGrower(name: String, email: String) {
+    this.name = name;
+    this.email = email;
+  }
 
   }
 }
