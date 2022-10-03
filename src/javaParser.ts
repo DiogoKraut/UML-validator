@@ -54,7 +54,7 @@ export function javaClassParser(filePath: string) : MetaClass {
       }
     }
   }
-  console.log(JSON.stringify(newClass, null, 2));
+  // console.log(JSON.stringify(newClass, null, 2));
   return newClass;
 }
 
@@ -77,8 +77,10 @@ function parseOperation(words: string[], newClass: MetaClass, flag: boolean) {
   const op = new MetaOperation();
   op.visibility = words[0];
   op.name = flag ? words[2] : words[1];
-  op.name = op.name.replace(/[(){]+/, '');
+  console.log(op.name);
+  op.name = op.name.split('(')[0];
   op.returnType = flag ? words[1] : '';
+  console.log(op);
   newClass.ownedOperation.push(op);
 }
 
