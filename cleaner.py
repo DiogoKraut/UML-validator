@@ -10,6 +10,7 @@ def cleaner():
     shutil.copy2('./out.json', './temp.txt')
     newJson = open(output, "w")
     file = open("replaceDict.txt", "r")
+    #Verifica a existência de atributos e classes para substituir.
     for line in file:
         x = line.split(',')
         replace_id[x[0]] = x[1][:-1]
