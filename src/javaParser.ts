@@ -2,7 +2,7 @@ import * as fs from 'fs'
 import { MetaClass } from './entities/meta-class.entity'
 import { MetaAttribute } from './entities/meta-attribute.entity';
 import { MetaOperation } from './entities/meta-operation.entity';
-import { MetaAssociation } from './entities/meta-association.entity';
+import { MetaAssociationAttribute } from './entities/meta-association-attribute.entity';
 
 export function javaClassParser(filePath: string) : MetaClass {
   const source = fs.readFileSync(filePath, 'utf-8');
@@ -63,7 +63,7 @@ function parseAttribute(words: string[], newClass: MetaClass) {
   if(isPrimitiveType(words[1])) {
     attribute = new MetaAttribute();
   } else {
-    attribute = new MetaAssociation();
+    attribute = new MetaAssociationAttribute();
     attribute.lowerValue!.value = '1';
     words[1].includes('[]') ? attribute.upperValue!.value = '*' : attribute.upperValue!.value = '1';
   }

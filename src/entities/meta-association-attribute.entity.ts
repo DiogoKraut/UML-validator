@@ -1,6 +1,6 @@
 import { MetaAttribute } from "./meta-attribute.entity";
 
-export class MetaAssociation extends MetaAttribute {
+export class MetaAssociationAttribute extends MetaAttribute {
   constructor() {
     super();
     this.lowerValue = { value: '' };
