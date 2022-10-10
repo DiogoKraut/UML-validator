@@ -2,7 +2,8 @@ import * as fs from 'fs'
 import { MetaClass } from './entities/meta-class.entity'
 import { MetaAttribute } from './entities/meta-attribute.entity';
 import { MetaOperation } from './entities/meta-operation.entity';
-import { MetaAssociation } from './entities/meta-association.entity';
+import { MetaAssociationAttribute } from './entities/meta-association-attribute.entity';
+import { MetaParameter } from './entities/meta-parameter.entity';
 
 export function javaClassParser(filePath: string) : MetaClass {
   const source = fs.readFileSync(filePath, 'utf-8');
@@ -63,7 +64,7 @@ function parseAttribute(words: string[], newClass: MetaClass) {
   if(isPrimitiveType(words[1])) {
     attribute = new MetaAttribute();
   } else {
-    attribute = new MetaAssociation();
+    attribute = new MetaAssociationAttribute();
     attribute.lowerValue!.value = '1';
     words[1].includes('[]') ? attribute.upperValue!.value = '*' : attribute.upperValue!.value = '1';
   }
@@ -80,8 +81,19 @@ function parseOperation(words: string[], newClass: MetaClass, flag: boolean) {
   console.log(op.name);
   op.name = op.name.split('(')[0];
   op.returnType = flag ? words[1] : '';
-  console.log(op);
+  parseParameters(words, op);
   newClass.ownedOperation.push(op);
+}
+
+function parseParameters(words: string[], op: MetaOperation) {
+  let params: any = words.join(',').split('(')[1];
+  params = params.split(')')[0].split(',');
+  for (let i = 0; i < params.length; i+=2) {
+    const param = new MetaParameter();
+    param.name = params[i];
+    param.type = params[i+1];
+    op.ownedParameter.push(param);
+  }
 }
 
 // remove spaces from the beggining of a line
@@ -90,6 +102,6 @@ function trimSpaces(line: string) {
   return line.replace(/^\s+/g, '');
 }
 
-function isPrimitiveType(type: string) {
-  return type == 'int' || type == 'double' || type == 'float' || type == 'char' || type == 'boolean' || type == 'String' || type == 'long' || type == 'short' || type == 'byte' || type == 'Date';
+export function isPrimitiveType(type?: string) {
+  return type === 'int' || type === 'double' || type === 'float' || type === 'char' || type === 'boolean' || type === 'String' || type === 'long' || type === 'short' || type === 'byte' || type === 'Date' || type === 'Integer';
 }

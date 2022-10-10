@@ -7,6 +7,4 @@ public class GST {
     this.name = name;
     this.email = email;
   }
-
-  }
 }

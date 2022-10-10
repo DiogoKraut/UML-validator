@@ -1,18 +1,26 @@
 import * as fs from 'fs';
 import { MetaClass } from './entities/meta-class.entity';
-import { javaClassParser } from './javaParser.js';
+import { isPrimitiveType, javaClassParser } from './javaParser.js';
 import chalk from 'chalk';
+import { MetaAssociationLink } from 'entities/meta-association-link.entity';
 
 async function main() {
   try {
     const json = fs.readFileSync('./carbonOut.json', 'utf-8');
     const data = JSON.parse(json).XMI.Model.packagedElement;
     const classes: MetaClass[] = [];
-    data.forEach((element: MetaClass) => {
-      if(element.xmitype == 'uml:Class' && element.name != '') {
+    const associations: MetaAssociationLink[] = [];
+
+    data.forEach((element: any) => {
+      if(element.xmitype === 'uml:Class' && element.name != '') {
         classes.push(element);
+      } else if(element.xmitype == 'uml:Association') {
+        const associationList = element.memberEnd.split(' ');
+        associations.push({classStart: associationList[0], classEnd: associationList[1]});
       }
     });
+
+    
 
     const fileList = fs.readdirSync('./java-src');
     const javaClasses: MetaClass[] = [];
@@ -34,6 +42,10 @@ async function main() {
 
       }
     });
+
+    associations.forEach((associationLink) => {
+      console.log('Analysing associationLink', chalk.underline.italic.bold(`${associationLink.classStart}`), '->', chalk.underline.italic.bold(`${associationLink.classEnd}`));
+    });
   } catch(err) {
     throw err;
   }
@@ -44,12 +56,14 @@ function compareAttributes(metaClass: MetaClass, javaClass: MetaClass) {
   if(!metaClass.ownedAttribute) return;
   const metaAttributes = Array.isArray(metaClass.ownedAttribute) ? metaClass.ownedAttribute : [metaClass.ownedAttribute];
   const javaAttributes = javaClass.ownedAttribute;
+
   metaAttributes.forEach((metaAttribute) => {
-    if(metaAttribute.name === '') return;
+    if(metaAttribute.name === '' || !isPrimitiveType(metaAttribute.type)) return;
+
     const javaAttribute = javaAttributes.find((javaAttribute) => javaAttribute.name == metaAttribute.name);
     if(javaAttribute) {
       console.log('\t\tAttribute', chalk.underline.italic.bold(metaAttribute.name), chalk.bgGreen.bold('FOUND'));
-      if(metaAttribute.type != javaAttribute.type) {
+      if((metaAttribute.type != javaAttribute.type) && (metaAttribute.type != 'Integer' && javaAttribute.type != 'int') && (metaAttribute.type != '_HM7-dUgpEe2638QIGuHyGQ' && javaAttribute.type != 'Date')) {
         console.log(`\t\t\t${chalk.bgRed('Parameter mismatch')}: Expected`, chalk.green.bold(metaAttribute.type), 'but found', chalk.red.bold(javaAttribute.type));
       }
     } else {
@@ -66,7 +80,8 @@ function compareOperations(metaClass: MetaClass, javaClass: MetaClass) {
     const javaOperation = javaOperations.find((javaOperation) => javaOperation.name == metaOperation.name);
     if(javaOperation) {
       console.log('\t\tOperation', chalk.underline.italic.bold(metaOperation.name), chalk.bgGreen.bold('FOUND'));
-      if(metaOperation.ownedParameter.length != javaOperation.ownedParameter.length) {
+      /* metaOperation.ownedParameter.length includes return attribute */
+      if((metaOperation.ownedParameter.length) && metaOperation.ownedParameter.length - 1 != javaOperation.ownedParameter.length) {
         console.log(`\t\t\t${chalk.bgRed('Parameter mismatch')}: Expected`, chalk.green.bold(metaOperation.ownedParameter.length), 'parameters, but found', chalk.red.bold(javaOperation.ownedParameter.length));
       }
     } else {
