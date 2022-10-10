@@ -4,7 +4,7 @@ import { MetaAttribute } from './entities/meta-attribute.entity';
 import { MetaOperation } from './entities/meta-operation.entity';
 import { MetaAssociationAttribute } from './entities/meta-association-attribute.entity';
 import { MetaParameter } from './entities/meta-parameter.entity';
-import { isPrimitiveType } from './utils';
+import { isPrimitiveType, trimSpaces } from './utils/utils';
 
 export function javaClassParser(filePath: string) : MetaClass {
   const source = fs.readFileSync(filePath, 'utf-8');
@@ -95,10 +95,4 @@ function parseParameters(words: string[], op: MetaOperation) {
     param.type = params[i+1];
     op.ownedParameter.push(param);
   }
-}
-
-// remove spaces from the beggining of a line
-function trimSpaces(line: string) {
-  if(!line) return line;
-  return line.replace(/^\s+/g, '');
 }
