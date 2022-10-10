@@ -79,7 +79,6 @@ function parseOperation(words: string[], newClass: MetaClass, flag: boolean) {
   const op = new MetaOperation();
   op.visibility = words[0];
   op.name = flag ? words[2] : words[1];
-  console.log(op.name);
   op.name = op.name.split('(')[0];
   op.returnType = flag ? words[1] : '';
   parseParameters(words, op);
