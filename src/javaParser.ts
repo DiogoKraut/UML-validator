@@ -4,6 +4,7 @@ import { MetaAttribute } from './entities/meta-attribute.entity';
 import { MetaOperation } from './entities/meta-operation.entity';
 import { MetaAssociationAttribute } from './entities/meta-association-attribute.entity';
 import { MetaParameter } from './entities/meta-parameter.entity';
+import { isPrimitiveType } from './utils';
 
 export function javaClassParser(filePath: string) : MetaClass {
   const source = fs.readFileSync(filePath, 'utf-8');
@@ -100,8 +101,4 @@ function parseParameters(words: string[], op: MetaOperation) {
 function trimSpaces(line: string) {
   if(!line) return line;
   return line.replace(/^\s+/g, '');
-}
-
-export function isPrimitiveType(type?: string) {
-  return type === 'int' || type === 'double' || type === 'float' || type === 'char' || type === 'boolean' || type === 'String' || type === 'long' || type === 'short' || type === 'byte' || type === 'Date' || type === 'Integer';
 }

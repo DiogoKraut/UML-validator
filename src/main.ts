@@ -1,6 +1,7 @@
 import * as fs from 'fs';
 import { MetaClass } from './entities/meta-class.entity';
-import { isPrimitiveType, javaClassParser } from './javaParser.js';
+import { javaClassParser } from './javaParser.js';
+import { isPrimitiveType, translateAssociations } from './utils';
 import chalk from 'chalk';
 import { MetaAssociationLink } from 'entities/meta-association-link.entity';
 
@@ -21,7 +22,6 @@ async function main() {
     });
 
     
-
     const fileList = fs.readdirSync('./java-src');
     const javaClasses: MetaClass[] = [];
     fileList.forEach((file) => {
@@ -29,6 +29,7 @@ async function main() {
       javaClasses.push(javaClass);
     });
 
+    
     classes.forEach((metaClass) => {
       console.log('Analysing class', `${chalk.underline.italic.bold(metaClass.name)}...`,);
       const javaClass = javaClasses.find((javaClass) => javaClass.name == metaClass.name);
@@ -39,13 +40,14 @@ async function main() {
         console.log('\tComparing operations...');
         compareOperations(metaClass, javaClass);
       } else {
-
+        console.log('\tCorresponding Java class', chalk.bgRed.bold('NOT FOUND'));
       }
     });
-
+    
     associations.forEach((associationLink) => {
       console.log('Analysing associationLink', chalk.underline.italic.bold(`${associationLink.classStart}`), '->', chalk.underline.italic.bold(`${associationLink.classEnd}`));
     });
+    translateAssociations(classes, javaClasses);
   } catch(err) {
     throw err;
   }
@@ -82,7 +84,7 @@ function compareOperations(metaClass: MetaClass, javaClass: MetaClass) {
       console.log('\t\tOperation', chalk.underline.italic.bold(metaOperation.name), chalk.bgGreen.bold('FOUND'));
       /* metaOperation.ownedParameter.length includes return attribute */
       if((metaOperation.ownedParameter.length) && metaOperation.ownedParameter.length - 1 != javaOperation.ownedParameter.length) {
-        console.log(`\t\t\t${chalk.bgRed('Parameter mismatch')}: Expected`, chalk.green.bold(metaOperation.ownedParameter.length), 'parameters, but found', chalk.red.bold(javaOperation.ownedParameter.length));
+        console.log(`\t\t\t${chalk.bgRed('Parameter mismatch')}: Expected`, chalk.green.bold(metaOperation.ownedParameter.length-1), 'parameters, but found', chalk.red.bold(javaOperation.ownedParameter.length));
       }
     } else {
       console.log('\t\tOperation', chalk.underline.italic.bold(metaOperation.name), chalk.bgRed.bold('NOT FOUND'));
