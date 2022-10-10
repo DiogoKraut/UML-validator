@@ -82,8 +82,6 @@ function compareOperations(metaClass: MetaClass, javaClass: MetaClass) {
       console.log('\t\tOperation', chalk.underline.italic.bold(metaOperation.name), chalk.bgGreen.bold('FOUND'));
       /* metaOperation.ownedParameter.length includes return attribute */
       if((metaOperation.ownedParameter.length) && metaOperation.ownedParameter.length - 1 != javaOperation.ownedParameter.length) {
-        console.log(metaOperation);
-        console.log(javaOperation);
         console.log(`\t\t\t${chalk.bgRed('Parameter mismatch')}: Expected`, chalk.green.bold(metaOperation.ownedParameter.length), 'parameters, but found', chalk.red.bold(javaOperation.ownedParameter.length));
       }
     } else {
