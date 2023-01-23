@@ -1,0 +1,1792 @@
+{
+  "XMI": {
+    "uml": "http://www.omg.org/spec/UML/20110701",
+    "xmi": "http://www.omg.org/spec/XMI/20110701",
+    "Model": {
+      "name": "store",
+      "id": "_esmkwJT_Ee2g6NfOsTe0TA",
+      "packagedElement": [
+        {
+          "name": "java",
+          "id": "_esmkwZT_Ee2g6NfOsTe0TA",
+          "xmitype": "uml:Package",
+          "packagedElement": [
+            {
+              "name": "lang",
+              "id": "_esmkwpT_Ee2g6NfOsTe0TA",
+              "xmitype": "uml:Package",
+              "packagedElement": [
+                {
+                  "name": "Cloneable",
+                  "id": "_esmkw5T_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Interface"
+                },
+                {
+                  "name": "Comparable",
+                  "id": "_esmkxJT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Interface",
+                  "ownedTemplateSignature": {
+                    "parameter": "_esmkxpT_Ee2g6NfOsTe0TA",
+                    "id": "_esmkxZT_Ee2g6NfOsTe0TA",
+                    "xmitype": "uml:RedefinableTemplateSignature",
+                    "ownedParameter": {
+                      "allowSubstitutable": "false",
+                      "parameteredElement": "_esmkx5T_Ee2g6NfOsTe0TA",
+                      "id": "_esmkxpT_Ee2g6NfOsTe0TA",
+                      "xmitype": "uml:ClassifierTemplateParameter",
+                      "ownedParameteredElement": {
+                        "name": "T",
+                        "owningTemplateParameter": "_esmkxpT_Ee2g6NfOsTe0TA",
+                        "templateParameter": "_esmkxpT_Ee2g6NfOsTe0TA",
+                        "id": "_esmkx5T_Ee2g6NfOsTe0TA",
+                        "xmitype": "uml:Class"
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "Boolean",
+                  "id": "_esmkyJT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Class"
+                },
+                {
+                  "name": "Byte",
+                  "id": "_esmkyZT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Class"
+                },
+                {
+                  "name": "Character",
+                  "id": "_esmkypT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Class"
+                },
+                {
+                  "name": "Double",
+                  "id": "_esmky5T_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Class"
+                },
+                {
+                  "name": "Float",
+                  "id": "_esmkzJT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Class"
+                },
+                {
+                  "name": "Integer",
+                  "id": "_esmkzZT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Class"
+                },
+                {
+                  "name": "Long",
+                  "id": "_esmkzpT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Class"
+                },
+                {
+                  "name": "Math",
+                  "id": "_esmkz5T_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Class"
+                },
+                {
+                  "name": "Number",
+                  "id": "_esmk0JT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Class"
+                },
+                {
+                  "name": "Object",
+                  "id": "_esmk0ZT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Class"
+                },
+                {
+                  "name": "Short",
+                  "id": "_esmk0pT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Class"
+                },
+                {
+                  "name": "String",
+                  "id": "_esmk05T_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Class"
+                },
+                {
+                  "name": "StringBuffer",
+                  "id": "_esmk1JT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Class"
+                },
+                {
+                  "name": "System",
+                  "id": "_esmk1ZT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Class"
+                },
+                {
+                  "name": "Thread",
+                  "id": "_esmk1pT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Class"
+                },
+                {
+                  "name": "Throwable",
+                  "id": "_esmk15T_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Class"
+                },
+                {
+                  "name": "Void",
+                  "id": "_esmk2JT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Class"
+                },
+                {
+                  "name": "Runnable",
+                  "id": "_esmk2ZT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Interface"
+                },
+                {
+                  "name": "Exception",
+                  "id": "_esmk2pT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Class"
+                },
+                {
+                  "name": "Iterable",
+                  "id": "_esmk25T_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Interface",
+                  "ownedTemplateSignature": {
+                    "parameter": "_esmk3ZT_Ee2g6NfOsTe0TA",
+                    "id": "_esmk3JT_Ee2g6NfOsTe0TA",
+                    "xmitype": "uml:RedefinableTemplateSignature",
+                    "ownedParameter": {
+                      "allowSubstitutable": "false",
+                      "parameteredElement": "_esmk3pT_Ee2g6NfOsTe0TA",
+                      "id": "_esmk3ZT_Ee2g6NfOsTe0TA",
+                      "xmitype": "uml:ClassifierTemplateParameter",
+                      "ownedParameteredElement": {
+                        "name": "T",
+                        "owningTemplateParameter": "_esmk3ZT_Ee2g6NfOsTe0TA",
+                        "templateParameter": "_esmk3ZT_Ee2g6NfOsTe0TA",
+                        "id": "_esmk3pT_Ee2g6NfOsTe0TA",
+                        "xmitype": "uml:Class"
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "Appendable",
+                  "id": "_esmk35T_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Interface"
+                },
+                {
+                  "name": "Readable",
+                  "id": "_esmk4JT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Interface"
+                },
+                {
+                  "isAbstract": "true",
+                  "name": "Enum",
+                  "id": "_esmk4ZT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Class",
+                  "ownedTemplateSignature": {
+                    "parameter": "_esmk45T_Ee2g6NfOsTe0TA",
+                    "id": "_esmk4pT_Ee2g6NfOsTe0TA",
+                    "xmitype": "uml:RedefinableTemplateSignature",
+                    "ownedParameter": {
+                      "allowSubstitutable": "false",
+                      "parameteredElement": "_esmk5JT_Ee2g6NfOsTe0TA",
+                      "id": "_esmk45T_Ee2g6NfOsTe0TA",
+                      "xmitype": "uml:ClassifierTemplateParameter",
+                      "ownedParameteredElement": {
+                        "name": "E",
+                        "owningTemplateParameter": "_esmk45T_Ee2g6NfOsTe0TA",
+                        "templateParameter": "_esmk45T_Ee2g6NfOsTe0TA",
+                        "id": "_esmk5JT_Ee2g6NfOsTe0TA",
+                        "xmitype": "uml:Class"
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "StringBuilder",
+                  "id": "_esmk5ZT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Class"
+                },
+                {
+                  "name": "CharSequence",
+                  "id": "_esmk5pT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Interface"
+                },
+                {
+                  "name": "AbstractStringBuilder",
+                  "id": "_esmk55T_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Class"
+                },
+                {
+                  "name": "ProcessBuilder",
+                  "id": "_esmk6JT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Class"
+                }
+              ]
+            },
+            {
+              "name": "util",
+              "id": "_esmk6ZT_Ee2g6NfOsTe0TA",
+              "xmitype": "uml:Package",
+              "packagedElement": [
+                {
+                  "name": "ArrayList",
+                  "id": "_esmk6pT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Class",
+                  "ownedTemplateSignature": {
+                    "parameter": "_esmk7JT_Ee2g6NfOsTe0TA",
+                    "id": "_esmk65T_Ee2g6NfOsTe0TA",
+                    "xmitype": "uml:RedefinableTemplateSignature",
+                    "ownedParameter": {
+                      "allowSubstitutable": "false",
+                      "parameteredElement": "_esmk7ZT_Ee2g6NfOsTe0TA",
+                      "id": "_esmk7JT_Ee2g6NfOsTe0TA",
+                      "xmitype": "uml:ClassifierTemplateParameter",
+                      "ownedParameteredElement": {
+                        "name": "E",
+                        "owningTemplateParameter": "_esmk7JT_Ee2g6NfOsTe0TA",
+                        "templateParameter": "_esmk7JT_Ee2g6NfOsTe0TA",
+                        "id": "_esmk7ZT_Ee2g6NfOsTe0TA",
+                        "xmitype": "uml:Class"
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "Arrays",
+                  "id": "_esmk7pT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Class"
+                },
+                {
+                  "name": "BitSet",
+                  "id": "_esmk75T_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Class"
+                },
+                {
+                  "name": "Calendar",
+                  "id": "_esmk8JT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Class"
+                },
+                {
+                  "name": "Collection",
+                  "id": "_esmk8ZT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Interface",
+                  "ownedTemplateSignature": {
+                    "parameter": "_esmk85T_Ee2g6NfOsTe0TA",
+                    "id": "_esmk8pT_Ee2g6NfOsTe0TA",
+                    "xmitype": "uml:RedefinableTemplateSignature",
+                    "ownedParameter": {
+                      "allowSubstitutable": "false",
+                      "parameteredElement": "_esmk9JT_Ee2g6NfOsTe0TA",
+                      "id": "_esmk85T_Ee2g6NfOsTe0TA",
+                      "xmitype": "uml:ClassifierTemplateParameter",
+                      "ownedParameteredElement": {
+                        "name": "E",
+                        "owningTemplateParameter": "_esmk85T_Ee2g6NfOsTe0TA",
+                        "templateParameter": "_esmk85T_Ee2g6NfOsTe0TA",
+                        "id": "_esmk9JT_Ee2g6NfOsTe0TA",
+                        "xmitype": "uml:Class"
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "Collections",
+                  "id": "_esmk9ZT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Class"
+                },
+                {
+                  "name": "Comparator",
+                  "id": "_esmk9pT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Interface",
+                  "ownedTemplateSignature": {
+                    "parameter": "_esmk-JT_Ee2g6NfOsTe0TA",
+                    "id": "_esmk95T_Ee2g6NfOsTe0TA",
+                    "xmitype": "uml:RedefinableTemplateSignature",
+                    "ownedParameter": {
+                      "allowSubstitutable": "false",
+                      "parameteredElement": "_esmk-ZT_Ee2g6NfOsTe0TA",
+                      "id": "_esmk-JT_Ee2g6NfOsTe0TA",
+                      "xmitype": "uml:ClassifierTemplateParameter",
+                      "ownedParameteredElement": {
+                        "name": "T",
+                        "owningTemplateParameter": "_esmk-JT_Ee2g6NfOsTe0TA",
+                        "templateParameter": "_esmk-JT_Ee2g6NfOsTe0TA",
+                        "id": "_esmk-ZT_Ee2g6NfOsTe0TA",
+                        "xmitype": "uml:Class"
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "Currency",
+                  "id": "_esmk-pT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Class"
+                },
+                {
+                  "name": "Date",
+                  "id": "_esmk-5T_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Class"
+                },
+                {
+                  "name": "Dictionary",
+                  "id": "_esmk_JT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Class",
+                  "ownedTemplateSignature": {
+                    "parameter": "_esmk_pT_Ee2g6NfOsTe0TA _esmlAJT_Ee2g6NfOsTe0TA",
+                    "id": "_esmk_ZT_Ee2g6NfOsTe0TA",
+                    "xmitype": "uml:RedefinableTemplateSignature",
+                    "ownedParameter": [
+                      {
+                        "allowSubstitutable": "false",
+                        "parameteredElement": "_esmk_5T_Ee2g6NfOsTe0TA",
+                        "id": "_esmk_pT_Ee2g6NfOsTe0TA",
+                        "xmitype": "uml:ClassifierTemplateParameter",
+                        "ownedParameteredElement": {
+                          "name": "K",
+                          "owningTemplateParameter": "_esmk_pT_Ee2g6NfOsTe0TA",
+                          "templateParameter": "_esmk_pT_Ee2g6NfOsTe0TA",
+                          "id": "_esmk_5T_Ee2g6NfOsTe0TA",
+                          "xmitype": "uml:Class"
+                        }
+                      },
+                      {
+                        "allowSubstitutable": "false",
+                        "parameteredElement": "_esmlAZT_Ee2g6NfOsTe0TA",
+                        "id": "_esmlAJT_Ee2g6NfOsTe0TA",
+                        "xmitype": "uml:ClassifierTemplateParameter",
+                        "ownedParameteredElement": {
+                          "name": "V",
+                          "owningTemplateParameter": "_esmlAJT_Ee2g6NfOsTe0TA",
+                          "templateParameter": "_esmlAJT_Ee2g6NfOsTe0TA",
+                          "id": "_esmlAZT_Ee2g6NfOsTe0TA",
+                          "xmitype": "uml:Class"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "Enumeration",
+                  "id": "_esmlApT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Interface",
+                  "ownedTemplateSignature": {
+                    "parameter": "_esmlBJT_Ee2g6NfOsTe0TA",
+                    "id": "_esmlA5T_Ee2g6NfOsTe0TA",
+                    "xmitype": "uml:RedefinableTemplateSignature",
+                    "ownedParameter": {
+                      "allowSubstitutable": "false",
+                      "parameteredElement": "_esmlBZT_Ee2g6NfOsTe0TA",
+                      "id": "_esmlBJT_Ee2g6NfOsTe0TA",
+                      "xmitype": "uml:ClassifierTemplateParameter",
+                      "ownedParameteredElement": {
+                        "name": "E",
+                        "owningTemplateParameter": "_esmlBJT_Ee2g6NfOsTe0TA",
+                        "templateParameter": "_esmlBJT_Ee2g6NfOsTe0TA",
+                        "id": "_esmlBZT_Ee2g6NfOsTe0TA",
+                        "xmitype": "uml:Class"
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "EventListener",
+                  "id": "_esmlBpT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Interface"
+                },
+                {
+                  "name": "EventListenerProxy",
+                  "id": "_esmlB5T_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Class"
+                },
+                {
+                  "name": "EventObject",
+                  "id": "_esmlCJT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Class"
+                },
+                {
+                  "name": "HashMap",
+                  "id": "_esmlCZT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Class",
+                  "ownedTemplateSignature": {
+                    "parameter": "_esmlC5T_Ee2g6NfOsTe0TA _esmlDZT_Ee2g6NfOsTe0TA",
+                    "id": "_esmlCpT_Ee2g6NfOsTe0TA",
+                    "xmitype": "uml:RedefinableTemplateSignature",
+                    "ownedParameter": [
+                      {
+                        "allowSubstitutable": "false",
+                        "parameteredElement": "_esmlDJT_Ee2g6NfOsTe0TA",
+                        "id": "_esmlC5T_Ee2g6NfOsTe0TA",
+                        "xmitype": "uml:ClassifierTemplateParameter",
+                        "ownedParameteredElement": {
+                          "name": "K",
+                          "owningTemplateParameter": "_esmlC5T_Ee2g6NfOsTe0TA",
+                          "templateParameter": "_esmlC5T_Ee2g6NfOsTe0TA",
+                          "id": "_esmlDJT_Ee2g6NfOsTe0TA",
+                          "xmitype": "uml:Class"
+                        }
+                      },
+                      {
+                        "allowSubstitutable": "false",
+                        "parameteredElement": "_esmlDpT_Ee2g6NfOsTe0TA",
+                        "id": "_esmlDZT_Ee2g6NfOsTe0TA",
+                        "xmitype": "uml:ClassifierTemplateParameter",
+                        "ownedParameteredElement": {
+                          "name": "V",
+                          "owningTemplateParameter": "_esmlDZT_Ee2g6NfOsTe0TA",
+                          "templateParameter": "_esmlDZT_Ee2g6NfOsTe0TA",
+                          "id": "_esmlDpT_Ee2g6NfOsTe0TA",
+                          "xmitype": "uml:Class"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "HashSet",
+                  "id": "_esmlD5T_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Class",
+                  "ownedTemplateSignature": {
+                    "parameter": "_esmlEZT_Ee2g6NfOsTe0TA",
+                    "id": "_esmlEJT_Ee2g6NfOsTe0TA",
+                    "xmitype": "uml:RedefinableTemplateSignature",
+                    "ownedParameter": {
+                      "allowSubstitutable": "false",
+                      "parameteredElement": "_esmlEpT_Ee2g6NfOsTe0TA",
+                      "id": "_esmlEZT_Ee2g6NfOsTe0TA",
+                      "xmitype": "uml:ClassifierTemplateParameter",
+                      "ownedParameteredElement": {
+                        "name": "E",
+                        "owningTemplateParameter": "_esmlEZT_Ee2g6NfOsTe0TA",
+                        "templateParameter": "_esmlEZT_Ee2g6NfOsTe0TA",
+                        "id": "_esmlEpT_Ee2g6NfOsTe0TA",
+                        "xmitype": "uml:Class"
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "Hashtable",
+                  "id": "_esmlE5T_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Class",
+                  "ownedTemplateSignature": {
+                    "parameter": "_esmlFZT_Ee2g6NfOsTe0TA _esmlF5T_Ee2g6NfOsTe0TA",
+                    "id": "_esmlFJT_Ee2g6NfOsTe0TA",
+                    "xmitype": "uml:RedefinableTemplateSignature",
+                    "ownedParameter": [
+                      {
+                        "allowSubstitutable": "false",
+                        "parameteredElement": "_esmlFpT_Ee2g6NfOsTe0TA",
+                        "id": "_esmlFZT_Ee2g6NfOsTe0TA",
+                        "xmitype": "uml:ClassifierTemplateParameter",
+                        "ownedParameteredElement": {
+                          "name": "K",
+                          "owningTemplateParameter": "_esmlFZT_Ee2g6NfOsTe0TA",
+                          "templateParameter": "_esmlFZT_Ee2g6NfOsTe0TA",
+                          "id": "_esmlFpT_Ee2g6NfOsTe0TA",
+                          "xmitype": "uml:Class"
+                        }
+                      },
+                      {
+                        "allowSubstitutable": "false",
+                        "parameteredElement": "_esmlGJT_Ee2g6NfOsTe0TA",
+                        "id": "_esmlF5T_Ee2g6NfOsTe0TA",
+                        "xmitype": "uml:ClassifierTemplateParameter",
+                        "ownedParameteredElement": {
+                          "name": "V",
+                          "owningTemplateParameter": "_esmlF5T_Ee2g6NfOsTe0TA",
+                          "templateParameter": "_esmlF5T_Ee2g6NfOsTe0TA",
+                          "id": "_esmlGJT_Ee2g6NfOsTe0TA",
+                          "xmitype": "uml:Class"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "IdentityHashMap",
+                  "id": "_esmlGZT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Class",
+                  "ownedTemplateSignature": {
+                    "parameter": "_esmlG5T_Ee2g6NfOsTe0TA _esmlHZT_Ee2g6NfOsTe0TA",
+                    "id": "_esmlGpT_Ee2g6NfOsTe0TA",
+                    "xmitype": "uml:RedefinableTemplateSignature",
+                    "ownedParameter": [
+                      {
+                        "allowSubstitutable": "false",
+                        "parameteredElement": "_esmlHJT_Ee2g6NfOsTe0TA",
+                        "id": "_esmlG5T_Ee2g6NfOsTe0TA",
+                        "xmitype": "uml:ClassifierTemplateParameter",
+                        "ownedParameteredElement": {
+                          "name": "K",
+                          "owningTemplateParameter": "_esmlG5T_Ee2g6NfOsTe0TA",
+                          "templateParameter": "_esmlG5T_Ee2g6NfOsTe0TA",
+                          "id": "_esmlHJT_Ee2g6NfOsTe0TA",
+                          "xmitype": "uml:Class"
+                        }
+                      },
+                      {
+                        "allowSubstitutable": "false",
+                        "parameteredElement": "_esmlHpT_Ee2g6NfOsTe0TA",
+                        "id": "_esmlHZT_Ee2g6NfOsTe0TA",
+                        "xmitype": "uml:ClassifierTemplateParameter",
+                        "ownedParameteredElement": {
+                          "name": "V",
+                          "owningTemplateParameter": "_esmlHZT_Ee2g6NfOsTe0TA",
+                          "templateParameter": "_esmlHZT_Ee2g6NfOsTe0TA",
+                          "id": "_esmlHpT_Ee2g6NfOsTe0TA",
+                          "xmitype": "uml:Class"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "Iterator",
+                  "id": "_esmlH5T_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Interface",
+                  "ownedTemplateSignature": {
+                    "parameter": "_esmlIZT_Ee2g6NfOsTe0TA",
+                    "id": "_esmlIJT_Ee2g6NfOsTe0TA",
+                    "xmitype": "uml:RedefinableTemplateSignature",
+                    "ownedParameter": {
+                      "allowSubstitutable": "false",
+                      "parameteredElement": "_esmlIpT_Ee2g6NfOsTe0TA",
+                      "id": "_esmlIZT_Ee2g6NfOsTe0TA",
+                      "xmitype": "uml:ClassifierTemplateParameter",
+                      "ownedParameteredElement": {
+                        "name": "E",
+                        "owningTemplateParameter": "_esmlIZT_Ee2g6NfOsTe0TA",
+                        "templateParameter": "_esmlIZT_Ee2g6NfOsTe0TA",
+                        "id": "_esmlIpT_Ee2g6NfOsTe0TA",
+                        "xmitype": "uml:Class"
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "LinkedHashMap",
+                  "id": "_esmlI5T_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Class",
+                  "ownedTemplateSignature": {
+                    "parameter": "_esmlJZT_Ee2g6NfOsTe0TA _esmlJ5T_Ee2g6NfOsTe0TA",
+                    "id": "_esmlJJT_Ee2g6NfOsTe0TA",
+                    "xmitype": "uml:RedefinableTemplateSignature",
+                    "ownedParameter": [
+                      {
+                        "allowSubstitutable": "false",
+                        "parameteredElement": "_esmlJpT_Ee2g6NfOsTe0TA",
+                        "id": "_esmlJZT_Ee2g6NfOsTe0TA",
+                        "xmitype": "uml:ClassifierTemplateParameter",
+                        "ownedParameteredElement": {
+                          "name": "K",
+                          "owningTemplateParameter": "_esmlJZT_Ee2g6NfOsTe0TA",
+                          "templateParameter": "_esmlJZT_Ee2g6NfOsTe0TA",
+                          "id": "_esmlJpT_Ee2g6NfOsTe0TA",
+                          "xmitype": "uml:Class"
+                        }
+                      },
+                      {
+                        "allowSubstitutable": "false",
+                        "parameteredElement": "_esmlKJT_Ee2g6NfOsTe0TA",
+                        "id": "_esmlJ5T_Ee2g6NfOsTe0TA",
+                        "xmitype": "uml:ClassifierTemplateParameter",
+                        "ownedParameteredElement": {
+                          "name": "V",
+                          "owningTemplateParameter": "_esmlJ5T_Ee2g6NfOsTe0TA",
+                          "templateParameter": "_esmlJ5T_Ee2g6NfOsTe0TA",
+                          "id": "_esmlKJT_Ee2g6NfOsTe0TA",
+                          "xmitype": "uml:Class"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "LinkedHashSet",
+                  "id": "_esmlKZT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Class",
+                  "ownedTemplateSignature": {
+                    "parameter": "_esmlK5T_Ee2g6NfOsTe0TA",
+                    "id": "_esmlKpT_Ee2g6NfOsTe0TA",
+                    "xmitype": "uml:RedefinableTemplateSignature",
+                    "ownedParameter": {
+                      "allowSubstitutable": "false",
+                      "parameteredElement": "_esmlLJT_Ee2g6NfOsTe0TA",
+                      "id": "_esmlK5T_Ee2g6NfOsTe0TA",
+                      "xmitype": "uml:ClassifierTemplateParameter",
+                      "ownedParameteredElement": {
+                        "name": "E",
+                        "owningTemplateParameter": "_esmlK5T_Ee2g6NfOsTe0TA",
+                        "templateParameter": "_esmlK5T_Ee2g6NfOsTe0TA",
+                        "id": "_esmlLJT_Ee2g6NfOsTe0TA",
+                        "xmitype": "uml:Class"
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "LinkedList",
+                  "id": "_esmlLZT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Class",
+                  "ownedTemplateSignature": {
+                    "parameter": "_esmlL5T_Ee2g6NfOsTe0TA",
+                    "id": "_esmlLpT_Ee2g6NfOsTe0TA",
+                    "xmitype": "uml:RedefinableTemplateSignature",
+                    "ownedParameter": {
+                      "allowSubstitutable": "false",
+                      "parameteredElement": "_esmlMJT_Ee2g6NfOsTe0TA",
+                      "id": "_esmlL5T_Ee2g6NfOsTe0TA",
+                      "xmitype": "uml:ClassifierTemplateParameter",
+                      "ownedParameteredElement": {
+                        "name": "E",
+                        "owningTemplateParameter": "_esmlL5T_Ee2g6NfOsTe0TA",
+                        "templateParameter": "_esmlL5T_Ee2g6NfOsTe0TA",
+                        "id": "_esmlMJT_Ee2g6NfOsTe0TA",
+                        "xmitype": "uml:Class"
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "List",
+                  "id": "_esmlMZT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Interface",
+                  "ownedTemplateSignature": {
+                    "parameter": "_esmlM5T_Ee2g6NfOsTe0TA",
+                    "id": "_esmlMpT_Ee2g6NfOsTe0TA",
+                    "xmitype": "uml:RedefinableTemplateSignature",
+                    "ownedParameter": {
+                      "allowSubstitutable": "false",
+                      "parameteredElement": "_esmlNJT_Ee2g6NfOsTe0TA",
+                      "id": "_esmlM5T_Ee2g6NfOsTe0TA",
+                      "xmitype": "uml:ClassifierTemplateParameter",
+                      "ownedParameteredElement": {
+                        "name": "E",
+                        "owningTemplateParameter": "_esmlM5T_Ee2g6NfOsTe0TA",
+                        "templateParameter": "_esmlM5T_Ee2g6NfOsTe0TA",
+                        "id": "_esmlNJT_Ee2g6NfOsTe0TA",
+                        "xmitype": "uml:Class"
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "ListIterator",
+                  "id": "_esmlNZT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Interface",
+                  "ownedTemplateSignature": {
+                    "parameter": "_esmlN5T_Ee2g6NfOsTe0TA",
+                    "id": "_esmlNpT_Ee2g6NfOsTe0TA",
+                    "xmitype": "uml:RedefinableTemplateSignature",
+                    "ownedParameter": {
+                      "allowSubstitutable": "false",
+                      "parameteredElement": "_esmlOJT_Ee2g6NfOsTe0TA",
+                      "id": "_esmlN5T_Ee2g6NfOsTe0TA",
+                      "xmitype": "uml:ClassifierTemplateParameter",
+                      "ownedParameteredElement": {
+                        "name": "E",
+                        "owningTemplateParameter": "_esmlN5T_Ee2g6NfOsTe0TA",
+                        "templateParameter": "_esmlN5T_Ee2g6NfOsTe0TA",
+                        "id": "_esmlOJT_Ee2g6NfOsTe0TA",
+                        "xmitype": "uml:Class"
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "Map",
+                  "id": "_esmlOZT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Interface",
+                  "ownedTemplateSignature": {
+                    "parameter": "_esmlO5T_Ee2g6NfOsTe0TA _esmlPZT_Ee2g6NfOsTe0TA",
+                    "id": "_esmlOpT_Ee2g6NfOsTe0TA",
+                    "xmitype": "uml:RedefinableTemplateSignature",
+                    "ownedParameter": [
+                      {
+                        "allowSubstitutable": "false",
+                        "parameteredElement": "_esmlPJT_Ee2g6NfOsTe0TA",
+                        "id": "_esmlO5T_Ee2g6NfOsTe0TA",
+                        "xmitype": "uml:ClassifierTemplateParameter",
+                        "ownedParameteredElement": {
+                          "name": "K",
+                          "owningTemplateParameter": "_esmlO5T_Ee2g6NfOsTe0TA",
+                          "templateParameter": "_esmlO5T_Ee2g6NfOsTe0TA",
+                          "id": "_esmlPJT_Ee2g6NfOsTe0TA",
+                          "xmitype": "uml:Class"
+                        }
+                      },
+                      {
+                        "allowSubstitutable": "false",
+                        "parameteredElement": "_esmlPpT_Ee2g6NfOsTe0TA",
+                        "id": "_esmlPZT_Ee2g6NfOsTe0TA",
+                        "xmitype": "uml:ClassifierTemplateParameter",
+                        "ownedParameteredElement": {
+                          "name": "V",
+                          "owningTemplateParameter": "_esmlPZT_Ee2g6NfOsTe0TA",
+                          "templateParameter": "_esmlPZT_Ee2g6NfOsTe0TA",
+                          "id": "_esmlPpT_Ee2g6NfOsTe0TA",
+                          "xmitype": "uml:Class"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "Observable",
+                  "id": "_esmlP5T_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Class"
+                },
+                {
+                  "name": "Observer",
+                  "id": "_esmlQJT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Interface"
+                },
+                {
+                  "name": "Set",
+                  "id": "_esmlQZT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Interface",
+                  "ownedTemplateSignature": {
+                    "parameter": "_esmlQ5T_Ee2g6NfOsTe0TA",
+                    "id": "_esmlQpT_Ee2g6NfOsTe0TA",
+                    "xmitype": "uml:RedefinableTemplateSignature",
+                    "ownedParameter": {
+                      "allowSubstitutable": "false",
+                      "parameteredElement": "_esmlRJT_Ee2g6NfOsTe0TA",
+                      "id": "_esmlQ5T_Ee2g6NfOsTe0TA",
+                      "xmitype": "uml:ClassifierTemplateParameter",
+                      "ownedParameteredElement": {
+                        "name": "E",
+                        "owningTemplateParameter": "_esmlQ5T_Ee2g6NfOsTe0TA",
+                        "templateParameter": "_esmlQ5T_Ee2g6NfOsTe0TA",
+                        "id": "_esmlRJT_Ee2g6NfOsTe0TA",
+                        "xmitype": "uml:Class"
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "SortedMap",
+                  "id": "_esmlRZT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Interface",
+                  "ownedTemplateSignature": {
+                    "parameter": "_esmlR5T_Ee2g6NfOsTe0TA _esmlSZT_Ee2g6NfOsTe0TA",
+                    "id": "_esmlRpT_Ee2g6NfOsTe0TA",
+                    "xmitype": "uml:RedefinableTemplateSignature",
+                    "ownedParameter": [
+                      {
+                        "allowSubstitutable": "false",
+                        "parameteredElement": "_esmlSJT_Ee2g6NfOsTe0TA",
+                        "id": "_esmlR5T_Ee2g6NfOsTe0TA",
+                        "xmitype": "uml:ClassifierTemplateParameter",
+                        "ownedParameteredElement": {
+                          "name": "K",
+                          "owningTemplateParameter": "_esmlR5T_Ee2g6NfOsTe0TA",
+                          "templateParameter": "_esmlR5T_Ee2g6NfOsTe0TA",
+                          "id": "_esmlSJT_Ee2g6NfOsTe0TA",
+                          "xmitype": "uml:Class"
+                        }
+                      },
+                      {
+                        "allowSubstitutable": "false",
+                        "parameteredElement": "_esmlSpT_Ee2g6NfOsTe0TA",
+                        "id": "_esmlSZT_Ee2g6NfOsTe0TA",
+                        "xmitype": "uml:ClassifierTemplateParameter",
+                        "ownedParameteredElement": {
+                          "name": "V",
+                          "owningTemplateParameter": "_esmlSZT_Ee2g6NfOsTe0TA",
+                          "templateParameter": "_esmlSZT_Ee2g6NfOsTe0TA",
+                          "id": "_esmlSpT_Ee2g6NfOsTe0TA",
+                          "xmitype": "uml:Class"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "SortedSet",
+                  "id": "_esmlS5T_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Interface",
+                  "ownedTemplateSignature": {
+                    "parameter": "_esmlTZT_Ee2g6NfOsTe0TA",
+                    "id": "_esmlTJT_Ee2g6NfOsTe0TA",
+                    "xmitype": "uml:RedefinableTemplateSignature",
+                    "ownedParameter": {
+                      "allowSubstitutable": "false",
+                      "parameteredElement": "_esmlTpT_Ee2g6NfOsTe0TA",
+                      "id": "_esmlTZT_Ee2g6NfOsTe0TA",
+                      "xmitype": "uml:ClassifierTemplateParameter",
+                      "ownedParameteredElement": {
+                        "name": "E",
+                        "owningTemplateParameter": "_esmlTZT_Ee2g6NfOsTe0TA",
+                        "templateParameter": "_esmlTZT_Ee2g6NfOsTe0TA",
+                        "id": "_esmlTpT_Ee2g6NfOsTe0TA",
+                        "xmitype": "uml:Class"
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "Stack",
+                  "id": "_esmlT5T_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Class",
+                  "ownedTemplateSignature": {
+                    "parameter": "_esmlUZT_Ee2g6NfOsTe0TA",
+                    "id": "_esmlUJT_Ee2g6NfOsTe0TA",
+                    "xmitype": "uml:RedefinableTemplateSignature",
+                    "ownedParameter": {
+                      "allowSubstitutable": "false",
+                      "parameteredElement": "_esmlUpT_Ee2g6NfOsTe0TA",
+                      "id": "_esmlUZT_Ee2g6NfOsTe0TA",
+                      "xmitype": "uml:ClassifierTemplateParameter",
+                      "ownedParameteredElement": {
+                        "name": "E",
+                        "owningTemplateParameter": "_esmlUZT_Ee2g6NfOsTe0TA",
+                        "templateParameter": "_esmlUZT_Ee2g6NfOsTe0TA",
+                        "id": "_esmlUpT_Ee2g6NfOsTe0TA",
+                        "xmitype": "uml:Class"
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "StringTokenizer",
+                  "id": "_esmlU5T_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Class"
+                },
+                {
+                  "name": "TreeMap",
+                  "id": "_esmlVJT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Class",
+                  "ownedTemplateSignature": {
+                    "parameter": "_esmlVpT_Ee2g6NfOsTe0TA _esmlWJT_Ee2g6NfOsTe0TA",
+                    "id": "_esmlVZT_Ee2g6NfOsTe0TA",
+                    "xmitype": "uml:RedefinableTemplateSignature",
+                    "ownedParameter": [
+                      {
+                        "allowSubstitutable": "false",
+                        "parameteredElement": "_esmlV5T_Ee2g6NfOsTe0TA",
+                        "id": "_esmlVpT_Ee2g6NfOsTe0TA",
+                        "xmitype": "uml:ClassifierTemplateParameter",
+                        "ownedParameteredElement": {
+                          "name": "K",
+                          "owningTemplateParameter": "_esmlVpT_Ee2g6NfOsTe0TA",
+                          "templateParameter": "_esmlVpT_Ee2g6NfOsTe0TA",
+                          "id": "_esmlV5T_Ee2g6NfOsTe0TA",
+                          "xmitype": "uml:Class"
+                        }
+                      },
+                      {
+                        "allowSubstitutable": "false",
+                        "parameteredElement": "_esmlWZT_Ee2g6NfOsTe0TA",
+                        "id": "_esmlWJT_Ee2g6NfOsTe0TA",
+                        "xmitype": "uml:ClassifierTemplateParameter",
+                        "ownedParameteredElement": {
+                          "name": "V",
+                          "owningTemplateParameter": "_esmlWJT_Ee2g6NfOsTe0TA",
+                          "templateParameter": "_esmlWJT_Ee2g6NfOsTe0TA",
+                          "id": "_esmlWZT_Ee2g6NfOsTe0TA",
+                          "xmitype": "uml:Class"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "TreeSet",
+                  "id": "_esmlWpT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Class",
+                  "ownedTemplateSignature": {
+                    "parameter": "_esmlXJT_Ee2g6NfOsTe0TA",
+                    "id": "_esmlW5T_Ee2g6NfOsTe0TA",
+                    "xmitype": "uml:RedefinableTemplateSignature",
+                    "ownedParameter": {
+                      "allowSubstitutable": "false",
+                      "parameteredElement": "_esmlXZT_Ee2g6NfOsTe0TA",
+                      "id": "_esmlXJT_Ee2g6NfOsTe0TA",
+                      "xmitype": "uml:ClassifierTemplateParameter",
+                      "ownedParameteredElement": {
+                        "name": "E",
+                        "owningTemplateParameter": "_esmlXJT_Ee2g6NfOsTe0TA",
+                        "templateParameter": "_esmlXJT_Ee2g6NfOsTe0TA",
+                        "id": "_esmlXZT_Ee2g6NfOsTe0TA",
+                        "xmitype": "uml:Class"
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "Vector",
+                  "id": "_esmlXpT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Class",
+                  "ownedTemplateSignature": {
+                    "parameter": "_esmlYJT_Ee2g6NfOsTe0TA",
+                    "id": "_esmlX5T_Ee2g6NfOsTe0TA",
+                    "xmitype": "uml:RedefinableTemplateSignature",
+                    "ownedParameter": {
+                      "allowSubstitutable": "false",
+                      "parameteredElement": "_esmlYZT_Ee2g6NfOsTe0TA",
+                      "id": "_esmlYJT_Ee2g6NfOsTe0TA",
+                      "xmitype": "uml:ClassifierTemplateParameter",
+                      "ownedParameteredElement": {
+                        "name": "E",
+                        "owningTemplateParameter": "_esmlYJT_Ee2g6NfOsTe0TA",
+                        "templateParameter": "_esmlYJT_Ee2g6NfOsTe0TA",
+                        "id": "_esmlYZT_Ee2g6NfOsTe0TA",
+                        "xmitype": "uml:Class"
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "WeakHashMap",
+                  "id": "_esmlYpT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Class",
+                  "ownedTemplateSignature": {
+                    "parameter": "_esmlZJT_Ee2g6NfOsTe0TA _esmlZpT_Ee2g6NfOsTe0TA",
+                    "id": "_esmlY5T_Ee2g6NfOsTe0TA",
+                    "xmitype": "uml:RedefinableTemplateSignature",
+                    "ownedParameter": [
+                      {
+                        "allowSubstitutable": "false",
+                        "parameteredElement": "_esmlZZT_Ee2g6NfOsTe0TA",
+                        "id": "_esmlZJT_Ee2g6NfOsTe0TA",
+                        "xmitype": "uml:ClassifierTemplateParameter",
+                        "ownedParameteredElement": {
+                          "name": "K",
+                          "owningTemplateParameter": "_esmlZJT_Ee2g6NfOsTe0TA",
+                          "templateParameter": "_esmlZJT_Ee2g6NfOsTe0TA",
+                          "id": "_esmlZZT_Ee2g6NfOsTe0TA",
+                          "xmitype": "uml:Class"
+                        }
+                      },
+                      {
+                        "allowSubstitutable": "false",
+                        "parameteredElement": "_esmlZ5T_Ee2g6NfOsTe0TA",
+                        "id": "_esmlZpT_Ee2g6NfOsTe0TA",
+                        "xmitype": "uml:ClassifierTemplateParameter",
+                        "ownedParameteredElement": {
+                          "name": "V",
+                          "owningTemplateParameter": "_esmlZpT_Ee2g6NfOsTe0TA",
+                          "templateParameter": "_esmlZpT_Ee2g6NfOsTe0TA",
+                          "id": "_esmlZ5T_Ee2g6NfOsTe0TA",
+                          "xmitype": "uml:Class"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "RandomAccess",
+                  "id": "_esmlaJT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Interface"
+                },
+                {
+                  "name": "BlockingQueue",
+                  "id": "_esmlaZT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Interface",
+                  "ownedTemplateSignature": {
+                    "parameter": "_esmla5T_Ee2g6NfOsTe0TA",
+                    "id": "_esmlapT_Ee2g6NfOsTe0TA",
+                    "xmitype": "uml:RedefinableTemplateSignature",
+                    "ownedParameter": {
+                      "allowSubstitutable": "false",
+                      "parameteredElement": "_esmlbJT_Ee2g6NfOsTe0TA",
+                      "id": "_esmla5T_Ee2g6NfOsTe0TA",
+                      "xmitype": "uml:ClassifierTemplateParameter",
+                      "ownedParameteredElement": {
+                        "name": "E",
+                        "owningTemplateParameter": "_esmla5T_Ee2g6NfOsTe0TA",
+                        "templateParameter": "_esmla5T_Ee2g6NfOsTe0TA",
+                        "id": "_esmlbJT_Ee2g6NfOsTe0TA",
+                        "xmitype": "uml:Class"
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "Queue",
+                  "id": "_esmlbZT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Interface",
+                  "ownedTemplateSignature": {
+                    "parameter": "_esmlb5T_Ee2g6NfOsTe0TA",
+                    "id": "_esmlbpT_Ee2g6NfOsTe0TA",
+                    "xmitype": "uml:RedefinableTemplateSignature",
+                    "ownedParameter": {
+                      "allowSubstitutable": "false",
+                      "parameteredElement": "_esmlcJT_Ee2g6NfOsTe0TA",
+                      "id": "_esmlb5T_Ee2g6NfOsTe0TA",
+                      "xmitype": "uml:ClassifierTemplateParameter",
+                      "ownedParameteredElement": {
+                        "name": "E",
+                        "owningTemplateParameter": "_esmlb5T_Ee2g6NfOsTe0TA",
+                        "templateParameter": "_esmlb5T_Ee2g6NfOsTe0TA",
+                        "id": "_esmlcJT_Ee2g6NfOsTe0TA",
+                        "xmitype": "uml:Class"
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "Formattable",
+                  "id": "_esmlcZT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Interface"
+                },
+                {
+                  "name": "AbstractQueue",
+                  "id": "_esmlcpT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Class",
+                  "ownedTemplateSignature": {
+                    "parameter": "_esmldJT_Ee2g6NfOsTe0TA",
+                    "id": "_esmlc5T_Ee2g6NfOsTe0TA",
+                    "xmitype": "uml:RedefinableTemplateSignature",
+                    "ownedParameter": {
+                      "allowSubstitutable": "false",
+                      "parameteredElement": "_esmldZT_Ee2g6NfOsTe0TA",
+                      "id": "_esmldJT_Ee2g6NfOsTe0TA",
+                      "xmitype": "uml:ClassifierTemplateParameter",
+                      "ownedParameteredElement": {
+                        "name": "E",
+                        "owningTemplateParameter": "_esmldJT_Ee2g6NfOsTe0TA",
+                        "templateParameter": "_esmldJT_Ee2g6NfOsTe0TA",
+                        "id": "_esmldZT_Ee2g6NfOsTe0TA",
+                        "xmitype": "uml:Class"
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "EnumMap",
+                  "id": "_esmldpT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Class",
+                  "ownedTemplateSignature": {
+                    "parameter": "_esmleJT_Ee2g6NfOsTe0TA _esmlepT_Ee2g6NfOsTe0TA",
+                    "id": "_esmld5T_Ee2g6NfOsTe0TA",
+                    "xmitype": "uml:RedefinableTemplateSignature",
+                    "ownedParameter": [
+                      {
+                        "allowSubstitutable": "false",
+                        "parameteredElement": "_esmleZT_Ee2g6NfOsTe0TA",
+                        "id": "_esmleJT_Ee2g6NfOsTe0TA",
+                        "xmitype": "uml:ClassifierTemplateParameter",
+                        "ownedParameteredElement": {
+                          "name": "K",
+                          "owningTemplateParameter": "_esmleJT_Ee2g6NfOsTe0TA",
+                          "templateParameter": "_esmleJT_Ee2g6NfOsTe0TA",
+                          "id": "_esmleZT_Ee2g6NfOsTe0TA",
+                          "xmitype": "uml:Class"
+                        }
+                      },
+                      {
+                        "allowSubstitutable": "false",
+                        "parameteredElement": "_esmle5T_Ee2g6NfOsTe0TA",
+                        "id": "_esmlepT_Ee2g6NfOsTe0TA",
+                        "xmitype": "uml:ClassifierTemplateParameter",
+                        "ownedParameteredElement": {
+                          "name": "V",
+                          "owningTemplateParameter": "_esmlepT_Ee2g6NfOsTe0TA",
+                          "templateParameter": "_esmlepT_Ee2g6NfOsTe0TA",
+                          "id": "_esmle5T_Ee2g6NfOsTe0TA",
+                          "xmitype": "uml:Class"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "EnumSet",
+                  "id": "_esmlfJT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Class",
+                  "ownedTemplateSignature": {
+                    "parameter": "_esmlfpT_Ee2g6NfOsTe0TA _esmlgJT_Ee2g6NfOsTe0TA",
+                    "id": "_esmlfZT_Ee2g6NfOsTe0TA",
+                    "xmitype": "uml:RedefinableTemplateSignature",
+                    "ownedParameter": [
+                      {
+                        "allowSubstitutable": "false",
+                        "parameteredElement": "_esmlf5T_Ee2g6NfOsTe0TA",
+                        "id": "_esmlfpT_Ee2g6NfOsTe0TA",
+                        "xmitype": "uml:ClassifierTemplateParameter",
+                        "ownedParameteredElement": {
+                          "name": "K",
+                          "owningTemplateParameter": "_esmlfpT_Ee2g6NfOsTe0TA",
+                          "templateParameter": "_esmlfpT_Ee2g6NfOsTe0TA",
+                          "id": "_esmlf5T_Ee2g6NfOsTe0TA",
+                          "xmitype": "uml:Class"
+                        }
+                      },
+                      {
+                        "allowSubstitutable": "false",
+                        "parameteredElement": "_esmlgZT_Ee2g6NfOsTe0TA",
+                        "id": "_esmlgJT_Ee2g6NfOsTe0TA",
+                        "xmitype": "uml:ClassifierTemplateParameter",
+                        "ownedParameteredElement": {
+                          "name": "V",
+                          "owningTemplateParameter": "_esmlgJT_Ee2g6NfOsTe0TA",
+                          "templateParameter": "_esmlgJT_Ee2g6NfOsTe0TA",
+                          "id": "_esmlgZT_Ee2g6NfOsTe0TA",
+                          "xmitype": "uml:Class"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "FormattableFlags",
+                  "id": "_esmlgpT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Class"
+                },
+                {
+                  "name": "Formatter",
+                  "id": "_esmlg5T_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Class"
+                },
+                {
+                  "name": "PriorityQueue",
+                  "id": "_esmlhJT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Class",
+                  "ownedTemplateSignature": {
+                    "parameter": "_esmlhpT_Ee2g6NfOsTe0TA",
+                    "id": "_esmlhZT_Ee2g6NfOsTe0TA",
+                    "xmitype": "uml:RedefinableTemplateSignature",
+                    "ownedParameter": {
+                      "allowSubstitutable": "false",
+                      "parameteredElement": "_esmlh5T_Ee2g6NfOsTe0TA",
+                      "id": "_esmlhpT_Ee2g6NfOsTe0TA",
+                      "xmitype": "uml:ClassifierTemplateParameter",
+                      "ownedParameteredElement": {
+                        "name": "E",
+                        "owningTemplateParameter": "_esmlhpT_Ee2g6NfOsTe0TA",
+                        "templateParameter": "_esmlhpT_Ee2g6NfOsTe0TA",
+                        "id": "_esmlh5T_Ee2g6NfOsTe0TA",
+                        "xmitype": "uml:Class"
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "Scanner",
+                  "id": "_esmliJT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Class"
+                },
+                {
+                  "name": "UUID",
+                  "id": "_esmliZT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Class"
+                },
+                {
+                  "name": "BlockingDeque",
+                  "id": "_esmlipT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Interface",
+                  "ownedTemplateSignature": {
+                    "parameter": "_esmljJT_Ee2g6NfOsTe0TA",
+                    "id": "_esmli5T_Ee2g6NfOsTe0TA",
+                    "xmitype": "uml:RedefinableTemplateSignature",
+                    "ownedParameter": {
+                      "allowSubstitutable": "false",
+                      "parameteredElement": "_esmljZT_Ee2g6NfOsTe0TA",
+                      "id": "_esmljJT_Ee2g6NfOsTe0TA",
+                      "xmitype": "uml:ClassifierTemplateParameter",
+                      "ownedParameteredElement": {
+                        "name": "E",
+                        "owningTemplateParameter": "_esmljJT_Ee2g6NfOsTe0TA",
+                        "templateParameter": "_esmljJT_Ee2g6NfOsTe0TA",
+                        "id": "_esmljZT_Ee2g6NfOsTe0TA",
+                        "xmitype": "uml:Class"
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "Deque",
+                  "id": "_esmljpT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Interface",
+                  "ownedTemplateSignature": {
+                    "parameter": "_esmlkJT_Ee2g6NfOsTe0TA",
+                    "id": "_esmlj5T_Ee2g6NfOsTe0TA",
+                    "xmitype": "uml:RedefinableTemplateSignature",
+                    "ownedParameter": {
+                      "allowSubstitutable": "false",
+                      "parameteredElement": "_esmlkZT_Ee2g6NfOsTe0TA",
+                      "id": "_esmlkJT_Ee2g6NfOsTe0TA",
+                      "xmitype": "uml:ClassifierTemplateParameter",
+                      "ownedParameteredElement": {
+                        "name": "E",
+                        "owningTemplateParameter": "_esmlkJT_Ee2g6NfOsTe0TA",
+                        "templateParameter": "_esmlkJT_Ee2g6NfOsTe0TA",
+                        "id": "_esmlkZT_Ee2g6NfOsTe0TA",
+                        "xmitype": "uml:Class"
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "NavigableSet",
+                  "id": "_esmlkpT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Interface",
+                  "ownedTemplateSignature": {
+                    "parameter": "_esmllJT_Ee2g6NfOsTe0TA",
+                    "id": "_esmlk5T_Ee2g6NfOsTe0TA",
+                    "xmitype": "uml:RedefinableTemplateSignature",
+                    "ownedParameter": {
+                      "allowSubstitutable": "false",
+                      "parameteredElement": "_esmllZT_Ee2g6NfOsTe0TA",
+                      "id": "_esmllJT_Ee2g6NfOsTe0TA",
+                      "xmitype": "uml:ClassifierTemplateParameter",
+                      "ownedParameteredElement": {
+                        "name": "E",
+                        "owningTemplateParameter": "_esmllJT_Ee2g6NfOsTe0TA",
+                        "templateParameter": "_esmllJT_Ee2g6NfOsTe0TA",
+                        "id": "_esmllZT_Ee2g6NfOsTe0TA",
+                        "xmitype": "uml:Class"
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "ArrayDeque",
+                  "id": "_esmllpT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Class",
+                  "ownedTemplateSignature": {
+                    "parameter": "_esmlmJT_Ee2g6NfOsTe0TA",
+                    "id": "_esmll5T_Ee2g6NfOsTe0TA",
+                    "xmitype": "uml:RedefinableTemplateSignature",
+                    "ownedParameter": {
+                      "allowSubstitutable": "false",
+                      "parameteredElement": "_esmlmZT_Ee2g6NfOsTe0TA",
+                      "id": "_esmlmJT_Ee2g6NfOsTe0TA",
+                      "xmitype": "uml:ClassifierTemplateParameter",
+                      "ownedParameteredElement": {
+                        "name": "E",
+                        "owningTemplateParameter": "_esmlmJT_Ee2g6NfOsTe0TA",
+                        "templateParameter": "_esmlmJT_Ee2g6NfOsTe0TA",
+                        "id": "_esmlmZT_Ee2g6NfOsTe0TA",
+                        "xmitype": "uml:Class"
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "ConcurrentSkipListMap",
+                  "id": "_esmlmpT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Class",
+                  "ownedTemplateSignature": {
+                    "parameter": "_esmlnJT_Ee2g6NfOsTe0TA",
+                    "id": "_esmlm5T_Ee2g6NfOsTe0TA",
+                    "xmitype": "uml:RedefinableTemplateSignature",
+                    "ownedParameter": {
+                      "allowSubstitutable": "false",
+                      "parameteredElement": "_esmlnZT_Ee2g6NfOsTe0TA",
+                      "id": "_esmlnJT_Ee2g6NfOsTe0TA",
+                      "xmitype": "uml:ClassifierTemplateParameter",
+                      "ownedParameteredElement": {
+                        "name": "E",
+                        "owningTemplateParameter": "_esmlnJT_Ee2g6NfOsTe0TA",
+                        "templateParameter": "_esmlnJT_Ee2g6NfOsTe0TA",
+                        "id": "_esmlnZT_Ee2g6NfOsTe0TA",
+                        "xmitype": "uml:Class"
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "ConcurrentSkipListSet",
+                  "id": "_esmlnpT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Class",
+                  "ownedTemplateSignature": {
+                    "parameter": "_esmloJT_Ee2g6NfOsTe0TA",
+                    "id": "_esmln5T_Ee2g6NfOsTe0TA",
+                    "xmitype": "uml:RedefinableTemplateSignature",
+                    "ownedParameter": {
+                      "allowSubstitutable": "false",
+                      "parameteredElement": "_esmloZT_Ee2g6NfOsTe0TA",
+                      "id": "_esmloJT_Ee2g6NfOsTe0TA",
+                      "xmitype": "uml:ClassifierTemplateParameter",
+                      "ownedParameteredElement": {
+                        "name": "E",
+                        "owningTemplateParameter": "_esmloJT_Ee2g6NfOsTe0TA",
+                        "templateParameter": "_esmloJT_Ee2g6NfOsTe0TA",
+                        "id": "_esmloZT_Ee2g6NfOsTe0TA",
+                        "xmitype": "uml:Class"
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "ServiceLoader",
+                  "id": "_esmlopT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Class",
+                  "ownedTemplateSignature": {
+                    "parameter": "_esmlpJT_Ee2g6NfOsTe0TA",
+                    "id": "_esmlo5T_Ee2g6NfOsTe0TA",
+                    "xmitype": "uml:RedefinableTemplateSignature",
+                    "ownedParameter": {
+                      "allowSubstitutable": "false",
+                      "parameteredElement": "_esmlpZT_Ee2g6NfOsTe0TA",
+                      "id": "_esmlpJT_Ee2g6NfOsTe0TA",
+                      "xmitype": "uml:ClassifierTemplateParameter",
+                      "ownedParameteredElement": {
+                        "name": "S",
+                        "owningTemplateParameter": "_esmlpJT_Ee2g6NfOsTe0TA",
+                        "templateParameter": "_esmlpJT_Ee2g6NfOsTe0TA",
+                        "id": "_esmlpZT_Ee2g6NfOsTe0TA",
+                        "xmitype": "uml:Class"
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "Optional",
+                  "id": "_esmlppT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Class",
+                  "ownedTemplateSignature": {
+                    "parameter": "_esmlqJT_Ee2g6NfOsTe0TA",
+                    "id": "_esmlp5T_Ee2g6NfOsTe0TA",
+                    "xmitype": "uml:RedefinableTemplateSignature",
+                    "ownedParameter": {
+                      "allowSubstitutable": "false",
+                      "parameteredElement": "_esmlqZT_Ee2g6NfOsTe0TA",
+                      "id": "_esmlqJT_Ee2g6NfOsTe0TA",
+                      "xmitype": "uml:ClassifierTemplateParameter",
+                      "ownedParameteredElement": {
+                        "name": "T",
+                        "owningTemplateParameter": "_esmlqJT_Ee2g6NfOsTe0TA",
+                        "templateParameter": "_esmlqJT_Ee2g6NfOsTe0TA",
+                        "id": "_esmlqZT_Ee2g6NfOsTe0TA",
+                        "xmitype": "uml:Class"
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "OptionalDouble",
+                  "id": "_esmlqpT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Class"
+                },
+                {
+                  "name": "OptionalInt",
+                  "id": "_esmlq5T_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Class"
+                },
+                {
+                  "name": "OptionalLong",
+                  "id": "_esmlrJT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Class"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cliente",
+          "id": "_esmlrZT_Ee2g6NfOsTe0TA",
+          "xmitype": "uml:Class",
+          "ownedAttribute": [
+            {
+              "name": "farmName",
+              "type": "String",
+"oldId": "_esmk05T_Ee2g6NfOsTe0TA",
+              "visibility": "private",
+              "id": "_esmlrpT_Ee2g6NfOsTe0TA",
+              "xmitype": "uml:Property"
+            },
+            {
+              "association": "_esml5ZT_Ee2g6NfOsTe0TA",
+              "name": "",
+              "type": "Pagamento",
+"oldId": "_esml3ZT_Ee2g6NfOsTe0TA",
+              "visibility": "private",
+              "id": "_esmlr5T_Ee2g6NfOsTe0TA",
+              "xmitype": "uml:Property",
+              "lowerValue": {
+                "value": "1",
+                "id": "_esmlsJT_Ee2g6NfOsTe0TA",
+                "xmitype": "uml:LiteralInteger"
+              },
+              "upperValue": {
+                "value": "1",
+                "id": "_esmlsZT_Ee2g6NfOsTe0TA",
+                "xmitype": "uml:LiteralUnlimitedNatural"
+              }
+            },
+            {
+              "association": "_esml55T_Ee2g6NfOsTe0TA",
+              "name": "",
+              "type": "Admin",
+"oldId": "_esmlypT_Ee2g6NfOsTe0TA",
+              "visibility": "private",
+              "id": "_esmlspT_Ee2g6NfOsTe0TA",
+              "xmitype": "uml:Property",
+              "lowerValue": {
+                "value": "1",
+                "id": "_esmls5T_Ee2g6NfOsTe0TA",
+                "xmitype": "uml:LiteralInteger"
+              },
+              "upperValue": {
+                "value": "1",
+                "id": "_esmltJT_Ee2g6NfOsTe0TA",
+                "xmitype": "uml:LiteralUnlimitedNatural"
+              }
+            },
+            {
+              "association": "_esml6JT_Ee2g6NfOsTe0TA",
+              "name": "",
+              "type": "Carrinho",
+"oldId": "_esmluJT_Ee2g6NfOsTe0TA",
+              "visibility": "private",
+              "id": "_esmltZT_Ee2g6NfOsTe0TA",
+              "xmitype": "uml:Property",
+              "lowerValue": {
+                "value": "1",
+                "id": "_esmltpT_Ee2g6NfOsTe0TA",
+                "xmitype": "uml:LiteralInteger"
+              },
+              "upperValue": {
+                "value": "1",
+                "id": "_esmlt5T_Ee2g6NfOsTe0TA",
+                "xmitype": "uml:LiteralUnlimitedNatural"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Carrinho",
+          "id": "_esmluJT_Ee2g6NfOsTe0TA",
+          "xmitype": "uml:Class",
+          "ownedAttribute": [
+            {
+              "name": "fieldName",
+              "type": "String",
+"oldId": "_esmk05T_Ee2g6NfOsTe0TA",
+              "visibility": "private",
+              "id": "_esmluZT_Ee2g6NfOsTe0TA",
+              "xmitype": "uml:Property"
+            },
+            {
+              "name": "area",
+              "type": "_esml65T_Ee2g6NfOsTe0TA",
+              "visibility": "private",
+              "id": "_esmlupT_Ee2g6NfOsTe0TA",
+              "xmitype": "uml:Property"
+            },
+            {
+              "association": "_esml6JT_Ee2g6NfOsTe0TA",
+              "name": "",
+              "type": "Cliente",
+"oldId": "_esmlrZT_Ee2g6NfOsTe0TA",
+              "visibility": "private",
+              "id": "_esmlu5T_Ee2g6NfOsTe0TA",
+              "xmitype": "uml:Property",
+              "lowerValue": {
+                "value": "1",
+                "id": "_esmlvJT_Ee2g6NfOsTe0TA",
+                "xmitype": "uml:LiteralInteger"
+              },
+              "upperValue": {
+                "value": "1",
+                "id": "_esmlvZT_Ee2g6NfOsTe0TA",
+                "xmitype": "uml:LiteralUnlimitedNatural"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Produtos",
+          "id": "_esmlvpT_Ee2g6NfOsTe0TA",
+          "xmitype": "uml:Class",
+          "ownedAttribute": [
+            {
+              "name": "name",
+              "type": "String",
+"oldId": "_esmk05T_Ee2g6NfOsTe0TA",
+              "visibility": "private",
+              "id": "_esmlv5T_Ee2g6NfOsTe0TA",
+              "xmitype": "uml:Property"
+            },
+            {
+              "name": "gstId",
+              "type": "String",
+"oldId": "_esmk05T_Ee2g6NfOsTe0TA",
+              "visibility": "public",
+              "id": "_esmlwJT_Ee2g6NfOsTe0TA",
+              "xmitype": "uml:Property"
+            },
+            {
+              "name": "email",
+              "type": "String",
+"oldId": "_esmk05T_Ee2g6NfOsTe0TA",
+              "visibility": "private",
+              "id": "_esmlwZT_Ee2g6NfOsTe0TA",
+              "xmitype": "uml:Property"
+            },
+            {
+              "association": "_esml5JT_Ee2g6NfOsTe0TA",
+              "name": "",
+              "type": "Convidado",
+"oldId": "_esml2ZT_Ee2g6NfOsTe0TA",
+              "visibility": "private",
+              "id": "_esmlwpT_Ee2g6NfOsTe0TA",
+              "xmitype": "uml:Property",
+              "upperValue": {
+                "value": "*",
+                "id": "_esmlw5T_Ee2g6NfOsTe0TA",
+                "xmitype": "uml:LiteralUnlimitedNatural"
+              }
+            },
+            {
+              "association": "_esml5pT_Ee2g6NfOsTe0TA",
+              "name": "",
+              "type": "Admin",
+"oldId": "_esmlypT_Ee2g6NfOsTe0TA",
+              "visibility": "private",
+              "id": "_esmlxJT_Ee2g6NfOsTe0TA",
+              "xmitype": "uml:Property",
+              "upperValue": {
+                "value": "*",
+                "id": "_esmlxZT_Ee2g6NfOsTe0TA",
+                "xmitype": "uml:LiteralUnlimitedNatural"
+              }
+            }
+          ],
+          "ownedOperation": {
+            "name": "enrollGrower",
+            "visibility": "public",
+            "id": "_esmlxpT_Ee2g6NfOsTe0TA",
+            "xmitype": "uml:Operation",
+            "ownedParameter": [
+              {
+                "direction": "return",
+                "type": "_esml6pT_Ee2g6NfOsTe0TA",
+                "id": "_esmlx5T_Ee2g6NfOsTe0TA",
+                "xmitype": "uml:Parameter"
+              },
+              {
+                "name": "name",
+                "type": "String",
+"oldId": "_esmk05T_Ee2g6NfOsTe0TA",
+                "id": "_esmlyJT_Ee2g6NfOsTe0TA",
+                "xmitype": "uml:Parameter"
+              },
+              {
+                "name": "stage",
+                "type": "String",
+"oldId": "_esmk05T_Ee2g6NfOsTe0TA",
+                "id": "_esmlyZT_Ee2g6NfOsTe0TA",
+                "xmitype": "uml:Parameter"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Admin",
+          "id": "_esmlypT_Ee2g6NfOsTe0TA",
+          "xmitype": "uml:Class",
+          "ownedAttribute": [
+            {
+              "name": "nome",
+              "type": "String",
+"oldId": "_esmk05T_Ee2g6NfOsTe0TA",
+              "visibility": "private",
+              "id": "_esmly5T_Ee2g6NfOsTe0TA",
+              "xmitype": "uml:Property"
+            },
+            {
+              "name": "- id :Integer",
+              "type": "String",
+"oldId": "_esmk05T_Ee2g6NfOsTe0TA",
+              "visibility": "private",
+              "id": "_esmlzJT_Ee2g6NfOsTe0TA",
+              "xmitype": "uml:Property"
+            },
+            {
+              "association": "_esml5pT_Ee2g6NfOsTe0TA",
+              "name": "",
+              "type": "Produtos",
+"oldId": "_esmlvpT_Ee2g6NfOsTe0TA",
+              "visibility": "private",
+              "id": "_esmlzZT_Ee2g6NfOsTe0TA",
+              "xmitype": "uml:Property",
+              "lowerValue": {
+                "value": "1",
+                "id": "_esmlzpT_Ee2g6NfOsTe0TA",
+                "xmitype": "uml:LiteralInteger"
+              },
+              "upperValue": {
+                "value": "1",
+                "id": "_esmlz5T_Ee2g6NfOsTe0TA",
+                "xmitype": "uml:LiteralUnlimitedNatural"
+              }
+            },
+            {
+              "association": "_esml55T_Ee2g6NfOsTe0TA",
+              "name": "",
+              "type": "Cliente",
+"oldId": "_esmlrZT_Ee2g6NfOsTe0TA",
+              "visibility": "private",
+              "id": "_esml0JT_Ee2g6NfOsTe0TA",
+              "xmitype": "uml:Property",
+              "upperValue": {
+                "value": "*",
+                "id": "_esml0ZT_Ee2g6NfOsTe0TA",
+                "xmitype": "uml:LiteralUnlimitedNatural"
+              }
+            }
+          ],
+          "ownedOperation": [
+            {
+              "name": "verProdutos",
+              "visibility": "public",
+              "id": "_esml0pT_Ee2g6NfOsTe0TA",
+              "xmitype": "uml:Operation",
+              "ownedParameter": [
+                {
+                  "direction": "return",
+                  "type": "_esml4ZT_Ee2g6NfOsTe0TA",
+                  "id": "_esml05T_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Parameter"
+                },
+                {
+                  "name": "farmName",
+                  "type": "String",
+"oldId": "_esmk05T_Ee2g6NfOsTe0TA",
+                  "id": "_esml1JT_Ee2g6NfOsTe0TA",
+                  "xmitype": "uml:Parameter"
+                }
+              ]
+            },
+            {
+              "name": "adicionarProdutos",
+              "visibility": "public",
+              "id": "_esml1ZT_Ee2g6NfOsTe0TA",
+              "xmitype": "uml:Operation",
+              "ownedParameter": {
+                "direction": "return",
+                "type": "_esml6pT_Ee2g6NfOsTe0TA",
+                "id": "_esml1pT_Ee2g6NfOsTe0TA",
+                "xmitype": "uml:Parameter"
+              }
+            },
+            {
+              "name": "removerProdutos",
+              "visibility": "public",
+              "id": "_esml15T_Ee2g6NfOsTe0TA",
+              "xmitype": "uml:Operation",
+              "ownedParameter": {
+                "direction": "return",
+                "type": "_esml6pT_Ee2g6NfOsTe0TA",
+                "id": "_esml2JT_Ee2g6NfOsTe0TA",
+                "xmitype": "uml:Parameter"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Convidado",
+          "id": "_esml2ZT_Ee2g6NfOsTe0TA",
+          "xmitype": "uml:Class",
+          "ownedAttribute": {
+            "association": "_esml5JT_Ee2g6NfOsTe0TA",
+            "name": "",
+            "type": "Produtos",
+"oldId": "_esmlvpT_Ee2g6NfOsTe0TA",
+            "visibility": "private",
+            "id": "_esml2pT_Ee2g6NfOsTe0TA",
+            "xmitype": "uml:Property",
+            "lowerValue": {
+              "value": "1",
+              "id": "_esml25T_Ee2g6NfOsTe0TA",
+              "xmitype": "uml:LiteralInteger"
+            },
+            "upperValue": {
+              "value": "1",
+              "id": "_esml3JT_Ee2g6NfOsTe0TA",
+              "xmitype": "uml:LiteralUnlimitedNatural"
+            }
+          }
+        },
+        {
+          "name": "Pagamento",
+          "id": "_esml3ZT_Ee2g6NfOsTe0TA",
+          "xmitype": "uml:Class",
+          "ownedAttribute": {
+            "association": "_esml5ZT_Ee2g6NfOsTe0TA",
+            "name": "",
+            "type": "Cliente",
+"oldId": "_esmlrZT_Ee2g6NfOsTe0TA",
+            "visibility": "private",
+            "id": "_esml3pT_Ee2g6NfOsTe0TA",
+            "xmitype": "uml:Property",
+            "lowerValue": {
+              "value": "1",
+              "id": "_esml35T_Ee2g6NfOsTe0TA",
+              "xmitype": "uml:LiteralInteger"
+            },
+            "upperValue": {
+              "value": "1",
+              "id": "_esml4JT_Ee2g6NfOsTe0TA",
+              "xmitype": "uml:LiteralUnlimitedNatural"
+            }
+          }
+        },
+        {
+          "name": "",
+          "id": "_esml4ZT_Ee2g6NfOsTe0TA",
+          "xmitype": "uml:Class",
+          "templateBinding": {
+            "boundElement": "_esml4ZT_Ee2g6NfOsTe0TA",
+            "id": "_esml4pT_Ee2g6NfOsTe0TA",
+            "xmitype": "uml:TemplateBinding",
+            "parameterSubstitution": {
+              "actual": "_esmlvpT_Ee2g6NfOsTe0TA",
+              "formal": "_esmk7JT_Ee2g6NfOsTe0TA",
+              "templateBinding": "_esml4pT_Ee2g6NfOsTe0TA",
+              "id": "_esml45T_Ee2g6NfOsTe0TA",
+              "xmitype": "uml:TemplateParameterSubstitution"
+            }
+          }
+        },
+        {
+          "memberEnd": "_esml2pT_Ee2g6NfOsTe0TA _esmlwpT_Ee2g6NfOsTe0TA",
+          "name": "",
+          "id": "_esml5JT_Ee2g6NfOsTe0TA",
+          "xmitype": "uml:Association"
+        },
+        {
+          "memberEnd": "_esml3pT_Ee2g6NfOsTe0TA _esmlr5T_Ee2g6NfOsTe0TA",
+          "name": "",
+          "id": "_esml5ZT_Ee2g6NfOsTe0TA",
+          "xmitype": "uml:Association"
+        },
+        {
+          "memberEnd": "_esmlzZT_Ee2g6NfOsTe0TA _esmlxJT_Ee2g6NfOsTe0TA",
+          "name": "",
+          "id": "_esml5pT_Ee2g6NfOsTe0TA",
+          "xmitype": "uml:Association"
+        },
+        {
+          "memberEnd": "_esmlspT_Ee2g6NfOsTe0TA _esml0JT_Ee2g6NfOsTe0TA",
+          "name": "",
+          "id": "_esml55T_Ee2g6NfOsTe0TA",
+          "xmitype": "uml:Association"
+        },
+        {
+          "memberEnd": "_esmlu5T_Ee2g6NfOsTe0TA _esmltZT_Ee2g6NfOsTe0TA",
+          "name": "",
+          "id": "_esml6JT_Ee2g6NfOsTe0TA",
+          "xmitype": "uml:Association"
+        },
+        {
+          "name": "PrimitiveTypes",
+          "id": "_esml6ZT_Ee2g6NfOsTe0TA",
+          "xmitype": "uml:Package",
+          "packagedElement": [
+            {
+              "name": "void",
+              "id": "_esml6pT_Ee2g6NfOsTe0TA",
+              "xmitype": "uml:PrimitiveType"
+            },
+            {
+              "name": "int",
+              "id": "_esml65T_Ee2g6NfOsTe0TA",
+              "xmitype": "uml:PrimitiveType"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
