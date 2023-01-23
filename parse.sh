@@ -15,8 +15,18 @@
 cd tests
 for d in */ ; do
   echo $d;
-  echo "${$d/*.xmi}"
-  python3 ../xmiToJson.py $d/*.xmi;
-  python3 ../cleaner.py $d/diagram.json;
+  (cd $d;
+  f="$(find . -name "*.xmi" -type f)";
+  if [ ! -z "${f}" ]
+  then
+    echo "$f";
+    python3 /home/diogokraut/UML-validator/xmiToJson.py "$f";
+    python3 /home/diogokraut/UML-validator/cleaner.py ./diagram.json;
+    rm out.json;
+    node ../../dist/main.js "${d}diagram.json"
+  else
+    echo "No XMI file found"
+  fi
+  );
+
 done
-# fi

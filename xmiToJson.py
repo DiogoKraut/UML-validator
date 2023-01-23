@@ -2,7 +2,7 @@ import json
 import re
 from sys import argv
 import xmltodict
-
+print(argv)
 input = argv[1]
 with open(input) as xml_file:
     #Gera um arquivo com as informações a serem substituídas.
