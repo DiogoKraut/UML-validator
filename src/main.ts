@@ -5,14 +5,14 @@ import chalk from 'chalk';
 import { MetaAssociationLink } from './entities/meta-association-link.entity';
 import { validateClasses } from './validator';
 
-const args = process.argv.slice(2);
-const dir = 
+const path = process.argv.slice(2)[0];
+const splitPath = path.split('/');
 async function main() {
   try {
     console.log(process.argv)
-    console.log(args)
+    console.log(`args: ${path}`)
     console.log(process.cwd())
-    const json = fs.readFileSync(`./${args[0]}`, 'utf-8');
+    const json = fs.readFileSync(path , 'utf-8');
     const data = JSON.parse(json).XMI.Model.packagedElement;
     const classes: MetaClass[] = [];
     const associations: MetaAssociationLink[] = [];
@@ -26,10 +26,11 @@ async function main() {
       }
     });
 
-    const fileList = fs.readdirSync(`../../java-src/${testDir}`);
+    const fileList = fs.readdirSync(splitPath.slice(0, 2).join('/')).filter((file) => file.endsWith('.java'));
     const javaClasses: MetaClass[] = [];
     fileList.forEach((file) => {
-      const javaClass: MetaClass = javaClassParser(`java-src/${file}`);
+      const javaClass: MetaClass = javaClassParser(`${splitPath.slice(0, 2).join('/')}/${file}`);
+      // console.log('javaClass', javaClass)
       javaClasses.push(javaClass);
     });
 

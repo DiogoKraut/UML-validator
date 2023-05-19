@@ -1379,38 +1379,16 @@
             {
               "name": "name",
               "type": "String",
-"oldId": "_mzEmssHjEe23rdFT-PrPzw",
+              "oldId": "_mzEmssHjEe23rdFT-PrPzw",
               "visibility": "private",
               "id": "_mzFN7sHjEe23rdFT-PrPzw",
-              "xmitype": "uml:Property"
-            },
-            {
-              "name": "pagamentos",
-              "type": "_mzFOccHjEe23rdFT-PrPzw",
-              "visibility": "private",
-              "id": "_mzFN78HjEe23rdFT-PrPzw",
-              "xmitype": "uml:Property"
-            },
-            {
-              "name": "carrinho",
-              "type": "Carrinho",
-"oldId": "_mzFOCsHjEe23rdFT-PrPzw",
-              "visibility": "private",
-              "id": "_mzFN8MHjEe23rdFT-PrPzw",
-              "xmitype": "uml:Property"
-            },
-            {
-              "name": "pedidos",
-              "type": "_mzFOn8HjEe23rdFT-PrPzw",
-              "visibility": "private",
-              "id": "_mzFN8cHjEe23rdFT-PrPzw",
               "xmitype": "uml:Property"
             },
             {
               "association": "_mzFOo8HjEe23rdFT-PrPzw",
               "name": "",
               "type": "Vendedor",
-"oldId": "_mzFOMcHjEe23rdFT-PrPzw",
+              "oldId": "_mzFOMcHjEe23rdFT-PrPzw",
               "visibility": "private",
               "id": "_mzFN8sHjEe23rdFT-PrPzw",
               "xmitype": "uml:Property",
@@ -1422,128 +1400,6 @@
               "upperValue": {
                 "value": "1",
                 "id": "_mzFN9MHjEe23rdFT-PrPzw",
-                "xmitype": "uml:LiteralUnlimitedNatural"
-              }
-            },
-            {
-              "association": "_mzFOpsHjEe23rdFT-PrPzw",
-              "name": "",
-              "type": "Loja",
-"oldId": "_mzFOXsHjEe23rdFT-PrPzw",
-              "visibility": "private",
-              "id": "_mzFN9cHjEe23rdFT-PrPzw",
-              "xmitype": "uml:Property",
-              "lowerValue": {
-                "id": "_mzFN9sHjEe23rdFT-PrPzw",
-                "xmitype": "uml:LiteralInteger"
-              },
-              "upperValue": {
-                "value": "1",
-                "id": "_mzFN98HjEe23rdFT-PrPzw",
-                "xmitype": "uml:LiteralUnlimitedNatural"
-              }
-            },
-            {
-              "association": "_mzFOqMHjEe23rdFT-PrPzw",
-              "name": "",
-              "type": "Pagamento",
-"oldId": "_mzFOQ8HjEe23rdFT-PrPzw",
-              "visibility": "private",
-              "id": "_mzFN-MHjEe23rdFT-PrPzw",
-              "xmitype": "uml:Property",
-              "upperValue": {
-                "value": "*",
-                "id": "_mzFN-cHjEe23rdFT-PrPzw",
-                "xmitype": "uml:LiteralUnlimitedNatural"
-              }
-            },
-            {
-              "association": "_mzFOqsHjEe23rdFT-PrPzw",
-              "name": "",
-              "type": "Pagamento",
-"oldId": "_mzFOQ8HjEe23rdFT-PrPzw",
-              "visibility": "private",
-              "id": "_mzFN-sHjEe23rdFT-PrPzw",
-              "xmitype": "uml:Property",
-              "lowerValue": {
-                "id": "_mzFN-8HjEe23rdFT-PrPzw",
-                "xmitype": "uml:LiteralInteger"
-              },
-              "upperValue": {
-                "value": "*",
-                "id": "_mzFN_MHjEe23rdFT-PrPzw",
-                "xmitype": "uml:LiteralUnlimitedNatural"
-              }
-            },
-            {
-              "aggregation": "composite",
-              "association": "_mzFOscHjEe23rdFT-PrPzw",
-              "name": "",
-              "type": "Carrinho",
-"oldId": "_mzFOCsHjEe23rdFT-PrPzw",
-              "visibility": "private",
-              "id": "_mzFN_cHjEe23rdFT-PrPzw",
-              "xmitype": "uml:Property",
-              "lowerValue": {
-                "value": "1",
-                "id": "_mzFN_sHjEe23rdFT-PrPzw",
-                "xmitype": "uml:LiteralInteger"
-              },
-              "upperValue": {
-                "value": "1",
-                "id": "_mzFN_8HjEe23rdFT-PrPzw",
-                "xmitype": "uml:LiteralUnlimitedNatural"
-              }
-            },
-            {
-              "association": "_mzFOssHjEe23rdFT-PrPzw",
-              "name": "",
-              "type": "Loja",
-"oldId": "_mzFOXsHjEe23rdFT-PrPzw",
-              "visibility": "private",
-              "id": "_mzFOAMHjEe23rdFT-PrPzw",
-              "xmitype": "uml:Property",
-              "lowerValue": {
-                "value": "1",
-                "id": "_mzFOAcHjEe23rdFT-PrPzw",
-                "xmitype": "uml:LiteralInteger"
-              },
-              "upperValue": {
-                "value": "1",
-                "id": "_mzFOAsHjEe23rdFT-PrPzw",
-                "xmitype": "uml:LiteralUnlimitedNatural"
-              }
-            },
-            {
-              "aggregation": "composite",
-              "association": "_mzFOtMHjEe23rdFT-PrPzw",
-              "name": "",
-              "type": "Pedido",
-"oldId": "_mzFOjMHjEe23rdFT-PrPzw",
-              "visibility": "private",
-              "id": "_mzFOA8HjEe23rdFT-PrPzw",
-              "xmitype": "uml:Property",
-              "upperValue": {
-                "value": "*",
-                "id": "_mzFOBMHjEe23rdFT-PrPzw",
-                "xmitype": "uml:LiteralUnlimitedNatural"
-              }
-            },
-            {
-              "association": "_mzFOtcHjEe23rdFT-PrPzw",
-              "name": "",
-              "type": "Carrinho",
-"oldId": "_mzFOCsHjEe23rdFT-PrPzw",
-              "visibility": "private",
-              "id": "_mzFOBcHjEe23rdFT-PrPzw",
-              "xmitype": "uml:Property",
-              "lowerValue": {
-                "id": "_mzFOBsHjEe23rdFT-PrPzw",
-                "xmitype": "uml:LiteralInteger"
-              },
-              "upperValue": {
-                "value": "1",
-                "id": "_mzFOB8HjEe23rdFT-PrPzw",
                 "xmitype": "uml:LiteralUnlimitedNatural"
               }
             }

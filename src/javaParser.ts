@@ -8,13 +8,17 @@ import { isPrimitiveType, trimSpaces } from './utils/utils';
 
 export function javaClassParser(filePath: string) : MetaClass {
   const source = fs.readFileSync(filePath, 'utf-8');
-  const lines = source.split(/\r?\n/);
+  const lines = source.split(/\r?\n/).filter((line) => line != '');
   const newClass = new MetaClass();
   let wasOp = false;
   let count = 0;
   for (const line of lines) {
     let newLine = trimSpaces(line);
     const words = newLine.split(/[\s;, ]+/);
+    if(words.includes('Carrinho') || words.find((word) => word.includes('ArrayList'))) {
+      console.log('words', words)
+      debugger
+    }
     let flagAtt = newLine[newLine.length-1] == ";";
     let flagFuncName = false;
     let flagClass = false;
@@ -51,6 +55,7 @@ export function javaClassParser(filePath: string) : MetaClass {
       if (flagAtt) {
         parseAttribute(words, newClass);
       } else {
+        console.log('words', words)
         wasOp = true;
         parseOperation(words, newClass, flagFuncName);
       }
@@ -67,7 +72,9 @@ function parseAttribute(words: string[], newClass: MetaClass) {
   } else {
     attribute = new MetaAssociationAttribute();
     attribute.lowerValue!.value = '1';
-    words[1].includes('[]') ? attribute.upperValue!.value = '*' : attribute.upperValue!.value = '1';
+    words[1].includes('[]') || words[1].includes('ArrayList')
+      ? attribute.upperValue!.value = '*' 
+      : attribute.upperValue!.value = '1';
   }
   attribute.visibility = words[0];
   attribute.type = words[1];
@@ -81,7 +88,9 @@ function parseOperation(words: string[], newClass: MetaClass, flag: boolean) {
   op.name = flag ? words[2] : words[1];
   op.name = op.name.split('(')[0];
   op.returnType = flag ? words[1] : '';
+  console.log('op', op.name, op.returnType)
   parseParameters(words, op);
+
   newClass.ownedOperation.push(op);
 }
 
