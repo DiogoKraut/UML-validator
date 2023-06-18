@@ -6,7 +6,7 @@ export class MetaAssociationAttribute extends MetaAttribute {
     this.lowerValue = { value: '' };
     this.upperValue = { value: '' };
   }
-  
+  aggregation?: string;
   association?: string;
   lowerValue?: {
     value?: string;

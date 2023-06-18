@@ -2,9 +2,11 @@ import java.util.ArrayList;
 
 public class Loja {
 
-	private ArrayList<Cliente> clientes;
+	private String cnpj;
 
-	private ArrayList<Pagamento> pagamentos;
+	private Cliente[] cliente;
+
+	private Pagamento[] pagamento;
 
 	public void listarPagamentos() {
 

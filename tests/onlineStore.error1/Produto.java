@@ -4,4 +4,8 @@ public class Produto {
 
 	private String email;
 
+	public String getName() {
+		return null;
+	}
+
 }

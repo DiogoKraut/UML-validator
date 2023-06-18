@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "tests": "./parse.sh",
-    "start": "tsc && node dist/main.js"
+    "tests": "./parseAllTests.sh",
+    "start": "tsc && node dist/main.js",
+    "all": "tsc && ./runAllTests.sh"
   },
   "repository": {
     "type": "git",

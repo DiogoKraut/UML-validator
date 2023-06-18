@@ -5,7 +5,7 @@ public class Carrinho {
 
 	private Date creationDate;
 
-	private ArrayList<Produto> produtos;
+	private ItemDeCarrinho[] itemDeCarrinho;
 
 	public void adicionarProduto(Produto p, int q) {
 

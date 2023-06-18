@@ -9,9 +9,6 @@ const path = process.argv.slice(2)[0];
 const splitPath = path.split('/');
 async function main() {
   try {
-    console.log(process.argv)
-    console.log(`args: ${path}`)
-    console.log(process.cwd())
     const json = fs.readFileSync(path , 'utf-8');
     const data = JSON.parse(json).XMI.Model.packagedElement;
     const classes: MetaClass[] = [];
@@ -20,21 +17,17 @@ async function main() {
     data.forEach((element: any) => {
       if(element.xmitype === 'uml:Class' && element.name != '') {
         classes.push(element);
-      } else if(element.xmitype == 'uml:Association') {
-        const associationList = element.memberEnd.split(' ');
-        associations.push({classStart: associationList[0], classEnd: associationList[1]});
       }
     });
-
-    const fileList = fs.readdirSync(splitPath.slice(0, 2).join('/')).filter((file) => file.endsWith('.java'));
+    const dir = splitPath.slice(0, 2).join('/');
+    const fileList = fs.readdirSync(dir).filter((file) => file.endsWith('.java'));
     const javaClasses: MetaClass[] = [];
     fileList.forEach((file) => {
       const javaClass: MetaClass = javaClassParser(`${splitPath.slice(0, 2).join('/')}/${file}`);
-      // console.log('javaClass', javaClass)
       javaClasses.push(javaClass);
     });
 
-    validateClasses(classes, javaClasses, associations);
+    validateClasses(classes, javaClasses);
   } catch(err) {
     throw err;
   }
@@ -42,7 +35,7 @@ async function main() {
 }
 
 main().then(() => {
-  console.log('success');
 }).catch((err) => {
   console.error(chalk.bgRed(err));
+  throw err;
 })

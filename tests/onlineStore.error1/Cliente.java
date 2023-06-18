@@ -4,13 +4,19 @@ public class Cliente {
 
 	private String name;
 
-	private ArrayList<Pagamento> pagamentos;
+	private String cpf;
 
 	private Carrinho carrinho;
 
-	private ArrayList<Pedido> pedidos;
+	private Pagamento[] pagamento;
+
+	// private Pedido[] pedido; // Missing association
 
 	public void listarPedidos() {
+
+	}
+
+	public void iniciarPedido() {
 
 	}
 

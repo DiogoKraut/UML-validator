@@ -7,7 +7,7 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Launch Program",
+      "name": "Control",
       "skipFiles": [
         "<node_internals>/**"
       ],
@@ -15,7 +15,23 @@
       "outFiles": [
         "${workspaceFolder}/dist/*.js"
       ],
-      "args": ["tests/onlineStore/diagram.json"]
+      "args": ["tests/onlineStore/diagram.json"],
+      "preLaunchTask": "tsc: build - tsconfig.json"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Error1",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+
+      "program": "${workspaceFolder}/dist/main.js",
+      "outFiles": [
+        "${workspaceFolder}/dist/*.js"
+      ],
+      "args": ["tests/onlineStore.error1/diagram.json"],
+      "preLaunchTask": "tsc: build - tsconfig.json"
     }
   ]
 }

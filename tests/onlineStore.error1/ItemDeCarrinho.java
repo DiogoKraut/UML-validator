@@ -6,7 +6,7 @@ public class ItemDeCarrinho {
 
 	private Produto produto;
 
-	private Produto produto;
+	Private Carrinho carrinho; // Navegability error
 
 	public void setQuantidade(int q) {
 

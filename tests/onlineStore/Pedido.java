@@ -7,10 +7,6 @@ public class Pedido {
 
 	private String total;
 
-	private ArrayList<Pagamento> pagamento;
-
-	public void adicionarPagamento(Pagamento p) {
-
-	}
+	private ItemDeCarrinho[] itemDeCarrinho;
 
 }

@@ -6,8 +6,6 @@ public class ItemDeCarrinho {
 
 	private Produto produto;
 
-	private Produto produto;
-
 	public void setQuantidade(int q) {
 
 	}
