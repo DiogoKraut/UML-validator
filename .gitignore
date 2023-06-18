@@ -134,3 +134,5 @@ dmypy.json
 
 *.asta
 *.xmi
+
+.vscode
