@@ -8,12 +8,21 @@ import { isPrimitiveType, trimSpaces } from './utils/utils';
 
 export function javaClassParser(filePath: string) : MetaClass {
   const source = fs.readFileSync(filePath, 'utf-8');
-  const lines = source.split(/\r?\n/);
+  const lines = source.split(/\r?\n/).filter((line) => line != '');
   const newClass = new MetaClass();
   let wasOp = false;
   let count = 0;
-  for (const line of lines) {
+  for (let line of lines) {
     let newLine = trimSpaces(line);
+    // skip comments whole line comments
+    if(newLine.startsWith('//')) {
+      continue;
+    }
+    // trim comments
+    if(newLine.includes(' //')) {
+      newLine = newLine.split(' //')[0];
+    }
+
     const words = newLine.split(/[\s;, ]+/);
     let flagAtt = newLine[newLine.length-1] == ";";
     let flagFuncName = false;
@@ -51,12 +60,15 @@ export function javaClassParser(filePath: string) : MetaClass {
       if (flagAtt) {
         parseAttribute(words, newClass);
       } else {
+        if(newLine[newLine.length-1] == '{' || words[0] == '{') {
+          count ++;
+        }
+
         wasOp = true;
         parseOperation(words, newClass, flagFuncName);
       }
     }
   }
-  // console.log(JSON.stringify(newClass, null, 2));
   return newClass;
 }
 
@@ -64,13 +76,17 @@ function parseAttribute(words: string[], newClass: MetaClass) {
   let attribute;
   if(isPrimitiveType(words[1])) {
     attribute = new MetaAttribute();
+  attribute.type = words[1];
   } else {
     attribute = new MetaAssociationAttribute();
     attribute.lowerValue!.value = '1';
-    words[1].includes('[]') ? attribute.upperValue!.value = '*' : attribute.upperValue!.value = '1';
+    words[1].includes('[]') || words[1].includes('ArrayList')
+      ? attribute.upperValue!.value = '*' 
+      : attribute.upperValue!.value = '1';
+    const arrayType = words[1].split(/[<>]+/)[1];
+    attribute.type = arrayType ? arrayType : words[1];
   }
   attribute.visibility = words[0];
-  attribute.type = words[1];
   attribute.name = words[2];
   newClass.ownedAttribute.push(attribute);
 }
@@ -82,6 +98,7 @@ function parseOperation(words: string[], newClass: MetaClass, flag: boolean) {
   op.name = op.name.split('(')[0];
   op.returnType = flag ? words[1] : '';
   parseParameters(words, op);
+
   newClass.ownedOperation.push(op);
 }
 
@@ -90,8 +107,8 @@ function parseParameters(words: string[], op: MetaOperation) {
   params = params.split(')')[0].split(',');
   for (let i = 0; i < params.length; i+=2) {
     const param = new MetaParameter();
-    param.name = params[i];
-    param.type = params[i+1];
+    param.type = params[i];
+    param.name = params[i+1];
     op.ownedParameter.push(param);
   }
 }

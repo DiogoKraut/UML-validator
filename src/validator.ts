@@ -4,7 +4,7 @@ import { MetaAssociationLink } from "./entities/meta-association-link.entity";
 import { MetaClass } from "./entities/meta-class.entity";
 import { isPrimitiveType } from "./utils/utils";
 
-export function validateClasses(classes: MetaClass[], javaClasses: MetaClass[], associations: MetaAssociationLink[]) {
+export function validateClasses(classes: MetaClass[], javaClasses: MetaClass[]) {
   classes.forEach((metaClass) => {
     console.log('Analysing class', `${chalk.underline.italic.bold(metaClass.name)}...`,);
     const javaClass = javaClasses.find((javaClass) => javaClass.name == metaClass.name);
@@ -19,34 +19,48 @@ export function validateClasses(classes: MetaClass[], javaClasses: MetaClass[], 
     }
   });
   
-  associations.forEach((associationLink) => {
-    console.log('Analysing associationLink', chalk.underline.italic.bold(`${associationLink.classStart}`), '->', chalk.underline.italic.bold(`${associationLink.classEnd}`));
-  });
+
   
   validateAssociations(classes, javaClasses);
 }
 
 function validateAssociations(classes: MetaClass[], javaClasses: MetaClass[]) {
+  console.log('Analysing associations...');
   classes.forEach((metaClass) => {
     metaClass.ownedAttribute.forEach((attribute: MetaAssociationAttribute ) => {
       if(attribute.hasOwnProperty('association')) {
-        let attributeType = '';
-        if(attribute.upperValue && attribute.upperValue.value === '*') {
-          attributeType = attribute.type + '[]';
-        } else {
-          attributeType = attribute.type!;
-        }
         const javaClass = javaClasses.find((javaClass) => javaClass.name === metaClass.name);
         if(javaClass) {
-          const javaAttribute = javaClass.ownedAttribute.find((javaAttribute) => {
-            if(javaAttribute.type === attributeType) {
-              console.log('\tAssociation', chalk.underline.italic.bold(`${metaClass.name} --> ${attribute.type}`), chalk.bgGreen.bold('FOUND'), 'as', chalk.underline.italic.bold(`${javaAttribute.name}: ${javaAttribute.type}`));
+          const javaAttribute: MetaAssociationAttribute | undefined = javaClass.ownedAttribute.find((javaAttribute: MetaAssociationAttribute) => {
+            if(javaAttribute.type === attribute.type || javaAttribute.type === attribute.type + '[]') {
+              if(!attribute.lowerValue?.value) {
+                attribute.lowerValue = {value: '1'};
+              }
               return javaAttribute;
             }
           });
           if(!javaAttribute) {
+            const destinationClass = javaClasses.find((javaClass) => javaClass.name === attribute.type);
+            if(destinationClass) {
+              const destinationAttribute = destinationClass.ownedAttribute.find((destinationAttribute) => destinationAttribute.type === javaClass.name || destinationAttribute.type === javaClass.name + '[]');
+              if(destinationAttribute) {
+                console.log('\tAggregation', chalk.underline.italic.bold(`${metaClass.name} --> ${attribute.type}`), chalk.bgGreen.bold('FOUND'), 'as', chalk.underline.italic.bold(`${destinationAttribute.name}: ${destinationAttribute.type}[]`));
+                return;
+              } else if(!attribute.hasOwnProperty('aggregation')) {
+                console.log('\tAggregation', chalk.underline.italic.bold(`${metaClass.name} --> ${attribute.type}`), chalk.bgRed.bold('NOT FOUND'), ' (missing on parent class)');
+                return;
+              }
+            }
             console.log('\tAssociation', chalk.underline.italic.bold(`${metaClass.name} --> ${attribute.type}`), chalk.bgRed.bold('NOT FOUND'));
+            return;
           }
+          if(javaAttribute.lowerValue?.value != attribute.lowerValue!.value) {
+            console.log(`\tAssociation ${chalk.underline.italic.bold(`${metaClass.name} --> ${attribute.type}`)} ${chalk.bgRed('Multiplicity mismatch')}: Expected`, chalk.green.bold(attribute.lowerValue!.value), 'but found', chalk.red.bold(javaAttribute.lowerValue?.value));
+
+            return false;
+          }
+          console.log('\tAssociation', chalk.underline.italic.bold(`${metaClass.name} --> ${attribute.type}`), chalk.bgGreen.bold('FOUND'), 'as', chalk.underline.italic.bold(`${javaAttribute.name}: ${javaAttribute.type?.endsWith('[]') ? javaAttribute.type : javaAttribute.type + '[]'}`));
+
         } else {
           console.log('\tAssociation', chalk.underline.italic.bold(`${metaClass.name} --> ${attribute.type}`), chalk.bgRed.bold('NOT FOUND'));
         }
