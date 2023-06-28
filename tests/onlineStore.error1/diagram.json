@@ -4,41 +4,41 @@
     "xmi": "http://www.omg.org/spec/XMI/20110701",
     "Model": {
       "name": "store",
-      "id": "_Qac6MA4TEe6JsNzpP1XlHw",
+      "id": "_I4448RU0Ee6PAM8hniUwVQ",
       "packagedElement": [
         {
           "name": "java",
-          "id": "_Qac6MQ4TEe6JsNzpP1XlHw",
+          "id": "_I4448hU0Ee6PAM8hniUwVQ",
           "xmitype": "uml:Package",
           "packagedElement": [
             {
               "name": "lang",
-              "id": "_Qac6Mg4TEe6JsNzpP1XlHw",
+              "id": "_I4448xU0Ee6PAM8hniUwVQ",
               "xmitype": "uml:Package",
               "packagedElement": [
                 {
                   "name": "Cloneable",
-                  "id": "_Qac6Mw4TEe6JsNzpP1XlHw",
+                  "id": "_I4449BU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Interface"
                 },
                 {
                   "name": "Comparable",
-                  "id": "_Qac6NA4TEe6JsNzpP1XlHw",
+                  "id": "_I4449RU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Interface",
                   "ownedTemplateSignature": {
-                    "parameter": "_Qac6Ng4TEe6JsNzpP1XlHw",
-                    "id": "_Qac6NQ4TEe6JsNzpP1XlHw",
+                    "parameter": "_I4449xU0Ee6PAM8hniUwVQ",
+                    "id": "_I4449hU0Ee6PAM8hniUwVQ",
                     "xmitype": "uml:RedefinableTemplateSignature",
                     "ownedParameter": {
                       "allowSubstitutable": "false",
-                      "parameteredElement": "_Qac6Nw4TEe6JsNzpP1XlHw",
-                      "id": "_Qac6Ng4TEe6JsNzpP1XlHw",
+                      "parameteredElement": "_I444-BU0Ee6PAM8hniUwVQ",
+                      "id": "_I4449xU0Ee6PAM8hniUwVQ",
                       "xmitype": "uml:ClassifierTemplateParameter",
                       "ownedParameteredElement": {
                         "name": "T",
-                        "owningTemplateParameter": "_Qac6Ng4TEe6JsNzpP1XlHw",
-                        "templateParameter": "_Qac6Ng4TEe6JsNzpP1XlHw",
-                        "id": "_Qac6Nw4TEe6JsNzpP1XlHw",
+                        "owningTemplateParameter": "_I4449xU0Ee6PAM8hniUwVQ",
+                        "templateParameter": "_I4449xU0Ee6PAM8hniUwVQ",
+                        "id": "_I444-BU0Ee6PAM8hniUwVQ",
                         "xmitype": "uml:Class"
                       }
                     }
@@ -46,117 +46,117 @@
                 },
                 {
                   "name": "Boolean",
-                  "id": "_Qac6OA4TEe6JsNzpP1XlHw",
+                  "id": "_I444-RU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Class"
                 },
                 {
                   "name": "Byte",
-                  "id": "_Qac6OQ4TEe6JsNzpP1XlHw",
+                  "id": "_I444-hU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Class"
                 },
                 {
                   "name": "Character",
-                  "id": "_Qac6Og4TEe6JsNzpP1XlHw",
+                  "id": "_I444-xU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Class"
                 },
                 {
                   "name": "Double",
-                  "id": "_Qac6Ow4TEe6JsNzpP1XlHw",
+                  "id": "_I444_BU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Class"
                 },
                 {
                   "name": "Float",
-                  "id": "_Qac6PA4TEe6JsNzpP1XlHw",
+                  "id": "_I444_RU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Class"
                 },
                 {
                   "name": "Integer",
-                  "id": "_Qac6PQ4TEe6JsNzpP1XlHw",
+                  "id": "_I444_hU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Class"
                 },
                 {
                   "name": "Long",
-                  "id": "_Qac6Pg4TEe6JsNzpP1XlHw",
+                  "id": "_I444_xU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Class"
                 },
                 {
                   "name": "Math",
-                  "id": "_Qac6Pw4TEe6JsNzpP1XlHw",
+                  "id": "_I445ABU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Class"
                 },
                 {
                   "name": "Number",
-                  "id": "_Qac6QA4TEe6JsNzpP1XlHw",
+                  "id": "_I445ARU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Class"
                 },
                 {
                   "name": "Object",
-                  "id": "_Qac6QQ4TEe6JsNzpP1XlHw",
+                  "id": "_I445AhU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Class"
                 },
                 {
                   "name": "Short",
-                  "id": "_Qac6Qg4TEe6JsNzpP1XlHw",
+                  "id": "_I445AxU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Class"
                 },
                 {
                   "name": "String",
-                  "id": "_Qac6Qw4TEe6JsNzpP1XlHw",
+                  "id": "_I445BBU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Class"
                 },
                 {
                   "name": "StringBuffer",
-                  "id": "_Qac6RA4TEe6JsNzpP1XlHw",
+                  "id": "_I445BRU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Class"
                 },
                 {
                   "name": "System",
-                  "id": "_Qac6RQ4TEe6JsNzpP1XlHw",
+                  "id": "_I445BhU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Class"
                 },
                 {
                   "name": "Thread",
-                  "id": "_Qac6Rg4TEe6JsNzpP1XlHw",
+                  "id": "_I445BxU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Class"
                 },
                 {
                   "name": "Throwable",
-                  "id": "_Qac6Rw4TEe6JsNzpP1XlHw",
+                  "id": "_I445CBU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Class"
                 },
                 {
                   "name": "Void",
-                  "id": "_Qac6SA4TEe6JsNzpP1XlHw",
+                  "id": "_I445CRU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Class"
                 },
                 {
                   "name": "Runnable",
-                  "id": "_Qac6SQ4TEe6JsNzpP1XlHw",
+                  "id": "_I445ChU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Interface"
                 },
                 {
                   "name": "Exception",
-                  "id": "_Qac6Sg4TEe6JsNzpP1XlHw",
+                  "id": "_I45gABU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Class"
                 },
                 {
                   "name": "Iterable",
-                  "id": "_Qac6Sw4TEe6JsNzpP1XlHw",
+                  "id": "_I45gARU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Interface",
                   "ownedTemplateSignature": {
-                    "parameter": "_Qac6TQ4TEe6JsNzpP1XlHw",
-                    "id": "_Qac6TA4TEe6JsNzpP1XlHw",
+                    "parameter": "_I45gAxU0Ee6PAM8hniUwVQ",
+                    "id": "_I45gAhU0Ee6PAM8hniUwVQ",
                     "xmitype": "uml:RedefinableTemplateSignature",
                     "ownedParameter": {
                       "allowSubstitutable": "false",
-                      "parameteredElement": "_Qac6Tg4TEe6JsNzpP1XlHw",
-                      "id": "_Qac6TQ4TEe6JsNzpP1XlHw",
+                      "parameteredElement": "_I45gBBU0Ee6PAM8hniUwVQ",
+                      "id": "_I45gAxU0Ee6PAM8hniUwVQ",
                       "xmitype": "uml:ClassifierTemplateParameter",
                       "ownedParameteredElement": {
                         "name": "T",
-                        "owningTemplateParameter": "_Qac6TQ4TEe6JsNzpP1XlHw",
-                        "templateParameter": "_Qac6TQ4TEe6JsNzpP1XlHw",
-                        "id": "_Qac6Tg4TEe6JsNzpP1XlHw",
+                        "owningTemplateParameter": "_I45gAxU0Ee6PAM8hniUwVQ",
+                        "templateParameter": "_I45gAxU0Ee6PAM8hniUwVQ",
+                        "id": "_I45gBBU0Ee6PAM8hniUwVQ",
                         "xmitype": "uml:Class"
                       }
                     }
@@ -164,33 +164,33 @@
                 },
                 {
                   "name": "Appendable",
-                  "id": "_Qac6Tw4TEe6JsNzpP1XlHw",
+                  "id": "_I45gBRU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Interface"
                 },
                 {
                   "name": "Readable",
-                  "id": "_Qac6UA4TEe6JsNzpP1XlHw",
+                  "id": "_I45gBhU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Interface"
                 },
                 {
                   "isAbstract": "true",
                   "name": "Enum",
-                  "id": "_Qac6UQ4TEe6JsNzpP1XlHw",
+                  "id": "_I45gBxU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Class",
                   "ownedTemplateSignature": {
-                    "parameter": "_Qac6Uw4TEe6JsNzpP1XlHw",
-                    "id": "_Qac6Ug4TEe6JsNzpP1XlHw",
+                    "parameter": "_I45gCRU0Ee6PAM8hniUwVQ",
+                    "id": "_I45gCBU0Ee6PAM8hniUwVQ",
                     "xmitype": "uml:RedefinableTemplateSignature",
                     "ownedParameter": {
                       "allowSubstitutable": "false",
-                      "parameteredElement": "_Qac6VA4TEe6JsNzpP1XlHw",
-                      "id": "_Qac6Uw4TEe6JsNzpP1XlHw",
+                      "parameteredElement": "_I45gChU0Ee6PAM8hniUwVQ",
+                      "id": "_I45gCRU0Ee6PAM8hniUwVQ",
                       "xmitype": "uml:ClassifierTemplateParameter",
                       "ownedParameteredElement": {
                         "name": "E",
-                        "owningTemplateParameter": "_Qac6Uw4TEe6JsNzpP1XlHw",
-                        "templateParameter": "_Qac6Uw4TEe6JsNzpP1XlHw",
-                        "id": "_Qac6VA4TEe6JsNzpP1XlHw",
+                        "owningTemplateParameter": "_I45gCRU0Ee6PAM8hniUwVQ",
+                        "templateParameter": "_I45gCRU0Ee6PAM8hniUwVQ",
+                        "id": "_I45gChU0Ee6PAM8hniUwVQ",
                         "xmitype": "uml:Class"
                       }
                     }
@@ -198,49 +198,49 @@
                 },
                 {
                   "name": "StringBuilder",
-                  "id": "_Qac6VQ4TEe6JsNzpP1XlHw",
+                  "id": "_I45gCxU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Class"
                 },
                 {
                   "name": "CharSequence",
-                  "id": "_Qac6Vg4TEe6JsNzpP1XlHw",
+                  "id": "_I45gDBU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Interface"
                 },
                 {
                   "name": "AbstractStringBuilder",
-                  "id": "_Qac6Vw4TEe6JsNzpP1XlHw",
+                  "id": "_I45gDRU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Class"
                 },
                 {
                   "name": "ProcessBuilder",
-                  "id": "_Qac6WA4TEe6JsNzpP1XlHw",
+                  "id": "_I45gDhU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Class"
                 }
               ]
             },
             {
               "name": "util",
-              "id": "_Qac6WQ4TEe6JsNzpP1XlHw",
+              "id": "_I45gDxU0Ee6PAM8hniUwVQ",
               "xmitype": "uml:Package",
               "packagedElement": [
                 {
                   "name": "ArrayList",
-                  "id": "_Qac6Wg4TEe6JsNzpP1XlHw",
+                  "id": "_I45gEBU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Class",
                   "ownedTemplateSignature": {
-                    "parameter": "_Qac6XA4TEe6JsNzpP1XlHw",
-                    "id": "_Qac6Ww4TEe6JsNzpP1XlHw",
+                    "parameter": "_I45gEhU0Ee6PAM8hniUwVQ",
+                    "id": "_I45gERU0Ee6PAM8hniUwVQ",
                     "xmitype": "uml:RedefinableTemplateSignature",
                     "ownedParameter": {
                       "allowSubstitutable": "false",
-                      "parameteredElement": "_Qac6XQ4TEe6JsNzpP1XlHw",
-                      "id": "_Qac6XA4TEe6JsNzpP1XlHw",
+                      "parameteredElement": "_I45gExU0Ee6PAM8hniUwVQ",
+                      "id": "_I45gEhU0Ee6PAM8hniUwVQ",
                       "xmitype": "uml:ClassifierTemplateParameter",
                       "ownedParameteredElement": {
                         "name": "E",
-                        "owningTemplateParameter": "_Qac6XA4TEe6JsNzpP1XlHw",
-                        "templateParameter": "_Qac6XA4TEe6JsNzpP1XlHw",
-                        "id": "_Qac6XQ4TEe6JsNzpP1XlHw",
+                        "owningTemplateParameter": "_I45gEhU0Ee6PAM8hniUwVQ",
+                        "templateParameter": "_I45gEhU0Ee6PAM8hniUwVQ",
+                        "id": "_I45gExU0Ee6PAM8hniUwVQ",
                         "xmitype": "uml:Class"
                       }
                     }
@@ -248,37 +248,37 @@
                 },
                 {
                   "name": "Arrays",
-                  "id": "_Qac6Xg4TEe6JsNzpP1XlHw",
+                  "id": "_I45gFBU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Class"
                 },
                 {
                   "name": "BitSet",
-                  "id": "_Qac6Xw4TEe6JsNzpP1XlHw",
+                  "id": "_I45gFRU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Class"
                 },
                 {
                   "name": "Calendar",
-                  "id": "_Qac6YA4TEe6JsNzpP1XlHw",
+                  "id": "_I45gFhU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Class"
                 },
                 {
                   "name": "Collection",
-                  "id": "_Qac6YQ4TEe6JsNzpP1XlHw",
+                  "id": "_I45gFxU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Interface",
                   "ownedTemplateSignature": {
-                    "parameter": "_Qac6Yw4TEe6JsNzpP1XlHw",
-                    "id": "_Qac6Yg4TEe6JsNzpP1XlHw",
+                    "parameter": "_I45gGRU0Ee6PAM8hniUwVQ",
+                    "id": "_I45gGBU0Ee6PAM8hniUwVQ",
                     "xmitype": "uml:RedefinableTemplateSignature",
                     "ownedParameter": {
                       "allowSubstitutable": "false",
-                      "parameteredElement": "_Qac6ZA4TEe6JsNzpP1XlHw",
-                      "id": "_Qac6Yw4TEe6JsNzpP1XlHw",
+                      "parameteredElement": "_I45gGhU0Ee6PAM8hniUwVQ",
+                      "id": "_I45gGRU0Ee6PAM8hniUwVQ",
                       "xmitype": "uml:ClassifierTemplateParameter",
                       "ownedParameteredElement": {
                         "name": "E",
-                        "owningTemplateParameter": "_Qac6Yw4TEe6JsNzpP1XlHw",
-                        "templateParameter": "_Qac6Yw4TEe6JsNzpP1XlHw",
-                        "id": "_Qac6ZA4TEe6JsNzpP1XlHw",
+                        "owningTemplateParameter": "_I45gGRU0Ee6PAM8hniUwVQ",
+                        "templateParameter": "_I45gGRU0Ee6PAM8hniUwVQ",
+                        "id": "_I45gGhU0Ee6PAM8hniUwVQ",
                         "xmitype": "uml:Class"
                       }
                     }
@@ -286,27 +286,27 @@
                 },
                 {
                   "name": "Collections",
-                  "id": "_Qac6ZQ4TEe6JsNzpP1XlHw",
+                  "id": "_I45gGxU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Class"
                 },
                 {
                   "name": "Comparator",
-                  "id": "_Qac6Zg4TEe6JsNzpP1XlHw",
+                  "id": "_I45gHBU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Interface",
                   "ownedTemplateSignature": {
-                    "parameter": "_Qac6aA4TEe6JsNzpP1XlHw",
-                    "id": "_Qac6Zw4TEe6JsNzpP1XlHw",
+                    "parameter": "_I45gHhU0Ee6PAM8hniUwVQ",
+                    "id": "_I45gHRU0Ee6PAM8hniUwVQ",
                     "xmitype": "uml:RedefinableTemplateSignature",
                     "ownedParameter": {
                       "allowSubstitutable": "false",
-                      "parameteredElement": "_Qac6aQ4TEe6JsNzpP1XlHw",
-                      "id": "_Qac6aA4TEe6JsNzpP1XlHw",
+                      "parameteredElement": "_I45gHxU0Ee6PAM8hniUwVQ",
+                      "id": "_I45gHhU0Ee6PAM8hniUwVQ",
                       "xmitype": "uml:ClassifierTemplateParameter",
                       "ownedParameteredElement": {
                         "name": "T",
-                        "owningTemplateParameter": "_Qac6aA4TEe6JsNzpP1XlHw",
-                        "templateParameter": "_Qac6aA4TEe6JsNzpP1XlHw",
-                        "id": "_Qac6aQ4TEe6JsNzpP1XlHw",
+                        "owningTemplateParameter": "_I45gHhU0Ee6PAM8hniUwVQ",
+                        "templateParameter": "_I45gHhU0Ee6PAM8hniUwVQ",
+                        "id": "_I45gHxU0Ee6PAM8hniUwVQ",
                         "xmitype": "uml:Class"
                       }
                     }
@@ -314,46 +314,46 @@
                 },
                 {
                   "name": "Currency",
-                  "id": "_Qac6ag4TEe6JsNzpP1XlHw",
+                  "id": "_I45gIBU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Class"
                 },
                 {
                   "name": "Date",
-                  "id": "_Qac6aw4TEe6JsNzpP1XlHw",
+                  "id": "_I45gIRU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Class"
                 },
                 {
                   "name": "Dictionary",
-                  "id": "_Qac6bA4TEe6JsNzpP1XlHw",
+                  "id": "_I45gIhU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Class",
                   "ownedTemplateSignature": {
-                    "parameter": "_Qac6bg4TEe6JsNzpP1XlHw _Qac6cA4TEe6JsNzpP1XlHw",
-                    "id": "_Qac6bQ4TEe6JsNzpP1XlHw",
+                    "parameter": "_I45gJBU0Ee6PAM8hniUwVQ _I45gJhU0Ee6PAM8hniUwVQ",
+                    "id": "_I45gIxU0Ee6PAM8hniUwVQ",
                     "xmitype": "uml:RedefinableTemplateSignature",
                     "ownedParameter": [
                       {
                         "allowSubstitutable": "false",
-                        "parameteredElement": "_Qac6bw4TEe6JsNzpP1XlHw",
-                        "id": "_Qac6bg4TEe6JsNzpP1XlHw",
+                        "parameteredElement": "_I45gJRU0Ee6PAM8hniUwVQ",
+                        "id": "_I45gJBU0Ee6PAM8hniUwVQ",
                         "xmitype": "uml:ClassifierTemplateParameter",
                         "ownedParameteredElement": {
                           "name": "K",
-                          "owningTemplateParameter": "_Qac6bg4TEe6JsNzpP1XlHw",
-                          "templateParameter": "_Qac6bg4TEe6JsNzpP1XlHw",
-                          "id": "_Qac6bw4TEe6JsNzpP1XlHw",
+                          "owningTemplateParameter": "_I45gJBU0Ee6PAM8hniUwVQ",
+                          "templateParameter": "_I45gJBU0Ee6PAM8hniUwVQ",
+                          "id": "_I45gJRU0Ee6PAM8hniUwVQ",
                           "xmitype": "uml:Class"
                         }
                       },
                       {
                         "allowSubstitutable": "false",
-                        "parameteredElement": "_Qac6cQ4TEe6JsNzpP1XlHw",
-                        "id": "_Qac6cA4TEe6JsNzpP1XlHw",
+                        "parameteredElement": "_I45gJxU0Ee6PAM8hniUwVQ",
+                        "id": "_I45gJhU0Ee6PAM8hniUwVQ",
                         "xmitype": "uml:ClassifierTemplateParameter",
                         "ownedParameteredElement": {
                           "name": "V",
-                          "owningTemplateParameter": "_Qac6cA4TEe6JsNzpP1XlHw",
-                          "templateParameter": "_Qac6cA4TEe6JsNzpP1XlHw",
-                          "id": "_Qac6cQ4TEe6JsNzpP1XlHw",
+                          "owningTemplateParameter": "_I45gJhU0Ee6PAM8hniUwVQ",
+                          "templateParameter": "_I45gJhU0Ee6PAM8hniUwVQ",
+                          "id": "_I45gJxU0Ee6PAM8hniUwVQ",
                           "xmitype": "uml:Class"
                         }
                       }
@@ -362,22 +362,22 @@
                 },
                 {
                   "name": "Enumeration",
-                  "id": "_Qac6cg4TEe6JsNzpP1XlHw",
+                  "id": "_I45gKBU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Interface",
                   "ownedTemplateSignature": {
-                    "parameter": "_Qac6dA4TEe6JsNzpP1XlHw",
-                    "id": "_Qac6cw4TEe6JsNzpP1XlHw",
+                    "parameter": "_I45gKhU0Ee6PAM8hniUwVQ",
+                    "id": "_I45gKRU0Ee6PAM8hniUwVQ",
                     "xmitype": "uml:RedefinableTemplateSignature",
                     "ownedParameter": {
                       "allowSubstitutable": "false",
-                      "parameteredElement": "_Qac6dQ4TEe6JsNzpP1XlHw",
-                      "id": "_Qac6dA4TEe6JsNzpP1XlHw",
+                      "parameteredElement": "_I45gKxU0Ee6PAM8hniUwVQ",
+                      "id": "_I45gKhU0Ee6PAM8hniUwVQ",
                       "xmitype": "uml:ClassifierTemplateParameter",
                       "ownedParameteredElement": {
                         "name": "E",
-                        "owningTemplateParameter": "_Qac6dA4TEe6JsNzpP1XlHw",
-                        "templateParameter": "_Qac6dA4TEe6JsNzpP1XlHw",
-                        "id": "_Qac6dQ4TEe6JsNzpP1XlHw",
+                        "owningTemplateParameter": "_I45gKhU0Ee6PAM8hniUwVQ",
+                        "templateParameter": "_I45gKhU0Ee6PAM8hniUwVQ",
+                        "id": "_I45gKxU0Ee6PAM8hniUwVQ",
                         "xmitype": "uml:Class"
                       }
                     }
@@ -385,51 +385,51 @@
                 },
                 {
                   "name": "EventListener",
-                  "id": "_Qac6dg4TEe6JsNzpP1XlHw",
+                  "id": "_I45gLBU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Interface"
                 },
                 {
                   "name": "EventListenerProxy",
-                  "id": "_Qac6dw4TEe6JsNzpP1XlHw",
+                  "id": "_I45gLRU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Class"
                 },
                 {
                   "name": "EventObject",
-                  "id": "_Qac6eA4TEe6JsNzpP1XlHw",
+                  "id": "_I45gLhU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Class"
                 },
                 {
                   "name": "HashMap",
-                  "id": "_Qac6eQ4TEe6JsNzpP1XlHw",
+                  "id": "_I45gLxU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Class",
                   "ownedTemplateSignature": {
-                    "parameter": "_Qac6ew4TEe6JsNzpP1XlHw _Qac6fQ4TEe6JsNzpP1XlHw",
-                    "id": "_Qac6eg4TEe6JsNzpP1XlHw",
+                    "parameter": "_I45gMRU0Ee6PAM8hniUwVQ _I45gMxU0Ee6PAM8hniUwVQ",
+                    "id": "_I45gMBU0Ee6PAM8hniUwVQ",
                     "xmitype": "uml:RedefinableTemplateSignature",
                     "ownedParameter": [
                       {
                         "allowSubstitutable": "false",
-                        "parameteredElement": "_Qac6fA4TEe6JsNzpP1XlHw",
-                        "id": "_Qac6ew4TEe6JsNzpP1XlHw",
+                        "parameteredElement": "_I45gMhU0Ee6PAM8hniUwVQ",
+                        "id": "_I45gMRU0Ee6PAM8hniUwVQ",
                         "xmitype": "uml:ClassifierTemplateParameter",
                         "ownedParameteredElement": {
                           "name": "K",
-                          "owningTemplateParameter": "_Qac6ew4TEe6JsNzpP1XlHw",
-                          "templateParameter": "_Qac6ew4TEe6JsNzpP1XlHw",
-                          "id": "_Qac6fA4TEe6JsNzpP1XlHw",
+                          "owningTemplateParameter": "_I45gMRU0Ee6PAM8hniUwVQ",
+                          "templateParameter": "_I45gMRU0Ee6PAM8hniUwVQ",
+                          "id": "_I45gMhU0Ee6PAM8hniUwVQ",
                           "xmitype": "uml:Class"
                         }
                       },
                       {
                         "allowSubstitutable": "false",
-                        "parameteredElement": "_Qac6fg4TEe6JsNzpP1XlHw",
-                        "id": "_Qac6fQ4TEe6JsNzpP1XlHw",
+                        "parameteredElement": "_I45gNBU0Ee6PAM8hniUwVQ",
+                        "id": "_I45gMxU0Ee6PAM8hniUwVQ",
                         "xmitype": "uml:ClassifierTemplateParameter",
                         "ownedParameteredElement": {
                           "name": "V",
-                          "owningTemplateParameter": "_Qac6fQ4TEe6JsNzpP1XlHw",
-                          "templateParameter": "_Qac6fQ4TEe6JsNzpP1XlHw",
-                          "id": "_Qac6fg4TEe6JsNzpP1XlHw",
+                          "owningTemplateParameter": "_I45gMxU0Ee6PAM8hniUwVQ",
+                          "templateParameter": "_I45gMxU0Ee6PAM8hniUwVQ",
+                          "id": "_I45gNBU0Ee6PAM8hniUwVQ",
                           "xmitype": "uml:Class"
                         }
                       }
@@ -438,22 +438,22 @@
                 },
                 {
                   "name": "HashSet",
-                  "id": "_Qac6fw4TEe6JsNzpP1XlHw",
+                  "id": "_I45gNRU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Class",
                   "ownedTemplateSignature": {
-                    "parameter": "_Qac6gQ4TEe6JsNzpP1XlHw",
-                    "id": "_Qac6gA4TEe6JsNzpP1XlHw",
+                    "parameter": "_I45gNxU0Ee6PAM8hniUwVQ",
+                    "id": "_I45gNhU0Ee6PAM8hniUwVQ",
                     "xmitype": "uml:RedefinableTemplateSignature",
                     "ownedParameter": {
                       "allowSubstitutable": "false",
-                      "parameteredElement": "_Qac6gg4TEe6JsNzpP1XlHw",
-                      "id": "_Qac6gQ4TEe6JsNzpP1XlHw",
+                      "parameteredElement": "_I45gOBU0Ee6PAM8hniUwVQ",
+                      "id": "_I45gNxU0Ee6PAM8hniUwVQ",
                       "xmitype": "uml:ClassifierTemplateParameter",
                       "ownedParameteredElement": {
                         "name": "E",
-                        "owningTemplateParameter": "_Qac6gQ4TEe6JsNzpP1XlHw",
-                        "templateParameter": "_Qac6gQ4TEe6JsNzpP1XlHw",
-                        "id": "_Qac6gg4TEe6JsNzpP1XlHw",
+                        "owningTemplateParameter": "_I45gNxU0Ee6PAM8hniUwVQ",
+                        "templateParameter": "_I45gNxU0Ee6PAM8hniUwVQ",
+                        "id": "_I45gOBU0Ee6PAM8hniUwVQ",
                         "xmitype": "uml:Class"
                       }
                     }
@@ -461,36 +461,36 @@
                 },
                 {
                   "name": "Hashtable",
-                  "id": "_Qac6gw4TEe6JsNzpP1XlHw",
+                  "id": "_I45gORU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Class",
                   "ownedTemplateSignature": {
-                    "parameter": "_Qac6hQ4TEe6JsNzpP1XlHw _Qac6hw4TEe6JsNzpP1XlHw",
-                    "id": "_Qac6hA4TEe6JsNzpP1XlHw",
+                    "parameter": "_I45gOxU0Ee6PAM8hniUwVQ _I45gPRU0Ee6PAM8hniUwVQ",
+                    "id": "_I45gOhU0Ee6PAM8hniUwVQ",
                     "xmitype": "uml:RedefinableTemplateSignature",
                     "ownedParameter": [
                       {
                         "allowSubstitutable": "false",
-                        "parameteredElement": "_Qac6hg4TEe6JsNzpP1XlHw",
-                        "id": "_Qac6hQ4TEe6JsNzpP1XlHw",
+                        "parameteredElement": "_I45gPBU0Ee6PAM8hniUwVQ",
+                        "id": "_I45gOxU0Ee6PAM8hniUwVQ",
                         "xmitype": "uml:ClassifierTemplateParameter",
                         "ownedParameteredElement": {
                           "name": "K",
-                          "owningTemplateParameter": "_Qac6hQ4TEe6JsNzpP1XlHw",
-                          "templateParameter": "_Qac6hQ4TEe6JsNzpP1XlHw",
-                          "id": "_Qac6hg4TEe6JsNzpP1XlHw",
+                          "owningTemplateParameter": "_I45gOxU0Ee6PAM8hniUwVQ",
+                          "templateParameter": "_I45gOxU0Ee6PAM8hniUwVQ",
+                          "id": "_I45gPBU0Ee6PAM8hniUwVQ",
                           "xmitype": "uml:Class"
                         }
                       },
                       {
                         "allowSubstitutable": "false",
-                        "parameteredElement": "_Qac6iA4TEe6JsNzpP1XlHw",
-                        "id": "_Qac6hw4TEe6JsNzpP1XlHw",
+                        "parameteredElement": "_I45gPhU0Ee6PAM8hniUwVQ",
+                        "id": "_I45gPRU0Ee6PAM8hniUwVQ",
                         "xmitype": "uml:ClassifierTemplateParameter",
                         "ownedParameteredElement": {
                           "name": "V",
-                          "owningTemplateParameter": "_Qac6hw4TEe6JsNzpP1XlHw",
-                          "templateParameter": "_Qac6hw4TEe6JsNzpP1XlHw",
-                          "id": "_Qac6iA4TEe6JsNzpP1XlHw",
+                          "owningTemplateParameter": "_I45gPRU0Ee6PAM8hniUwVQ",
+                          "templateParameter": "_I45gPRU0Ee6PAM8hniUwVQ",
+                          "id": "_I45gPhU0Ee6PAM8hniUwVQ",
                           "xmitype": "uml:Class"
                         }
                       }
@@ -499,36 +499,36 @@
                 },
                 {
                   "name": "IdentityHashMap",
-                  "id": "_Qac6iQ4TEe6JsNzpP1XlHw",
+                  "id": "_I45gPxU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Class",
                   "ownedTemplateSignature": {
-                    "parameter": "_Qac6iw4TEe6JsNzpP1XlHw _Qac6jQ4TEe6JsNzpP1XlHw",
-                    "id": "_Qac6ig4TEe6JsNzpP1XlHw",
+                    "parameter": "_I45gQRU0Ee6PAM8hniUwVQ _I45gQxU0Ee6PAM8hniUwVQ",
+                    "id": "_I45gQBU0Ee6PAM8hniUwVQ",
                     "xmitype": "uml:RedefinableTemplateSignature",
                     "ownedParameter": [
                       {
                         "allowSubstitutable": "false",
-                        "parameteredElement": "_Qac6jA4TEe6JsNzpP1XlHw",
-                        "id": "_Qac6iw4TEe6JsNzpP1XlHw",
+                        "parameteredElement": "_I45gQhU0Ee6PAM8hniUwVQ",
+                        "id": "_I45gQRU0Ee6PAM8hniUwVQ",
                         "xmitype": "uml:ClassifierTemplateParameter",
                         "ownedParameteredElement": {
                           "name": "K",
-                          "owningTemplateParameter": "_Qac6iw4TEe6JsNzpP1XlHw",
-                          "templateParameter": "_Qac6iw4TEe6JsNzpP1XlHw",
-                          "id": "_Qac6jA4TEe6JsNzpP1XlHw",
+                          "owningTemplateParameter": "_I45gQRU0Ee6PAM8hniUwVQ",
+                          "templateParameter": "_I45gQRU0Ee6PAM8hniUwVQ",
+                          "id": "_I45gQhU0Ee6PAM8hniUwVQ",
                           "xmitype": "uml:Class"
                         }
                       },
                       {
                         "allowSubstitutable": "false",
-                        "parameteredElement": "_Qac6jg4TEe6JsNzpP1XlHw",
-                        "id": "_Qac6jQ4TEe6JsNzpP1XlHw",
+                        "parameteredElement": "_I45gRBU0Ee6PAM8hniUwVQ",
+                        "id": "_I45gQxU0Ee6PAM8hniUwVQ",
                         "xmitype": "uml:ClassifierTemplateParameter",
                         "ownedParameteredElement": {
                           "name": "V",
-                          "owningTemplateParameter": "_Qac6jQ4TEe6JsNzpP1XlHw",
-                          "templateParameter": "_Qac6jQ4TEe6JsNzpP1XlHw",
-                          "id": "_Qac6jg4TEe6JsNzpP1XlHw",
+                          "owningTemplateParameter": "_I45gQxU0Ee6PAM8hniUwVQ",
+                          "templateParameter": "_I45gQxU0Ee6PAM8hniUwVQ",
+                          "id": "_I45gRBU0Ee6PAM8hniUwVQ",
                           "xmitype": "uml:Class"
                         }
                       }
@@ -537,22 +537,22 @@
                 },
                 {
                   "name": "Iterator",
-                  "id": "_Qac6jw4TEe6JsNzpP1XlHw",
+                  "id": "_I45gRRU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Interface",
                   "ownedTemplateSignature": {
-                    "parameter": "_Qac6kQ4TEe6JsNzpP1XlHw",
-                    "id": "_Qac6kA4TEe6JsNzpP1XlHw",
+                    "parameter": "_I45gRxU0Ee6PAM8hniUwVQ",
+                    "id": "_I45gRhU0Ee6PAM8hniUwVQ",
                     "xmitype": "uml:RedefinableTemplateSignature",
                     "ownedParameter": {
                       "allowSubstitutable": "false",
-                      "parameteredElement": "_Qac6kg4TEe6JsNzpP1XlHw",
-                      "id": "_Qac6kQ4TEe6JsNzpP1XlHw",
+                      "parameteredElement": "_I45gSBU0Ee6PAM8hniUwVQ",
+                      "id": "_I45gRxU0Ee6PAM8hniUwVQ",
                       "xmitype": "uml:ClassifierTemplateParameter",
                       "ownedParameteredElement": {
                         "name": "E",
-                        "owningTemplateParameter": "_Qac6kQ4TEe6JsNzpP1XlHw",
-                        "templateParameter": "_Qac6kQ4TEe6JsNzpP1XlHw",
-                        "id": "_Qac6kg4TEe6JsNzpP1XlHw",
+                        "owningTemplateParameter": "_I45gRxU0Ee6PAM8hniUwVQ",
+                        "templateParameter": "_I45gRxU0Ee6PAM8hniUwVQ",
+                        "id": "_I45gSBU0Ee6PAM8hniUwVQ",
                         "xmitype": "uml:Class"
                       }
                     }
@@ -560,36 +560,36 @@
                 },
                 {
                   "name": "LinkedHashMap",
-                  "id": "_Qac6kw4TEe6JsNzpP1XlHw",
+                  "id": "_I45gSRU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Class",
                   "ownedTemplateSignature": {
-                    "parameter": "_Qac6lQ4TEe6JsNzpP1XlHw _Qac6lw4TEe6JsNzpP1XlHw",
-                    "id": "_Qac6lA4TEe6JsNzpP1XlHw",
+                    "parameter": "_I45gSxU0Ee6PAM8hniUwVQ _I45gTRU0Ee6PAM8hniUwVQ",
+                    "id": "_I45gShU0Ee6PAM8hniUwVQ",
                     "xmitype": "uml:RedefinableTemplateSignature",
                     "ownedParameter": [
                       {
                         "allowSubstitutable": "false",
-                        "parameteredElement": "_Qac6lg4TEe6JsNzpP1XlHw",
-                        "id": "_Qac6lQ4TEe6JsNzpP1XlHw",
+                        "parameteredElement": "_I45gTBU0Ee6PAM8hniUwVQ",
+                        "id": "_I45gSxU0Ee6PAM8hniUwVQ",
                         "xmitype": "uml:ClassifierTemplateParameter",
                         "ownedParameteredElement": {
                           "name": "K",
-                          "owningTemplateParameter": "_Qac6lQ4TEe6JsNzpP1XlHw",
-                          "templateParameter": "_Qac6lQ4TEe6JsNzpP1XlHw",
-                          "id": "_Qac6lg4TEe6JsNzpP1XlHw",
+                          "owningTemplateParameter": "_I45gSxU0Ee6PAM8hniUwVQ",
+                          "templateParameter": "_I45gSxU0Ee6PAM8hniUwVQ",
+                          "id": "_I45gTBU0Ee6PAM8hniUwVQ",
                           "xmitype": "uml:Class"
                         }
                       },
                       {
                         "allowSubstitutable": "false",
-                        "parameteredElement": "_Qac6mA4TEe6JsNzpP1XlHw",
-                        "id": "_Qac6lw4TEe6JsNzpP1XlHw",
+                        "parameteredElement": "_I45gThU0Ee6PAM8hniUwVQ",
+                        "id": "_I45gTRU0Ee6PAM8hniUwVQ",
                         "xmitype": "uml:ClassifierTemplateParameter",
                         "ownedParameteredElement": {
                           "name": "V",
-                          "owningTemplateParameter": "_Qac6lw4TEe6JsNzpP1XlHw",
-                          "templateParameter": "_Qac6lw4TEe6JsNzpP1XlHw",
-                          "id": "_Qac6mA4TEe6JsNzpP1XlHw",
+                          "owningTemplateParameter": "_I45gTRU0Ee6PAM8hniUwVQ",
+                          "templateParameter": "_I45gTRU0Ee6PAM8hniUwVQ",
+                          "id": "_I45gThU0Ee6PAM8hniUwVQ",
                           "xmitype": "uml:Class"
                         }
                       }
@@ -598,22 +598,22 @@
                 },
                 {
                   "name": "LinkedHashSet",
-                  "id": "_Qac6mQ4TEe6JsNzpP1XlHw",
+                  "id": "_I45gTxU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Class",
                   "ownedTemplateSignature": {
-                    "parameter": "_Qac6mw4TEe6JsNzpP1XlHw",
-                    "id": "_Qac6mg4TEe6JsNzpP1XlHw",
+                    "parameter": "_I45gURU0Ee6PAM8hniUwVQ",
+                    "id": "_I45gUBU0Ee6PAM8hniUwVQ",
                     "xmitype": "uml:RedefinableTemplateSignature",
                     "ownedParameter": {
                       "allowSubstitutable": "false",
-                      "parameteredElement": "_Qac6nA4TEe6JsNzpP1XlHw",
-                      "id": "_Qac6mw4TEe6JsNzpP1XlHw",
+                      "parameteredElement": "_I45gUhU0Ee6PAM8hniUwVQ",
+                      "id": "_I45gURU0Ee6PAM8hniUwVQ",
                       "xmitype": "uml:ClassifierTemplateParameter",
                       "ownedParameteredElement": {
                         "name": "E",
-                        "owningTemplateParameter": "_Qac6mw4TEe6JsNzpP1XlHw",
-                        "templateParameter": "_Qac6mw4TEe6JsNzpP1XlHw",
-                        "id": "_Qac6nA4TEe6JsNzpP1XlHw",
+                        "owningTemplateParameter": "_I45gURU0Ee6PAM8hniUwVQ",
+                        "templateParameter": "_I45gURU0Ee6PAM8hniUwVQ",
+                        "id": "_I45gUhU0Ee6PAM8hniUwVQ",
                         "xmitype": "uml:Class"
                       }
                     }
@@ -621,22 +621,22 @@
                 },
                 {
                   "name": "LinkedList",
-                  "id": "_Qac6nQ4TEe6JsNzpP1XlHw",
+                  "id": "_I45gUxU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Class",
                   "ownedTemplateSignature": {
-                    "parameter": "_Qac6nw4TEe6JsNzpP1XlHw",
-                    "id": "_Qac6ng4TEe6JsNzpP1XlHw",
+                    "parameter": "_I45gVRU0Ee6PAM8hniUwVQ",
+                    "id": "_I45gVBU0Ee6PAM8hniUwVQ",
                     "xmitype": "uml:RedefinableTemplateSignature",
                     "ownedParameter": {
                       "allowSubstitutable": "false",
-                      "parameteredElement": "_Qac6oA4TEe6JsNzpP1XlHw",
-                      "id": "_Qac6nw4TEe6JsNzpP1XlHw",
+                      "parameteredElement": "_I45gVhU0Ee6PAM8hniUwVQ",
+                      "id": "_I45gVRU0Ee6PAM8hniUwVQ",
                       "xmitype": "uml:ClassifierTemplateParameter",
                       "ownedParameteredElement": {
                         "name": "E",
-                        "owningTemplateParameter": "_Qac6nw4TEe6JsNzpP1XlHw",
-                        "templateParameter": "_Qac6nw4TEe6JsNzpP1XlHw",
-                        "id": "_Qac6oA4TEe6JsNzpP1XlHw",
+                        "owningTemplateParameter": "_I45gVRU0Ee6PAM8hniUwVQ",
+                        "templateParameter": "_I45gVRU0Ee6PAM8hniUwVQ",
+                        "id": "_I45gVhU0Ee6PAM8hniUwVQ",
                         "xmitype": "uml:Class"
                       }
                     }
@@ -644,22 +644,22 @@
                 },
                 {
                   "name": "List",
-                  "id": "_Qac6oQ4TEe6JsNzpP1XlHw",
+                  "id": "_I45gVxU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Interface",
                   "ownedTemplateSignature": {
-                    "parameter": "_Qac6ow4TEe6JsNzpP1XlHw",
-                    "id": "_Qac6og4TEe6JsNzpP1XlHw",
+                    "parameter": "_I45gWRU0Ee6PAM8hniUwVQ",
+                    "id": "_I45gWBU0Ee6PAM8hniUwVQ",
                     "xmitype": "uml:RedefinableTemplateSignature",
                     "ownedParameter": {
                       "allowSubstitutable": "false",
-                      "parameteredElement": "_Qac6pA4TEe6JsNzpP1XlHw",
-                      "id": "_Qac6ow4TEe6JsNzpP1XlHw",
+                      "parameteredElement": "_I45gWhU0Ee6PAM8hniUwVQ",
+                      "id": "_I45gWRU0Ee6PAM8hniUwVQ",
                       "xmitype": "uml:ClassifierTemplateParameter",
                       "ownedParameteredElement": {
                         "name": "E",
-                        "owningTemplateParameter": "_Qac6ow4TEe6JsNzpP1XlHw",
-                        "templateParameter": "_Qac6ow4TEe6JsNzpP1XlHw",
-                        "id": "_Qac6pA4TEe6JsNzpP1XlHw",
+                        "owningTemplateParameter": "_I45gWRU0Ee6PAM8hniUwVQ",
+                        "templateParameter": "_I45gWRU0Ee6PAM8hniUwVQ",
+                        "id": "_I45gWhU0Ee6PAM8hniUwVQ",
                         "xmitype": "uml:Class"
                       }
                     }
@@ -667,22 +667,22 @@
                 },
                 {
                   "name": "ListIterator",
-                  "id": "_Qac6pQ4TEe6JsNzpP1XlHw",
+                  "id": "_I45gWxU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Interface",
                   "ownedTemplateSignature": {
-                    "parameter": "_Qac6pw4TEe6JsNzpP1XlHw",
-                    "id": "_Qac6pg4TEe6JsNzpP1XlHw",
+                    "parameter": "_I45gXRU0Ee6PAM8hniUwVQ",
+                    "id": "_I45gXBU0Ee6PAM8hniUwVQ",
                     "xmitype": "uml:RedefinableTemplateSignature",
                     "ownedParameter": {
                       "allowSubstitutable": "false",
-                      "parameteredElement": "_Qac6qA4TEe6JsNzpP1XlHw",
-                      "id": "_Qac6pw4TEe6JsNzpP1XlHw",
+                      "parameteredElement": "_I45gXhU0Ee6PAM8hniUwVQ",
+                      "id": "_I45gXRU0Ee6PAM8hniUwVQ",
                       "xmitype": "uml:ClassifierTemplateParameter",
                       "ownedParameteredElement": {
                         "name": "E",
-                        "owningTemplateParameter": "_Qac6pw4TEe6JsNzpP1XlHw",
-                        "templateParameter": "_Qac6pw4TEe6JsNzpP1XlHw",
-                        "id": "_Qac6qA4TEe6JsNzpP1XlHw",
+                        "owningTemplateParameter": "_I45gXRU0Ee6PAM8hniUwVQ",
+                        "templateParameter": "_I45gXRU0Ee6PAM8hniUwVQ",
+                        "id": "_I45gXhU0Ee6PAM8hniUwVQ",
                         "xmitype": "uml:Class"
                       }
                     }
@@ -690,36 +690,36 @@
                 },
                 {
                   "name": "Map",
-                  "id": "_Qac6qQ4TEe6JsNzpP1XlHw",
+                  "id": "_I45gXxU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Interface",
                   "ownedTemplateSignature": {
-                    "parameter": "_Qac6qw4TEe6JsNzpP1XlHw _Qac6rQ4TEe6JsNzpP1XlHw",
-                    "id": "_Qac6qg4TEe6JsNzpP1XlHw",
+                    "parameter": "_I45gYRU0Ee6PAM8hniUwVQ _I45gYxU0Ee6PAM8hniUwVQ",
+                    "id": "_I45gYBU0Ee6PAM8hniUwVQ",
                     "xmitype": "uml:RedefinableTemplateSignature",
                     "ownedParameter": [
                       {
                         "allowSubstitutable": "false",
-                        "parameteredElement": "_Qac6rA4TEe6JsNzpP1XlHw",
-                        "id": "_Qac6qw4TEe6JsNzpP1XlHw",
+                        "parameteredElement": "_I45gYhU0Ee6PAM8hniUwVQ",
+                        "id": "_I45gYRU0Ee6PAM8hniUwVQ",
                         "xmitype": "uml:ClassifierTemplateParameter",
                         "ownedParameteredElement": {
                           "name": "K",
-                          "owningTemplateParameter": "_Qac6qw4TEe6JsNzpP1XlHw",
-                          "templateParameter": "_Qac6qw4TEe6JsNzpP1XlHw",
-                          "id": "_Qac6rA4TEe6JsNzpP1XlHw",
+                          "owningTemplateParameter": "_I45gYRU0Ee6PAM8hniUwVQ",
+                          "templateParameter": "_I45gYRU0Ee6PAM8hniUwVQ",
+                          "id": "_I45gYhU0Ee6PAM8hniUwVQ",
                           "xmitype": "uml:Class"
                         }
                       },
                       {
                         "allowSubstitutable": "false",
-                        "parameteredElement": "_Qac6rg4TEe6JsNzpP1XlHw",
-                        "id": "_Qac6rQ4TEe6JsNzpP1XlHw",
+                        "parameteredElement": "_I45gZBU0Ee6PAM8hniUwVQ",
+                        "id": "_I45gYxU0Ee6PAM8hniUwVQ",
                         "xmitype": "uml:ClassifierTemplateParameter",
                         "ownedParameteredElement": {
                           "name": "V",
-                          "owningTemplateParameter": "_Qac6rQ4TEe6JsNzpP1XlHw",
-                          "templateParameter": "_Qac6rQ4TEe6JsNzpP1XlHw",
-                          "id": "_Qac6rg4TEe6JsNzpP1XlHw",
+                          "owningTemplateParameter": "_I45gYxU0Ee6PAM8hniUwVQ",
+                          "templateParameter": "_I45gYxU0Ee6PAM8hniUwVQ",
+                          "id": "_I45gZBU0Ee6PAM8hniUwVQ",
                           "xmitype": "uml:Class"
                         }
                       }
@@ -728,32 +728,32 @@
                 },
                 {
                   "name": "Observable",
-                  "id": "_Qac6rw4TEe6JsNzpP1XlHw",
+                  "id": "_I45gZRU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Class"
                 },
                 {
                   "name": "Observer",
-                  "id": "_Qac6sA4TEe6JsNzpP1XlHw",
+                  "id": "_I45gZhU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Interface"
                 },
                 {
                   "name": "Set",
-                  "id": "_Qac6sQ4TEe6JsNzpP1XlHw",
+                  "id": "_I45gZxU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Interface",
                   "ownedTemplateSignature": {
-                    "parameter": "_Qac6sw4TEe6JsNzpP1XlHw",
-                    "id": "_Qac6sg4TEe6JsNzpP1XlHw",
+                    "parameter": "_I45gaRU0Ee6PAM8hniUwVQ",
+                    "id": "_I45gaBU0Ee6PAM8hniUwVQ",
                     "xmitype": "uml:RedefinableTemplateSignature",
                     "ownedParameter": {
                       "allowSubstitutable": "false",
-                      "parameteredElement": "_Qac6tA4TEe6JsNzpP1XlHw",
-                      "id": "_Qac6sw4TEe6JsNzpP1XlHw",
+                      "parameteredElement": "_I45gahU0Ee6PAM8hniUwVQ",
+                      "id": "_I45gaRU0Ee6PAM8hniUwVQ",
                       "xmitype": "uml:ClassifierTemplateParameter",
                       "ownedParameteredElement": {
                         "name": "E",
-                        "owningTemplateParameter": "_Qac6sw4TEe6JsNzpP1XlHw",
-                        "templateParameter": "_Qac6sw4TEe6JsNzpP1XlHw",
-                        "id": "_Qac6tA4TEe6JsNzpP1XlHw",
+                        "owningTemplateParameter": "_I45gaRU0Ee6PAM8hniUwVQ",
+                        "templateParameter": "_I45gaRU0Ee6PAM8hniUwVQ",
+                        "id": "_I45gahU0Ee6PAM8hniUwVQ",
                         "xmitype": "uml:Class"
                       }
                     }
@@ -761,36 +761,36 @@
                 },
                 {
                   "name": "SortedMap",
-                  "id": "_Qac6tQ4TEe6JsNzpP1XlHw",
+                  "id": "_I45gaxU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Interface",
                   "ownedTemplateSignature": {
-                    "parameter": "_Qac6tw4TEe6JsNzpP1XlHw _Qac6uQ4TEe6JsNzpP1XlHw",
-                    "id": "_Qac6tg4TEe6JsNzpP1XlHw",
+                    "parameter": "_I45gbRU0Ee6PAM8hniUwVQ _I45gbxU0Ee6PAM8hniUwVQ",
+                    "id": "_I45gbBU0Ee6PAM8hniUwVQ",
                     "xmitype": "uml:RedefinableTemplateSignature",
                     "ownedParameter": [
                       {
                         "allowSubstitutable": "false",
-                        "parameteredElement": "_Qac6uA4TEe6JsNzpP1XlHw",
-                        "id": "_Qac6tw4TEe6JsNzpP1XlHw",
+                        "parameteredElement": "_I45gbhU0Ee6PAM8hniUwVQ",
+                        "id": "_I45gbRU0Ee6PAM8hniUwVQ",
                         "xmitype": "uml:ClassifierTemplateParameter",
                         "ownedParameteredElement": {
                           "name": "K",
-                          "owningTemplateParameter": "_Qac6tw4TEe6JsNzpP1XlHw",
-                          "templateParameter": "_Qac6tw4TEe6JsNzpP1XlHw",
-                          "id": "_Qac6uA4TEe6JsNzpP1XlHw",
+                          "owningTemplateParameter": "_I45gbRU0Ee6PAM8hniUwVQ",
+                          "templateParameter": "_I45gbRU0Ee6PAM8hniUwVQ",
+                          "id": "_I45gbhU0Ee6PAM8hniUwVQ",
                           "xmitype": "uml:Class"
                         }
                       },
                       {
                         "allowSubstitutable": "false",
-                        "parameteredElement": "_Qac6ug4TEe6JsNzpP1XlHw",
-                        "id": "_Qac6uQ4TEe6JsNzpP1XlHw",
+                        "parameteredElement": "_I45gcBU0Ee6PAM8hniUwVQ",
+                        "id": "_I45gbxU0Ee6PAM8hniUwVQ",
                         "xmitype": "uml:ClassifierTemplateParameter",
                         "ownedParameteredElement": {
                           "name": "V",
-                          "owningTemplateParameter": "_Qac6uQ4TEe6JsNzpP1XlHw",
-                          "templateParameter": "_Qac6uQ4TEe6JsNzpP1XlHw",
-                          "id": "_Qac6ug4TEe6JsNzpP1XlHw",
+                          "owningTemplateParameter": "_I45gbxU0Ee6PAM8hniUwVQ",
+                          "templateParameter": "_I45gbxU0Ee6PAM8hniUwVQ",
+                          "id": "_I45gcBU0Ee6PAM8hniUwVQ",
                           "xmitype": "uml:Class"
                         }
                       }
@@ -799,22 +799,22 @@
                 },
                 {
                   "name": "SortedSet",
-                  "id": "_Qac6uw4TEe6JsNzpP1XlHw",
+                  "id": "_I45gcRU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Interface",
                   "ownedTemplateSignature": {
-                    "parameter": "_Qac6vQ4TEe6JsNzpP1XlHw",
-                    "id": "_Qac6vA4TEe6JsNzpP1XlHw",
+                    "parameter": "_I45gcxU0Ee6PAM8hniUwVQ",
+                    "id": "_I45gchU0Ee6PAM8hniUwVQ",
                     "xmitype": "uml:RedefinableTemplateSignature",
                     "ownedParameter": {
                       "allowSubstitutable": "false",
-                      "parameteredElement": "_Qac6vg4TEe6JsNzpP1XlHw",
-                      "id": "_Qac6vQ4TEe6JsNzpP1XlHw",
+                      "parameteredElement": "_I45gdBU0Ee6PAM8hniUwVQ",
+                      "id": "_I45gcxU0Ee6PAM8hniUwVQ",
                       "xmitype": "uml:ClassifierTemplateParameter",
                       "ownedParameteredElement": {
                         "name": "E",
-                        "owningTemplateParameter": "_Qac6vQ4TEe6JsNzpP1XlHw",
-                        "templateParameter": "_Qac6vQ4TEe6JsNzpP1XlHw",
-                        "id": "_Qac6vg4TEe6JsNzpP1XlHw",
+                        "owningTemplateParameter": "_I45gcxU0Ee6PAM8hniUwVQ",
+                        "templateParameter": "_I45gcxU0Ee6PAM8hniUwVQ",
+                        "id": "_I45gdBU0Ee6PAM8hniUwVQ",
                         "xmitype": "uml:Class"
                       }
                     }
@@ -822,22 +822,22 @@
                 },
                 {
                   "name": "Stack",
-                  "id": "_Qac6vw4TEe6JsNzpP1XlHw",
+                  "id": "_I45gdRU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Class",
                   "ownedTemplateSignature": {
-                    "parameter": "_Qac6wQ4TEe6JsNzpP1XlHw",
-                    "id": "_Qac6wA4TEe6JsNzpP1XlHw",
+                    "parameter": "_I45gdxU0Ee6PAM8hniUwVQ",
+                    "id": "_I45gdhU0Ee6PAM8hniUwVQ",
                     "xmitype": "uml:RedefinableTemplateSignature",
                     "ownedParameter": {
                       "allowSubstitutable": "false",
-                      "parameteredElement": "_Qac6wg4TEe6JsNzpP1XlHw",
-                      "id": "_Qac6wQ4TEe6JsNzpP1XlHw",
+                      "parameteredElement": "_I45geBU0Ee6PAM8hniUwVQ",
+                      "id": "_I45gdxU0Ee6PAM8hniUwVQ",
                       "xmitype": "uml:ClassifierTemplateParameter",
                       "ownedParameteredElement": {
                         "name": "E",
-                        "owningTemplateParameter": "_Qac6wQ4TEe6JsNzpP1XlHw",
-                        "templateParameter": "_Qac6wQ4TEe6JsNzpP1XlHw",
-                        "id": "_Qac6wg4TEe6JsNzpP1XlHw",
+                        "owningTemplateParameter": "_I45gdxU0Ee6PAM8hniUwVQ",
+                        "templateParameter": "_I45gdxU0Ee6PAM8hniUwVQ",
+                        "id": "_I45geBU0Ee6PAM8hniUwVQ",
                         "xmitype": "uml:Class"
                       }
                     }
@@ -845,41 +845,41 @@
                 },
                 {
                   "name": "StringTokenizer",
-                  "id": "_Qac6ww4TEe6JsNzpP1XlHw",
+                  "id": "_I45geRU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Class"
                 },
                 {
                   "name": "TreeMap",
-                  "id": "_Qac6xA4TEe6JsNzpP1XlHw",
+                  "id": "_I45gehU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Class",
                   "ownedTemplateSignature": {
-                    "parameter": "_Qac6xg4TEe6JsNzpP1XlHw _Qac6yA4TEe6JsNzpP1XlHw",
-                    "id": "_Qac6xQ4TEe6JsNzpP1XlHw",
+                    "parameter": "_I45gfBU0Ee6PAM8hniUwVQ _I45gfhU0Ee6PAM8hniUwVQ",
+                    "id": "_I45gexU0Ee6PAM8hniUwVQ",
                     "xmitype": "uml:RedefinableTemplateSignature",
                     "ownedParameter": [
                       {
                         "allowSubstitutable": "false",
-                        "parameteredElement": "_Qac6xw4TEe6JsNzpP1XlHw",
-                        "id": "_Qac6xg4TEe6JsNzpP1XlHw",
+                        "parameteredElement": "_I45gfRU0Ee6PAM8hniUwVQ",
+                        "id": "_I45gfBU0Ee6PAM8hniUwVQ",
                         "xmitype": "uml:ClassifierTemplateParameter",
                         "ownedParameteredElement": {
                           "name": "K",
-                          "owningTemplateParameter": "_Qac6xg4TEe6JsNzpP1XlHw",
-                          "templateParameter": "_Qac6xg4TEe6JsNzpP1XlHw",
-                          "id": "_Qac6xw4TEe6JsNzpP1XlHw",
+                          "owningTemplateParameter": "_I45gfBU0Ee6PAM8hniUwVQ",
+                          "templateParameter": "_I45gfBU0Ee6PAM8hniUwVQ",
+                          "id": "_I45gfRU0Ee6PAM8hniUwVQ",
                           "xmitype": "uml:Class"
                         }
                       },
                       {
                         "allowSubstitutable": "false",
-                        "parameteredElement": "_Qac6yQ4TEe6JsNzpP1XlHw",
-                        "id": "_Qac6yA4TEe6JsNzpP1XlHw",
+                        "parameteredElement": "_I45gfxU0Ee6PAM8hniUwVQ",
+                        "id": "_I45gfhU0Ee6PAM8hniUwVQ",
                         "xmitype": "uml:ClassifierTemplateParameter",
                         "ownedParameteredElement": {
                           "name": "V",
-                          "owningTemplateParameter": "_Qac6yA4TEe6JsNzpP1XlHw",
-                          "templateParameter": "_Qac6yA4TEe6JsNzpP1XlHw",
-                          "id": "_Qac6yQ4TEe6JsNzpP1XlHw",
+                          "owningTemplateParameter": "_I45gfhU0Ee6PAM8hniUwVQ",
+                          "templateParameter": "_I45gfhU0Ee6PAM8hniUwVQ",
+                          "id": "_I45gfxU0Ee6PAM8hniUwVQ",
                           "xmitype": "uml:Class"
                         }
                       }
@@ -888,22 +888,22 @@
                 },
                 {
                   "name": "TreeSet",
-                  "id": "_Qac6yg4TEe6JsNzpP1XlHw",
+                  "id": "_I45ggBU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Class",
                   "ownedTemplateSignature": {
-                    "parameter": "_Qac6zA4TEe6JsNzpP1XlHw",
-                    "id": "_Qac6yw4TEe6JsNzpP1XlHw",
+                    "parameter": "_I45gghU0Ee6PAM8hniUwVQ",
+                    "id": "_I45ggRU0Ee6PAM8hniUwVQ",
                     "xmitype": "uml:RedefinableTemplateSignature",
                     "ownedParameter": {
                       "allowSubstitutable": "false",
-                      "parameteredElement": "_Qac6zQ4TEe6JsNzpP1XlHw",
-                      "id": "_Qac6zA4TEe6JsNzpP1XlHw",
+                      "parameteredElement": "_I45ggxU0Ee6PAM8hniUwVQ",
+                      "id": "_I45gghU0Ee6PAM8hniUwVQ",
                       "xmitype": "uml:ClassifierTemplateParameter",
                       "ownedParameteredElement": {
                         "name": "E",
-                        "owningTemplateParameter": "_Qac6zA4TEe6JsNzpP1XlHw",
-                        "templateParameter": "_Qac6zA4TEe6JsNzpP1XlHw",
-                        "id": "_Qac6zQ4TEe6JsNzpP1XlHw",
+                        "owningTemplateParameter": "_I45gghU0Ee6PAM8hniUwVQ",
+                        "templateParameter": "_I45gghU0Ee6PAM8hniUwVQ",
+                        "id": "_I45ggxU0Ee6PAM8hniUwVQ",
                         "xmitype": "uml:Class"
                       }
                     }
@@ -911,22 +911,22 @@
                 },
                 {
                   "name": "Vector",
-                  "id": "_Qac6zg4TEe6JsNzpP1XlHw",
+                  "id": "_I45ghBU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Class",
                   "ownedTemplateSignature": {
-                    "parameter": "_Qac60A4TEe6JsNzpP1XlHw",
-                    "id": "_Qac6zw4TEe6JsNzpP1XlHw",
+                    "parameter": "_I45ghhU0Ee6PAM8hniUwVQ",
+                    "id": "_I45ghRU0Ee6PAM8hniUwVQ",
                     "xmitype": "uml:RedefinableTemplateSignature",
                     "ownedParameter": {
                       "allowSubstitutable": "false",
-                      "parameteredElement": "_Qac60Q4TEe6JsNzpP1XlHw",
-                      "id": "_Qac60A4TEe6JsNzpP1XlHw",
+                      "parameteredElement": "_I45ghxU0Ee6PAM8hniUwVQ",
+                      "id": "_I45ghhU0Ee6PAM8hniUwVQ",
                       "xmitype": "uml:ClassifierTemplateParameter",
                       "ownedParameteredElement": {
                         "name": "E",
-                        "owningTemplateParameter": "_Qac60A4TEe6JsNzpP1XlHw",
-                        "templateParameter": "_Qac60A4TEe6JsNzpP1XlHw",
-                        "id": "_Qac60Q4TEe6JsNzpP1XlHw",
+                        "owningTemplateParameter": "_I45ghhU0Ee6PAM8hniUwVQ",
+                        "templateParameter": "_I45ghhU0Ee6PAM8hniUwVQ",
+                        "id": "_I45ghxU0Ee6PAM8hniUwVQ",
                         "xmitype": "uml:Class"
                       }
                     }
@@ -934,36 +934,36 @@
                 },
                 {
                   "name": "WeakHashMap",
-                  "id": "_Qac60g4TEe6JsNzpP1XlHw",
+                  "id": "_I45giBU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Class",
                   "ownedTemplateSignature": {
-                    "parameter": "_Qac61A4TEe6JsNzpP1XlHw _Qac61g4TEe6JsNzpP1XlHw",
-                    "id": "_Qac60w4TEe6JsNzpP1XlHw",
+                    "parameter": "_I45gihU0Ee6PAM8hniUwVQ _I45gjBU0Ee6PAM8hniUwVQ",
+                    "id": "_I45giRU0Ee6PAM8hniUwVQ",
                     "xmitype": "uml:RedefinableTemplateSignature",
                     "ownedParameter": [
                       {
                         "allowSubstitutable": "false",
-                        "parameteredElement": "_Qac61Q4TEe6JsNzpP1XlHw",
-                        "id": "_Qac61A4TEe6JsNzpP1XlHw",
+                        "parameteredElement": "_I45gixU0Ee6PAM8hniUwVQ",
+                        "id": "_I45gihU0Ee6PAM8hniUwVQ",
                         "xmitype": "uml:ClassifierTemplateParameter",
                         "ownedParameteredElement": {
                           "name": "K",
-                          "owningTemplateParameter": "_Qac61A4TEe6JsNzpP1XlHw",
-                          "templateParameter": "_Qac61A4TEe6JsNzpP1XlHw",
-                          "id": "_Qac61Q4TEe6JsNzpP1XlHw",
+                          "owningTemplateParameter": "_I45gihU0Ee6PAM8hniUwVQ",
+                          "templateParameter": "_I45gihU0Ee6PAM8hniUwVQ",
+                          "id": "_I45gixU0Ee6PAM8hniUwVQ",
                           "xmitype": "uml:Class"
                         }
                       },
                       {
                         "allowSubstitutable": "false",
-                        "parameteredElement": "_Qac61w4TEe6JsNzpP1XlHw",
-                        "id": "_Qac61g4TEe6JsNzpP1XlHw",
+                        "parameteredElement": "_I45gjRU0Ee6PAM8hniUwVQ",
+                        "id": "_I45gjBU0Ee6PAM8hniUwVQ",
                         "xmitype": "uml:ClassifierTemplateParameter",
                         "ownedParameteredElement": {
                           "name": "V",
-                          "owningTemplateParameter": "_Qac61g4TEe6JsNzpP1XlHw",
-                          "templateParameter": "_Qac61g4TEe6JsNzpP1XlHw",
-                          "id": "_Qac61w4TEe6JsNzpP1XlHw",
+                          "owningTemplateParameter": "_I45gjBU0Ee6PAM8hniUwVQ",
+                          "templateParameter": "_I45gjBU0Ee6PAM8hniUwVQ",
+                          "id": "_I45gjRU0Ee6PAM8hniUwVQ",
                           "xmitype": "uml:Class"
                         }
                       }
@@ -972,27 +972,27 @@
                 },
                 {
                   "name": "RandomAccess",
-                  "id": "_Qac62A4TEe6JsNzpP1XlHw",
+                  "id": "_I45gjhU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Interface"
                 },
                 {
                   "name": "BlockingQueue",
-                  "id": "_Qac62Q4TEe6JsNzpP1XlHw",
+                  "id": "_I45gjxU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Interface",
                   "ownedTemplateSignature": {
-                    "parameter": "_Qac62w4TEe6JsNzpP1XlHw",
-                    "id": "_Qac62g4TEe6JsNzpP1XlHw",
+                    "parameter": "_I45gkRU0Ee6PAM8hniUwVQ",
+                    "id": "_I45gkBU0Ee6PAM8hniUwVQ",
                     "xmitype": "uml:RedefinableTemplateSignature",
                     "ownedParameter": {
                       "allowSubstitutable": "false",
-                      "parameteredElement": "_Qac63A4TEe6JsNzpP1XlHw",
-                      "id": "_Qac62w4TEe6JsNzpP1XlHw",
+                      "parameteredElement": "_I45gkhU0Ee6PAM8hniUwVQ",
+                      "id": "_I45gkRU0Ee6PAM8hniUwVQ",
                       "xmitype": "uml:ClassifierTemplateParameter",
                       "ownedParameteredElement": {
                         "name": "E",
-                        "owningTemplateParameter": "_Qac62w4TEe6JsNzpP1XlHw",
-                        "templateParameter": "_Qac62w4TEe6JsNzpP1XlHw",
-                        "id": "_Qac63A4TEe6JsNzpP1XlHw",
+                        "owningTemplateParameter": "_I45gkRU0Ee6PAM8hniUwVQ",
+                        "templateParameter": "_I45gkRU0Ee6PAM8hniUwVQ",
+                        "id": "_I45gkhU0Ee6PAM8hniUwVQ",
                         "xmitype": "uml:Class"
                       }
                     }
@@ -1000,22 +1000,22 @@
                 },
                 {
                   "name": "Queue",
-                  "id": "_Qac63Q4TEe6JsNzpP1XlHw",
+                  "id": "_I45gkxU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Interface",
                   "ownedTemplateSignature": {
-                    "parameter": "_Qac63w4TEe6JsNzpP1XlHw",
-                    "id": "_Qac63g4TEe6JsNzpP1XlHw",
+                    "parameter": "_I45glRU0Ee6PAM8hniUwVQ",
+                    "id": "_I45glBU0Ee6PAM8hniUwVQ",
                     "xmitype": "uml:RedefinableTemplateSignature",
                     "ownedParameter": {
                       "allowSubstitutable": "false",
-                      "parameteredElement": "_Qac64A4TEe6JsNzpP1XlHw",
-                      "id": "_Qac63w4TEe6JsNzpP1XlHw",
+                      "parameteredElement": "_I45glhU0Ee6PAM8hniUwVQ",
+                      "id": "_I45glRU0Ee6PAM8hniUwVQ",
                       "xmitype": "uml:ClassifierTemplateParameter",
                       "ownedParameteredElement": {
                         "name": "E",
-                        "owningTemplateParameter": "_Qac63w4TEe6JsNzpP1XlHw",
-                        "templateParameter": "_Qac63w4TEe6JsNzpP1XlHw",
-                        "id": "_Qac64A4TEe6JsNzpP1XlHw",
+                        "owningTemplateParameter": "_I45glRU0Ee6PAM8hniUwVQ",
+                        "templateParameter": "_I45glRU0Ee6PAM8hniUwVQ",
+                        "id": "_I45glhU0Ee6PAM8hniUwVQ",
                         "xmitype": "uml:Class"
                       }
                     }
@@ -1023,27 +1023,27 @@
                 },
                 {
                   "name": "Formattable",
-                  "id": "_Qac64Q4TEe6JsNzpP1XlHw",
+                  "id": "_I45glxU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Interface"
                 },
                 {
                   "name": "AbstractQueue",
-                  "id": "_Qac64g4TEe6JsNzpP1XlHw",
+                  "id": "_I45gmBU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Class",
                   "ownedTemplateSignature": {
-                    "parameter": "_Qac65A4TEe6JsNzpP1XlHw",
-                    "id": "_Qac64w4TEe6JsNzpP1XlHw",
+                    "parameter": "_I45gmhU0Ee6PAM8hniUwVQ",
+                    "id": "_I45gmRU0Ee6PAM8hniUwVQ",
                     "xmitype": "uml:RedefinableTemplateSignature",
                     "ownedParameter": {
                       "allowSubstitutable": "false",
-                      "parameteredElement": "_Qac65Q4TEe6JsNzpP1XlHw",
-                      "id": "_Qac65A4TEe6JsNzpP1XlHw",
+                      "parameteredElement": "_I45gmxU0Ee6PAM8hniUwVQ",
+                      "id": "_I45gmhU0Ee6PAM8hniUwVQ",
                       "xmitype": "uml:ClassifierTemplateParameter",
                       "ownedParameteredElement": {
                         "name": "E",
-                        "owningTemplateParameter": "_Qac65A4TEe6JsNzpP1XlHw",
-                        "templateParameter": "_Qac65A4TEe6JsNzpP1XlHw",
-                        "id": "_Qac65Q4TEe6JsNzpP1XlHw",
+                        "owningTemplateParameter": "_I45gmhU0Ee6PAM8hniUwVQ",
+                        "templateParameter": "_I45gmhU0Ee6PAM8hniUwVQ",
+                        "id": "_I45gmxU0Ee6PAM8hniUwVQ",
                         "xmitype": "uml:Class"
                       }
                     }
@@ -1051,36 +1051,36 @@
                 },
                 {
                   "name": "EnumMap",
-                  "id": "_Qac65g4TEe6JsNzpP1XlHw",
+                  "id": "_I45gnBU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Class",
                   "ownedTemplateSignature": {
-                    "parameter": "_Qac66A4TEe6JsNzpP1XlHw _Qac66g4TEe6JsNzpP1XlHw",
-                    "id": "_Qac65w4TEe6JsNzpP1XlHw",
+                    "parameter": "_I45gnhU0Ee6PAM8hniUwVQ _I45goBU0Ee6PAM8hniUwVQ",
+                    "id": "_I45gnRU0Ee6PAM8hniUwVQ",
                     "xmitype": "uml:RedefinableTemplateSignature",
                     "ownedParameter": [
                       {
                         "allowSubstitutable": "false",
-                        "parameteredElement": "_Qac66Q4TEe6JsNzpP1XlHw",
-                        "id": "_Qac66A4TEe6JsNzpP1XlHw",
+                        "parameteredElement": "_I45gnxU0Ee6PAM8hniUwVQ",
+                        "id": "_I45gnhU0Ee6PAM8hniUwVQ",
                         "xmitype": "uml:ClassifierTemplateParameter",
                         "ownedParameteredElement": {
                           "name": "K",
-                          "owningTemplateParameter": "_Qac66A4TEe6JsNzpP1XlHw",
-                          "templateParameter": "_Qac66A4TEe6JsNzpP1XlHw",
-                          "id": "_Qac66Q4TEe6JsNzpP1XlHw",
+                          "owningTemplateParameter": "_I45gnhU0Ee6PAM8hniUwVQ",
+                          "templateParameter": "_I45gnhU0Ee6PAM8hniUwVQ",
+                          "id": "_I45gnxU0Ee6PAM8hniUwVQ",
                           "xmitype": "uml:Class"
                         }
                       },
                       {
                         "allowSubstitutable": "false",
-                        "parameteredElement": "_Qac66w4TEe6JsNzpP1XlHw",
-                        "id": "_Qac66g4TEe6JsNzpP1XlHw",
+                        "parameteredElement": "_I45goRU0Ee6PAM8hniUwVQ",
+                        "id": "_I45goBU0Ee6PAM8hniUwVQ",
                         "xmitype": "uml:ClassifierTemplateParameter",
                         "ownedParameteredElement": {
                           "name": "V",
-                          "owningTemplateParameter": "_Qac66g4TEe6JsNzpP1XlHw",
-                          "templateParameter": "_Qac66g4TEe6JsNzpP1XlHw",
-                          "id": "_Qac66w4TEe6JsNzpP1XlHw",
+                          "owningTemplateParameter": "_I45goBU0Ee6PAM8hniUwVQ",
+                          "templateParameter": "_I45goBU0Ee6PAM8hniUwVQ",
+                          "id": "_I45goRU0Ee6PAM8hniUwVQ",
                           "xmitype": "uml:Class"
                         }
                       }
@@ -1089,36 +1089,36 @@
                 },
                 {
                   "name": "EnumSet",
-                  "id": "_Qac67A4TEe6JsNzpP1XlHw",
+                  "id": "_I45gohU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Class",
                   "ownedTemplateSignature": {
-                    "parameter": "_Qac67g4TEe6JsNzpP1XlHw _Qac68A4TEe6JsNzpP1XlHw",
-                    "id": "_Qac67Q4TEe6JsNzpP1XlHw",
+                    "parameter": "_I45gpBU0Ee6PAM8hniUwVQ _I45gphU0Ee6PAM8hniUwVQ",
+                    "id": "_I45goxU0Ee6PAM8hniUwVQ",
                     "xmitype": "uml:RedefinableTemplateSignature",
                     "ownedParameter": [
                       {
                         "allowSubstitutable": "false",
-                        "parameteredElement": "_Qac67w4TEe6JsNzpP1XlHw",
-                        "id": "_Qac67g4TEe6JsNzpP1XlHw",
+                        "parameteredElement": "_I45gpRU0Ee6PAM8hniUwVQ",
+                        "id": "_I45gpBU0Ee6PAM8hniUwVQ",
                         "xmitype": "uml:ClassifierTemplateParameter",
                         "ownedParameteredElement": {
                           "name": "K",
-                          "owningTemplateParameter": "_Qac67g4TEe6JsNzpP1XlHw",
-                          "templateParameter": "_Qac67g4TEe6JsNzpP1XlHw",
-                          "id": "_Qac67w4TEe6JsNzpP1XlHw",
+                          "owningTemplateParameter": "_I45gpBU0Ee6PAM8hniUwVQ",
+                          "templateParameter": "_I45gpBU0Ee6PAM8hniUwVQ",
+                          "id": "_I45gpRU0Ee6PAM8hniUwVQ",
                           "xmitype": "uml:Class"
                         }
                       },
                       {
                         "allowSubstitutable": "false",
-                        "parameteredElement": "_Qac68Q4TEe6JsNzpP1XlHw",
-                        "id": "_Qac68A4TEe6JsNzpP1XlHw",
+                        "parameteredElement": "_I45gpxU0Ee6PAM8hniUwVQ",
+                        "id": "_I45gphU0Ee6PAM8hniUwVQ",
                         "xmitype": "uml:ClassifierTemplateParameter",
                         "ownedParameteredElement": {
                           "name": "V",
-                          "owningTemplateParameter": "_Qac68A4TEe6JsNzpP1XlHw",
-                          "templateParameter": "_Qac68A4TEe6JsNzpP1XlHw",
-                          "id": "_Qac68Q4TEe6JsNzpP1XlHw",
+                          "owningTemplateParameter": "_I45gphU0Ee6PAM8hniUwVQ",
+                          "templateParameter": "_I45gphU0Ee6PAM8hniUwVQ",
+                          "id": "_I45gpxU0Ee6PAM8hniUwVQ",
                           "xmitype": "uml:Class"
                         }
                       }
@@ -1127,32 +1127,32 @@
                 },
                 {
                   "name": "FormattableFlags",
-                  "id": "_Qac68g4TEe6JsNzpP1XlHw",
+                  "id": "_I45gqBU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Class"
                 },
                 {
                   "name": "Formatter",
-                  "id": "_Qac68w4TEe6JsNzpP1XlHw",
+                  "id": "_I45gqRU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Class"
                 },
                 {
                   "name": "PriorityQueue",
-                  "id": "_Qac69A4TEe6JsNzpP1XlHw",
+                  "id": "_I45gqhU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Class",
                   "ownedTemplateSignature": {
-                    "parameter": "_Qac69g4TEe6JsNzpP1XlHw",
-                    "id": "_Qac69Q4TEe6JsNzpP1XlHw",
+                    "parameter": "_I45grBU0Ee6PAM8hniUwVQ",
+                    "id": "_I45gqxU0Ee6PAM8hniUwVQ",
                     "xmitype": "uml:RedefinableTemplateSignature",
                     "ownedParameter": {
                       "allowSubstitutable": "false",
-                      "parameteredElement": "_Qac69w4TEe6JsNzpP1XlHw",
-                      "id": "_Qac69g4TEe6JsNzpP1XlHw",
+                      "parameteredElement": "_I46HEBU0Ee6PAM8hniUwVQ",
+                      "id": "_I45grBU0Ee6PAM8hniUwVQ",
                       "xmitype": "uml:ClassifierTemplateParameter",
                       "ownedParameteredElement": {
                         "name": "E",
-                        "owningTemplateParameter": "_Qac69g4TEe6JsNzpP1XlHw",
-                        "templateParameter": "_Qac69g4TEe6JsNzpP1XlHw",
-                        "id": "_Qac69w4TEe6JsNzpP1XlHw",
+                        "owningTemplateParameter": "_I45grBU0Ee6PAM8hniUwVQ",
+                        "templateParameter": "_I45grBU0Ee6PAM8hniUwVQ",
+                        "id": "_I46HEBU0Ee6PAM8hniUwVQ",
                         "xmitype": "uml:Class"
                       }
                     }
@@ -1160,32 +1160,32 @@
                 },
                 {
                   "name": "Scanner",
-                  "id": "_Qac6-A4TEe6JsNzpP1XlHw",
+                  "id": "_I46HERU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Class"
                 },
                 {
                   "name": "UUID",
-                  "id": "_Qac6-Q4TEe6JsNzpP1XlHw",
+                  "id": "_I46HEhU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Class"
                 },
                 {
                   "name": "BlockingDeque",
-                  "id": "_Qac6-g4TEe6JsNzpP1XlHw",
+                  "id": "_I46HExU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Interface",
                   "ownedTemplateSignature": {
-                    "parameter": "_Qac6_A4TEe6JsNzpP1XlHw",
-                    "id": "_Qac6-w4TEe6JsNzpP1XlHw",
+                    "parameter": "_I46HFRU0Ee6PAM8hniUwVQ",
+                    "id": "_I46HFBU0Ee6PAM8hniUwVQ",
                     "xmitype": "uml:RedefinableTemplateSignature",
                     "ownedParameter": {
                       "allowSubstitutable": "false",
-                      "parameteredElement": "_Qac6_Q4TEe6JsNzpP1XlHw",
-                      "id": "_Qac6_A4TEe6JsNzpP1XlHw",
+                      "parameteredElement": "_I46HFhU0Ee6PAM8hniUwVQ",
+                      "id": "_I46HFRU0Ee6PAM8hniUwVQ",
                       "xmitype": "uml:ClassifierTemplateParameter",
                       "ownedParameteredElement": {
                         "name": "E",
-                        "owningTemplateParameter": "_Qac6_A4TEe6JsNzpP1XlHw",
-                        "templateParameter": "_Qac6_A4TEe6JsNzpP1XlHw",
-                        "id": "_Qac6_Q4TEe6JsNzpP1XlHw",
+                        "owningTemplateParameter": "_I46HFRU0Ee6PAM8hniUwVQ",
+                        "templateParameter": "_I46HFRU0Ee6PAM8hniUwVQ",
+                        "id": "_I46HFhU0Ee6PAM8hniUwVQ",
                         "xmitype": "uml:Class"
                       }
                     }
@@ -1193,22 +1193,22 @@
                 },
                 {
                   "name": "Deque",
-                  "id": "_Qac6_g4TEe6JsNzpP1XlHw",
+                  "id": "_I46HFxU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Interface",
                   "ownedTemplateSignature": {
-                    "parameter": "_Qac7AA4TEe6JsNzpP1XlHw",
-                    "id": "_Qac6_w4TEe6JsNzpP1XlHw",
+                    "parameter": "_I46HGRU0Ee6PAM8hniUwVQ",
+                    "id": "_I46HGBU0Ee6PAM8hniUwVQ",
                     "xmitype": "uml:RedefinableTemplateSignature",
                     "ownedParameter": {
                       "allowSubstitutable": "false",
-                      "parameteredElement": "_Qac7AQ4TEe6JsNzpP1XlHw",
-                      "id": "_Qac7AA4TEe6JsNzpP1XlHw",
+                      "parameteredElement": "_I46HGhU0Ee6PAM8hniUwVQ",
+                      "id": "_I46HGRU0Ee6PAM8hniUwVQ",
                       "xmitype": "uml:ClassifierTemplateParameter",
                       "ownedParameteredElement": {
                         "name": "E",
-                        "owningTemplateParameter": "_Qac7AA4TEe6JsNzpP1XlHw",
-                        "templateParameter": "_Qac7AA4TEe6JsNzpP1XlHw",
-                        "id": "_Qac7AQ4TEe6JsNzpP1XlHw",
+                        "owningTemplateParameter": "_I46HGRU0Ee6PAM8hniUwVQ",
+                        "templateParameter": "_I46HGRU0Ee6PAM8hniUwVQ",
+                        "id": "_I46HGhU0Ee6PAM8hniUwVQ",
                         "xmitype": "uml:Class"
                       }
                     }
@@ -1216,22 +1216,22 @@
                 },
                 {
                   "name": "NavigableSet",
-                  "id": "_Qac7Ag4TEe6JsNzpP1XlHw",
+                  "id": "_I46HGxU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Interface",
                   "ownedTemplateSignature": {
-                    "parameter": "_Qac7BA4TEe6JsNzpP1XlHw",
-                    "id": "_Qac7Aw4TEe6JsNzpP1XlHw",
+                    "parameter": "_I46HHRU0Ee6PAM8hniUwVQ",
+                    "id": "_I46HHBU0Ee6PAM8hniUwVQ",
                     "xmitype": "uml:RedefinableTemplateSignature",
                     "ownedParameter": {
                       "allowSubstitutable": "false",
-                      "parameteredElement": "_Qac7BQ4TEe6JsNzpP1XlHw",
-                      "id": "_Qac7BA4TEe6JsNzpP1XlHw",
+                      "parameteredElement": "_I46HHhU0Ee6PAM8hniUwVQ",
+                      "id": "_I46HHRU0Ee6PAM8hniUwVQ",
                       "xmitype": "uml:ClassifierTemplateParameter",
                       "ownedParameteredElement": {
                         "name": "E",
-                        "owningTemplateParameter": "_Qac7BA4TEe6JsNzpP1XlHw",
-                        "templateParameter": "_Qac7BA4TEe6JsNzpP1XlHw",
-                        "id": "_Qac7BQ4TEe6JsNzpP1XlHw",
+                        "owningTemplateParameter": "_I46HHRU0Ee6PAM8hniUwVQ",
+                        "templateParameter": "_I46HHRU0Ee6PAM8hniUwVQ",
+                        "id": "_I46HHhU0Ee6PAM8hniUwVQ",
                         "xmitype": "uml:Class"
                       }
                     }
@@ -1239,22 +1239,22 @@
                 },
                 {
                   "name": "ArrayDeque",
-                  "id": "_Qac7Bg4TEe6JsNzpP1XlHw",
+                  "id": "_I46HHxU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Class",
                   "ownedTemplateSignature": {
-                    "parameter": "_Qac7CA4TEe6JsNzpP1XlHw",
-                    "id": "_Qac7Bw4TEe6JsNzpP1XlHw",
+                    "parameter": "_I46HIRU0Ee6PAM8hniUwVQ",
+                    "id": "_I46HIBU0Ee6PAM8hniUwVQ",
                     "xmitype": "uml:RedefinableTemplateSignature",
                     "ownedParameter": {
                       "allowSubstitutable": "false",
-                      "parameteredElement": "_Qac7CQ4TEe6JsNzpP1XlHw",
-                      "id": "_Qac7CA4TEe6JsNzpP1XlHw",
+                      "parameteredElement": "_I46HIhU0Ee6PAM8hniUwVQ",
+                      "id": "_I46HIRU0Ee6PAM8hniUwVQ",
                       "xmitype": "uml:ClassifierTemplateParameter",
                       "ownedParameteredElement": {
                         "name": "E",
-                        "owningTemplateParameter": "_Qac7CA4TEe6JsNzpP1XlHw",
-                        "templateParameter": "_Qac7CA4TEe6JsNzpP1XlHw",
-                        "id": "_Qac7CQ4TEe6JsNzpP1XlHw",
+                        "owningTemplateParameter": "_I46HIRU0Ee6PAM8hniUwVQ",
+                        "templateParameter": "_I46HIRU0Ee6PAM8hniUwVQ",
+                        "id": "_I46HIhU0Ee6PAM8hniUwVQ",
                         "xmitype": "uml:Class"
                       }
                     }
@@ -1262,22 +1262,22 @@
                 },
                 {
                   "name": "ConcurrentSkipListMap",
-                  "id": "_Qac7Cg4TEe6JsNzpP1XlHw",
+                  "id": "_I46HIxU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Class",
                   "ownedTemplateSignature": {
-                    "parameter": "_Qac7DA4TEe6JsNzpP1XlHw",
-                    "id": "_Qac7Cw4TEe6JsNzpP1XlHw",
+                    "parameter": "_I46HJRU0Ee6PAM8hniUwVQ",
+                    "id": "_I46HJBU0Ee6PAM8hniUwVQ",
                     "xmitype": "uml:RedefinableTemplateSignature",
                     "ownedParameter": {
                       "allowSubstitutable": "false",
-                      "parameteredElement": "_Qac7DQ4TEe6JsNzpP1XlHw",
-                      "id": "_Qac7DA4TEe6JsNzpP1XlHw",
+                      "parameteredElement": "_I46HJhU0Ee6PAM8hniUwVQ",
+                      "id": "_I46HJRU0Ee6PAM8hniUwVQ",
                       "xmitype": "uml:ClassifierTemplateParameter",
                       "ownedParameteredElement": {
                         "name": "E",
-                        "owningTemplateParameter": "_Qac7DA4TEe6JsNzpP1XlHw",
-                        "templateParameter": "_Qac7DA4TEe6JsNzpP1XlHw",
-                        "id": "_Qac7DQ4TEe6JsNzpP1XlHw",
+                        "owningTemplateParameter": "_I46HJRU0Ee6PAM8hniUwVQ",
+                        "templateParameter": "_I46HJRU0Ee6PAM8hniUwVQ",
+                        "id": "_I46HJhU0Ee6PAM8hniUwVQ",
                         "xmitype": "uml:Class"
                       }
                     }
@@ -1285,22 +1285,22 @@
                 },
                 {
                   "name": "ConcurrentSkipListSet",
-                  "id": "_Qac7Dg4TEe6JsNzpP1XlHw",
+                  "id": "_I46HJxU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Class",
                   "ownedTemplateSignature": {
-                    "parameter": "_Qac7EA4TEe6JsNzpP1XlHw",
-                    "id": "_Qac7Dw4TEe6JsNzpP1XlHw",
+                    "parameter": "_I46HKRU0Ee6PAM8hniUwVQ",
+                    "id": "_I46HKBU0Ee6PAM8hniUwVQ",
                     "xmitype": "uml:RedefinableTemplateSignature",
                     "ownedParameter": {
                       "allowSubstitutable": "false",
-                      "parameteredElement": "_Qac7EQ4TEe6JsNzpP1XlHw",
-                      "id": "_Qac7EA4TEe6JsNzpP1XlHw",
+                      "parameteredElement": "_I46HKhU0Ee6PAM8hniUwVQ",
+                      "id": "_I46HKRU0Ee6PAM8hniUwVQ",
                       "xmitype": "uml:ClassifierTemplateParameter",
                       "ownedParameteredElement": {
                         "name": "E",
-                        "owningTemplateParameter": "_Qac7EA4TEe6JsNzpP1XlHw",
-                        "templateParameter": "_Qac7EA4TEe6JsNzpP1XlHw",
-                        "id": "_Qac7EQ4TEe6JsNzpP1XlHw",
+                        "owningTemplateParameter": "_I46HKRU0Ee6PAM8hniUwVQ",
+                        "templateParameter": "_I46HKRU0Ee6PAM8hniUwVQ",
+                        "id": "_I46HKhU0Ee6PAM8hniUwVQ",
                         "xmitype": "uml:Class"
                       }
                     }
@@ -1308,22 +1308,22 @@
                 },
                 {
                   "name": "ServiceLoader",
-                  "id": "_Qac7Eg4TEe6JsNzpP1XlHw",
+                  "id": "_I46HKxU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Class",
                   "ownedTemplateSignature": {
-                    "parameter": "_Qac7FA4TEe6JsNzpP1XlHw",
-                    "id": "_Qac7Ew4TEe6JsNzpP1XlHw",
+                    "parameter": "_I46HLRU0Ee6PAM8hniUwVQ",
+                    "id": "_I46HLBU0Ee6PAM8hniUwVQ",
                     "xmitype": "uml:RedefinableTemplateSignature",
                     "ownedParameter": {
                       "allowSubstitutable": "false",
-                      "parameteredElement": "_Qac7FQ4TEe6JsNzpP1XlHw",
-                      "id": "_Qac7FA4TEe6JsNzpP1XlHw",
+                      "parameteredElement": "_I46HLhU0Ee6PAM8hniUwVQ",
+                      "id": "_I46HLRU0Ee6PAM8hniUwVQ",
                       "xmitype": "uml:ClassifierTemplateParameter",
                       "ownedParameteredElement": {
                         "name": "S",
-                        "owningTemplateParameter": "_Qac7FA4TEe6JsNzpP1XlHw",
-                        "templateParameter": "_Qac7FA4TEe6JsNzpP1XlHw",
-                        "id": "_Qac7FQ4TEe6JsNzpP1XlHw",
+                        "owningTemplateParameter": "_I46HLRU0Ee6PAM8hniUwVQ",
+                        "templateParameter": "_I46HLRU0Ee6PAM8hniUwVQ",
+                        "id": "_I46HLhU0Ee6PAM8hniUwVQ",
                         "xmitype": "uml:Class"
                       }
                     }
@@ -1331,22 +1331,22 @@
                 },
                 {
                   "name": "Optional",
-                  "id": "_Qac7Fg4TEe6JsNzpP1XlHw",
+                  "id": "_I46HLxU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Class",
                   "ownedTemplateSignature": {
-                    "parameter": "_Qac7GA4TEe6JsNzpP1XlHw",
-                    "id": "_Qac7Fw4TEe6JsNzpP1XlHw",
+                    "parameter": "_I46HMRU0Ee6PAM8hniUwVQ",
+                    "id": "_I46HMBU0Ee6PAM8hniUwVQ",
                     "xmitype": "uml:RedefinableTemplateSignature",
                     "ownedParameter": {
                       "allowSubstitutable": "false",
-                      "parameteredElement": "_Qac7GQ4TEe6JsNzpP1XlHw",
-                      "id": "_Qac7GA4TEe6JsNzpP1XlHw",
+                      "parameteredElement": "_I46HMhU0Ee6PAM8hniUwVQ",
+                      "id": "_I46HMRU0Ee6PAM8hniUwVQ",
                       "xmitype": "uml:ClassifierTemplateParameter",
                       "ownedParameteredElement": {
                         "name": "T",
-                        "owningTemplateParameter": "_Qac7GA4TEe6JsNzpP1XlHw",
-                        "templateParameter": "_Qac7GA4TEe6JsNzpP1XlHw",
-                        "id": "_Qac7GQ4TEe6JsNzpP1XlHw",
+                        "owningTemplateParameter": "_I46HMRU0Ee6PAM8hniUwVQ",
+                        "templateParameter": "_I46HMRU0Ee6PAM8hniUwVQ",
+                        "id": "_I46HMhU0Ee6PAM8hniUwVQ",
                         "xmitype": "uml:Class"
                       }
                     }
@@ -1354,17 +1354,17 @@
                 },
                 {
                   "name": "OptionalDouble",
-                  "id": "_Qac7Gg4TEe6JsNzpP1XlHw",
+                  "id": "_I46HMxU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Class"
                 },
                 {
                   "name": "OptionalInt",
-                  "id": "_Qac7Gw4TEe6JsNzpP1XlHw",
+                  "id": "_I46HNBU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Class"
                 },
                 {
                   "name": "OptionalLong",
-                  "id": "_Qac7HA4TEe6JsNzpP1XlHw",
+                  "id": "_I46HNRU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Class"
                 }
               ]
@@ -1373,75 +1373,75 @@
         },
         {
           "name": "Cliente",
-          "id": "_Qac7HQ4TEe6JsNzpP1XlHw",
+          "id": "_I46HNhU0Ee6PAM8hniUwVQ",
           "xmitype": "uml:Class",
           "ownedAttribute": [
             {
               "name": "name",
               "type": "String",
-"oldId": "_Qac6Qw4TEe6JsNzpP1XlHw",
+"oldId": "_I445BBU0Ee6PAM8hniUwVQ",
               "visibility": "private",
-              "id": "_Qac7Hg4TEe6JsNzpP1XlHw",
+              "id": "_I46HNxU0Ee6PAM8hniUwVQ",
               "xmitype": "uml:Property"
             },
             {
               "name": "cpf",
               "type": "String",
-"oldId": "_Qac6Qw4TEe6JsNzpP1XlHw",
+"oldId": "_I445BBU0Ee6PAM8hniUwVQ",
               "visibility": "private",
-              "id": "_Qac7Hw4TEe6JsNzpP1XlHw",
+              "id": "_I46HOBU0Ee6PAM8hniUwVQ",
               "xmitype": "uml:Property"
             },
             {
               "aggregation": "composite",
-              "association": "_Qadhcg4TEe6JsNzpP1XlHw",
+              "association": "_I46HiRU0Ee6PAM8hniUwVQ",
               "name": "",
-              "type": "Pedido",
-"oldId": "_QadhZA4TEe6JsNzpP1XlHw",
+              "type": "Carrinho",
+"oldId": "_I46HRRU0Ee6PAM8hniUwVQ",
               "visibility": "private",
-              "id": "_Qac7IA4TEe6JsNzpP1XlHw",
+              "id": "_I46HORU0Ee6PAM8hniUwVQ",
               "xmitype": "uml:Property",
+              "lowerValue": {
+                "value": "1",
+                "id": "_I46HOhU0Ee6PAM8hniUwVQ",
+                "xmitype": "uml:LiteralInteger"
+              },
+              "upperValue": {
+                "value": "1",
+                "id": "_I46HOxU0Ee6PAM8hniUwVQ",
+                "xmitype": "uml:LiteralUnlimitedNatural"
+              }
+            },
+            {
+              "association": "_I46HkhU0Ee6PAM8hniUwVQ",
+              "name": "",
+              "type": "Pagamento",
+"oldId": "_I46HWBU0Ee6PAM8hniUwVQ",
+              "visibility": "private",
+              "id": "_I46HPBU0Ee6PAM8hniUwVQ",
+              "xmitype": "uml:Property",
+              "lowerValue": {
+                "id": "_I46HPRU0Ee6PAM8hniUwVQ",
+                "xmitype": "uml:LiteralInteger"
+              },
               "upperValue": {
                 "value": "*",
-                "id": "_Qac7IQ4TEe6JsNzpP1XlHw",
+                "id": "_I46HPhU0Ee6PAM8hniUwVQ",
                 "xmitype": "uml:LiteralUnlimitedNatural"
               }
             },
             {
               "aggregation": "composite",
-              "association": "_Qadhcw4TEe6JsNzpP1XlHw",
+              "association": "_I46HlhU0Ee6PAM8hniUwVQ",
               "name": "",
-              "type": "Carrinho",
-"oldId": "_Qac7LA4TEe6JsNzpP1XlHw",
+              "type": "Pedido",
+"oldId": "_I46HdxU0Ee6PAM8hniUwVQ",
               "visibility": "private",
-              "id": "_Qac7Ig4TEe6JsNzpP1XlHw",
+              "id": "_I46HPxU0Ee6PAM8hniUwVQ",
               "xmitype": "uml:Property",
-              "lowerValue": {
-                "value": "1",
-                "id": "_Qac7Iw4TEe6JsNzpP1XlHw",
-                "xmitype": "uml:LiteralInteger"
-              },
-              "upperValue": {
-                "value": "1",
-                "id": "_Qac7JA4TEe6JsNzpP1XlHw",
-                "xmitype": "uml:LiteralUnlimitedNatural"
-              }
-            },
-            {
-              "association": "_Qadhew4TEe6JsNzpP1XlHw",
-              "name": "",
-              "type": "Pagamento",
-"oldId": "_QadhRA4TEe6JsNzpP1XlHw",
-              "visibility": "private",
-              "id": "_Qac7JQ4TEe6JsNzpP1XlHw",
-              "xmitype": "uml:Property",
-              "lowerValue": {
-                "id": "_Qac7Jg4TEe6JsNzpP1XlHw",
-                "xmitype": "uml:LiteralInteger"
-              },
               "upperValue": {
                 "value": "*",
-                "id": "_Qac7Jw4TEe6JsNzpP1XlHw",
+                "id": "_I46HQBU0Ee6PAM8hniUwVQ",
                 "xmitype": "uml:LiteralUnlimitedNatural"
               }
             }
@@ -1450,24 +1450,24 @@
             {
               "name": "listarPedidos",
               "visibility": "public",
-              "id": "_Qac7KA4TEe6JsNzpP1XlHw",
+              "id": "_I46HQRU0Ee6PAM8hniUwVQ",
               "xmitype": "uml:Operation",
               "ownedParameter": {
                 "direction": "return",
-                "type": "_Qadhkw4TEe6JsNzpP1XlHw",
-                "id": "_Qac7KQ4TEe6JsNzpP1XlHw",
+                "type": "_I46HpBU0Ee6PAM8hniUwVQ",
+                "id": "_I46HQhU0Ee6PAM8hniUwVQ",
                 "xmitype": "uml:Parameter"
               }
             },
             {
               "name": "iniciarPedido",
               "visibility": "public",
-              "id": "_Qac7Kg4TEe6JsNzpP1XlHw",
+              "id": "_I46HQxU0Ee6PAM8hniUwVQ",
               "xmitype": "uml:Operation",
               "ownedParameter": {
                 "direction": "return",
-                "type": "_Qadhkw4TEe6JsNzpP1XlHw",
-                "id": "_Qac7Kw4TEe6JsNzpP1XlHw",
+                "type": "_I46HpBU0Ee6PAM8hniUwVQ",
+                "id": "_I46HRBU0Ee6PAM8hniUwVQ",
                 "xmitype": "uml:Parameter"
               }
             }
@@ -1475,27 +1475,46 @@
         },
         {
           "name": "Carrinho",
-          "id": "_Qac7LA4TEe6JsNzpP1XlHw",
+          "id": "_I46HRRU0Ee6PAM8hniUwVQ",
           "xmitype": "uml:Class",
           "ownedAttribute": [
             {
               "name": "creationDate",
-              "type": "_Qac6aw4TEe6JsNzpP1XlHw",
+              "type": "_I45gIRU0Ee6PAM8hniUwVQ",
               "visibility": "private",
-              "id": "_Qac7LQ4TEe6JsNzpP1XlHw",
+              "id": "_I46HRhU0Ee6PAM8hniUwVQ",
               "xmitype": "uml:Property"
             },
             {
-              "association": "_Qadhjg4TEe6JsNzpP1XlHw",
+              "association": "_I46HiRU0Ee6PAM8hniUwVQ",
+              "name": "",
+              "type": "Cliente",
+"oldId": "_I46HNhU0Ee6PAM8hniUwVQ",
+              "visibility": "private",
+              "id": "_I46HRxU0Ee6PAM8hniUwVQ",
+              "xmitype": "uml:Property",
+              "lowerValue": {
+                "value": "1",
+                "id": "_I46HSBU0Ee6PAM8hniUwVQ",
+                "xmitype": "uml:LiteralInteger"
+              },
+              "upperValue": {
+                "value": "1",
+                "id": "_I46HSRU0Ee6PAM8hniUwVQ",
+                "xmitype": "uml:LiteralUnlimitedNatural"
+              }
+            },
+            {
+              "association": "_I46HlxU0Ee6PAM8hniUwVQ",
               "name": "",
               "type": "ItemDeCarrinho",
-"oldId": "_QadhWw4TEe6JsNzpP1XlHw",
+"oldId": "_I46HbhU0Ee6PAM8hniUwVQ",
               "visibility": "private",
-              "id": "_Qac7Lg4TEe6JsNzpP1XlHw",
+              "id": "_I46HShU0Ee6PAM8hniUwVQ",
               "xmitype": "uml:Property",
               "upperValue": {
                 "value": "*",
-                "id": "_Qac7Lw4TEe6JsNzpP1XlHw",
+                "id": "_I46HSxU0Ee6PAM8hniUwVQ",
                 "xmitype": "uml:LiteralUnlimitedNatural"
               }
             }
@@ -1504,26 +1523,26 @@
             {
               "name": "adicionarProduto",
               "visibility": "public",
-              "id": "_Qac7MA4TEe6JsNzpP1XlHw",
+              "id": "_I46HTBU0Ee6PAM8hniUwVQ",
               "xmitype": "uml:Operation",
               "ownedParameter": [
                 {
                   "direction": "return",
-                  "type": "_Qadhkw4TEe6JsNzpP1XlHw",
-                  "id": "_Qac7MQ4TEe6JsNzpP1XlHw",
+                  "type": "_I46HpBU0Ee6PAM8hniUwVQ",
+                  "id": "_I46HTRU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Parameter"
                 },
                 {
                   "name": "p",
                   "type": "Produto",
-"oldId": "_Qac7Nw4TEe6JsNzpP1XlHw",
-                  "id": "_Qac7Mg4TEe6JsNzpP1XlHw",
+"oldId": "_I46HUxU0Ee6PAM8hniUwVQ",
+                  "id": "_I46HThU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Parameter"
                 },
                 {
                   "name": "q",
-                  "type": "_QadhlA4TEe6JsNzpP1XlHw",
-                  "id": "_Qac7Mw4TEe6JsNzpP1XlHw",
+                  "type": "_I46HoxU0Ee6PAM8hniUwVQ",
+                  "id": "_I46HTxU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Parameter"
                 }
               ]
@@ -1531,20 +1550,20 @@
             {
               "name": "removerProduto",
               "visibility": "public",
-              "id": "_Qac7NA4TEe6JsNzpP1XlHw",
+              "id": "_I46HUBU0Ee6PAM8hniUwVQ",
               "xmitype": "uml:Operation",
               "ownedParameter": [
                 {
                   "direction": "return",
-                  "type": "_Qadhkw4TEe6JsNzpP1XlHw",
-                  "id": "_Qac7NQ4TEe6JsNzpP1XlHw",
+                  "type": "_I46HpBU0Ee6PAM8hniUwVQ",
+                  "id": "_I46HURU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Parameter"
                 },
                 {
                   "name": "p",
                   "type": "Produto",
-"oldId": "_Qac7Nw4TEe6JsNzpP1XlHw",
-                  "id": "_Qac7Ng4TEe6JsNzpP1XlHw",
+"oldId": "_I46HUxU0Ee6PAM8hniUwVQ",
+                  "id": "_I46HUhU0Ee6PAM8hniUwVQ",
                   "xmitype": "uml:Parameter"
                 }
               ]
@@ -1553,132 +1572,122 @@
         },
         {
           "name": "Produto",
-          "id": "_Qac7Nw4TEe6JsNzpP1XlHw",
+          "id": "_I46HUxU0Ee6PAM8hniUwVQ",
           "xmitype": "uml:Class",
           "ownedAttribute": [
             {
               "name": "name",
               "type": "String",
-"oldId": "_Qac6Qw4TEe6JsNzpP1XlHw",
+"oldId": "_I445BBU0Ee6PAM8hniUwVQ",
               "visibility": "private",
-              "id": "_QadhQA4TEe6JsNzpP1XlHw",
+              "id": "_I46HVBU0Ee6PAM8hniUwVQ",
               "xmitype": "uml:Property"
             },
             {
               "name": "email",
               "type": "String",
-"oldId": "_Qac6Qw4TEe6JsNzpP1XlHw",
+"oldId": "_I445BBU0Ee6PAM8hniUwVQ",
               "visibility": "private",
-              "id": "_QadhQQ4TEe6JsNzpP1XlHw",
+              "id": "_I46HVRU0Ee6PAM8hniUwVQ",
               "xmitype": "uml:Property"
             }
           ],
           "ownedOperation": {
             "name": "getName",
             "visibility": "public",
-            "id": "_QadhQg4TEe6JsNzpP1XlHw",
+            "id": "_I46HVhU0Ee6PAM8hniUwVQ",
             "xmitype": "uml:Operation",
             "ownedParameter": {
               "direction": "return",
               "type": "String",
-"oldId": "_Qac6Qw4TEe6JsNzpP1XlHw",
-              "id": "_QadhQw4TEe6JsNzpP1XlHw",
+"oldId": "_I445BBU0Ee6PAM8hniUwVQ",
+              "id": "_I46HVxU0Ee6PAM8hniUwVQ",
               "xmitype": "uml:Parameter"
             }
           }
         },
         {
           "name": "Pagamento",
-          "id": "_QadhRA4TEe6JsNzpP1XlHw",
+          "id": "_I46HWBU0Ee6PAM8hniUwVQ",
           "xmitype": "uml:Class",
-          "ownedAttribute": [
-            {
-              "name": "cliente",
-              "type": "Cliente",
-"oldId": "_Qac7HQ4TEe6JsNzpP1XlHw",
-              "visibility": "private",
-              "id": "_QadhRQ4TEe6JsNzpP1XlHw",
-              "xmitype": "uml:Property"
+          "ownedAttribute": {
+            "association": "_I46HnxU0Ee6PAM8hniUwVQ",
+            "name": "",
+            "type": "Pedido",
+"oldId": "_I46HdxU0Ee6PAM8hniUwVQ",
+            "visibility": "private",
+            "id": "_I46HWRU0Ee6PAM8hniUwVQ",
+            "xmitype": "uml:Property",
+            "lowerValue": {
+              "value": "1",
+              "id": "_I46HWhU0Ee6PAM8hniUwVQ",
+              "xmitype": "uml:LiteralInteger"
             },
-            {
-              "association": "_Qadhfw4TEe6JsNzpP1XlHw",
-              "name": "",
-              "type": "Pedido",
-"oldId": "_QadhZA4TEe6JsNzpP1XlHw",
-              "visibility": "private",
-              "id": "_QadhRg4TEe6JsNzpP1XlHw",
-              "xmitype": "uml:Property",
-              "lowerValue": {
-                "value": "1",
-                "id": "_QadhRw4TEe6JsNzpP1XlHw",
-                "xmitype": "uml:LiteralInteger"
-              },
-              "upperValue": {
-                "value": "1",
-                "id": "_QadhSA4TEe6JsNzpP1XlHw",
-                "xmitype": "uml:LiteralUnlimitedNatural"
-              }
+            "upperValue": {
+              "value": "1",
+              "id": "_I46HWxU0Ee6PAM8hniUwVQ",
+              "xmitype": "uml:LiteralUnlimitedNatural"
             }
-          ]
+          }
         },
         {
           "name": "",
-          "id": "_QadhSQ4TEe6JsNzpP1XlHw",
+          "id": "_I46HXBU0Ee6PAM8hniUwVQ",
           "xmitype": "uml:Class",
           "templateBinding": {
-            "boundElement": "_QadhSQ4TEe6JsNzpP1XlHw",
-            "id": "_QadhSg4TEe6JsNzpP1XlHw",
+            "boundElement": "_I46HXBU0Ee6PAM8hniUwVQ",
+            "id": "_I46HXRU0Ee6PAM8hniUwVQ",
             "xmitype": "uml:TemplateBinding",
             "parameterSubstitution": {
-              "actual": "_Qac7Nw4TEe6JsNzpP1XlHw",
-              "templateBinding": "_QadhSg4TEe6JsNzpP1XlHw",
-              "id": "_QadhSw4TEe6JsNzpP1XlHw",
+              "actual": "_I46HUxU0Ee6PAM8hniUwVQ",
+              "templateBinding": "_I46HXRU0Ee6PAM8hniUwVQ",
+              "id": "_I46HXhU0Ee6PAM8hniUwVQ",
               "xmitype": "uml:TemplateParameterSubstitution"
             }
           }
         },
         {
           "name": "Loja",
-          "id": "_QadhTA4TEe6JsNzpP1XlHw",
+          "id": "_I46HXxU0Ee6PAM8hniUwVQ",
           "xmitype": "uml:Class",
           "ownedAttribute": [
             {
               "name": "cnpj",
               "type": "String",
-"oldId": "_Qac6Qw4TEe6JsNzpP1XlHw",
+"oldId": "_I445BBU0Ee6PAM8hniUwVQ",
               "visibility": "private",
-              "id": "_QadhTQ4TEe6JsNzpP1XlHw",
+              "id": "_I46HYBU0Ee6PAM8hniUwVQ",
               "xmitype": "uml:Property"
             },
             {
-              "association": "_Qadhgg4TEe6JsNzpP1XlHw",
+              "association": "_I46HjhU0Ee6PAM8hniUwVQ",
               "name": "",
-              "type": "Pagamento",
-"oldId": "_QadhRA4TEe6JsNzpP1XlHw",
+              "type": "Cliente",
+"oldId": "_I46HNhU0Ee6PAM8hniUwVQ",
               "visibility": "private",
-              "id": "_QadhTg4TEe6JsNzpP1XlHw",
+              "id": "_I46HYRU0Ee6PAM8hniUwVQ",
               "xmitype": "uml:Property",
-              "lowerValue": {
-                "id": "_QadhTw4TEe6JsNzpP1XlHw",
-                "xmitype": "uml:LiteralInteger"
-              },
               "upperValue": {
                 "value": "*",
-                "id": "_QadhUA4TEe6JsNzpP1XlHw",
+                "id": "_I46HYhU0Ee6PAM8hniUwVQ",
                 "xmitype": "uml:LiteralUnlimitedNatural"
               }
             },
             {
-              "association": "_Qadhhg4TEe6JsNzpP1XlHw",
+              "association": "_I46HmxU0Ee6PAM8hniUwVQ",
               "name": "",
-              "type": "Cliente",
-"oldId": "_Qac7HQ4TEe6JsNzpP1XlHw",
+              "type": "Pagamento",
+"oldId": "_I46HWBU0Ee6PAM8hniUwVQ",
               "visibility": "private",
-              "id": "_QadhUQ4TEe6JsNzpP1XlHw",
+              "id": "_I46HYxU0Ee6PAM8hniUwVQ",
               "xmitype": "uml:Property",
+              "lowerValue": {
+                "id": "_I46HZBU0Ee6PAM8hniUwVQ",
+                "xmitype": "uml:LiteralInteger"
+              },
               "upperValue": {
                 "value": "*",
-                "id": "_QadhUg4TEe6JsNzpP1XlHw",
+                "id": "_I46HZRU0Ee6PAM8hniUwVQ",
                 "xmitype": "uml:LiteralUnlimitedNatural"
               }
             }
@@ -1686,85 +1695,85 @@
           "ownedOperation": {
             "name": "listarPagamentos",
             "visibility": "public",
-            "id": "_QadhUw4TEe6JsNzpP1XlHw",
+            "id": "_I46HZhU0Ee6PAM8hniUwVQ",
             "xmitype": "uml:Operation",
             "ownedParameter": {
               "direction": "return",
-              "type": "_Qadhkw4TEe6JsNzpP1XlHw",
-              "id": "_QadhVA4TEe6JsNzpP1XlHw",
+              "type": "_I46HpBU0Ee6PAM8hniUwVQ",
+              "id": "_I46HZxU0Ee6PAM8hniUwVQ",
               "xmitype": "uml:Parameter"
             }
           }
         },
         {
           "name": "",
-          "id": "_QadhVQ4TEe6JsNzpP1XlHw",
+          "id": "_I46HaBU0Ee6PAM8hniUwVQ",
           "xmitype": "uml:Class",
           "templateBinding": {
-            "boundElement": "_QadhVQ4TEe6JsNzpP1XlHw",
-            "id": "_QadhVg4TEe6JsNzpP1XlHw",
+            "boundElement": "_I46HaBU0Ee6PAM8hniUwVQ",
+            "id": "_I46HaRU0Ee6PAM8hniUwVQ",
             "xmitype": "uml:TemplateBinding",
             "parameterSubstitution": {
-              "actual": "_QadhRA4TEe6JsNzpP1XlHw",
-              "templateBinding": "_QadhVg4TEe6JsNzpP1XlHw",
-              "id": "_QadhVw4TEe6JsNzpP1XlHw",
+              "actual": "_I46HWBU0Ee6PAM8hniUwVQ",
+              "templateBinding": "_I46HaRU0Ee6PAM8hniUwVQ",
+              "id": "_I46HahU0Ee6PAM8hniUwVQ",
               "xmitype": "uml:TemplateParameterSubstitution"
             }
           }
         },
         {
           "name": "",
-          "id": "_QadhWA4TEe6JsNzpP1XlHw",
+          "id": "_I46HaxU0Ee6PAM8hniUwVQ",
           "xmitype": "uml:Class",
           "templateBinding": {
-            "boundElement": "_QadhWA4TEe6JsNzpP1XlHw",
-            "id": "_QadhWQ4TEe6JsNzpP1XlHw",
+            "boundElement": "_I46HaxU0Ee6PAM8hniUwVQ",
+            "id": "_I46HbBU0Ee6PAM8hniUwVQ",
             "xmitype": "uml:TemplateBinding",
             "parameterSubstitution": {
-              "actual": "_Qac7HQ4TEe6JsNzpP1XlHw",
-              "formal": "_Qac6XA4TEe6JsNzpP1XlHw",
-              "templateBinding": "_QadhWQ4TEe6JsNzpP1XlHw",
-              "id": "_QadhWg4TEe6JsNzpP1XlHw",
+              "actual": "_I46HNhU0Ee6PAM8hniUwVQ",
+              "formal": "_I45gEhU0Ee6PAM8hniUwVQ",
+              "templateBinding": "_I46HbBU0Ee6PAM8hniUwVQ",
+              "id": "_I46HbRU0Ee6PAM8hniUwVQ",
               "xmitype": "uml:TemplateParameterSubstitution"
             }
           }
         },
         {
           "name": "ItemDeCarrinho",
-          "id": "_QadhWw4TEe6JsNzpP1XlHw",
+          "id": "_I46HbhU0Ee6PAM8hniUwVQ",
           "xmitype": "uml:Class",
           "ownedAttribute": [
             {
               "name": "quant",
-              "type": "_QadhlA4TEe6JsNzpP1XlHw",
+              "type": "_I46HoxU0Ee6PAM8hniUwVQ",
               "visibility": "private",
-              "id": "_QadhXA4TEe6JsNzpP1XlHw",
+              "id": "_I46HbxU0Ee6PAM8hniUwVQ",
               "xmitype": "uml:Property"
             },
             {
               "name": "price",
               "type": "String",
-"oldId": "_Qac6Qw4TEe6JsNzpP1XlHw",
+"oldId": "_I445BBU0Ee6PAM8hniUwVQ",
               "visibility": "private",
-              "id": "_QadhXQ4TEe6JsNzpP1XlHw",
+              "id": "_I46HcBU0Ee6PAM8hniUwVQ",
               "xmitype": "uml:Property"
             },
             {
-              "association": "_Qadhdw4TEe6JsNzpP1XlHw",
+              "association": "_I46HihU0Ee6PAM8hniUwVQ",
               "name": "",
               "type": "Produto",
-"oldId": "_Qac7Nw4TEe6JsNzpP1XlHw",
+"oldId": "_I46HUxU0Ee6PAM8hniUwVQ",
               "visibility": "private",
-              "id": "_QadhXg4TEe6JsNzpP1XlHw",
+              "id": "_I46HcRU0Ee6PAM8hniUwVQ",
               "xmitype": "uml:Property",
               "lowerValue": {
                 "value": "1",
-                "id": "_QadhXw4TEe6JsNzpP1XlHw",
+                "id": "_I46HchU0Ee6PAM8hniUwVQ",
                 "xmitype": "uml:LiteralInteger"
               },
               "upperValue": {
                 "value": "1",
-                "id": "_QadhYA4TEe6JsNzpP1XlHw",
+                "id": "_I46HcxU0Ee6PAM8hniUwVQ",
                 "xmitype": "uml:LiteralUnlimitedNatural"
               }
             }
@@ -1772,19 +1781,19 @@
           "ownedOperation": {
             "name": "setQuantidade",
             "visibility": "public",
-            "id": "_QadhYQ4TEe6JsNzpP1XlHw",
+            "id": "_I46HdBU0Ee6PAM8hniUwVQ",
             "xmitype": "uml:Operation",
             "ownedParameter": [
               {
                 "direction": "return",
-                "type": "_Qadhkw4TEe6JsNzpP1XlHw",
-                "id": "_QadhYg4TEe6JsNzpP1XlHw",
+                "type": "_I46HpBU0Ee6PAM8hniUwVQ",
+                "id": "_I46HdRU0Ee6PAM8hniUwVQ",
                 "xmitype": "uml:Parameter"
               },
               {
                 "name": "q",
-                "type": "_QadhlA4TEe6JsNzpP1XlHw",
-                "id": "_QadhYw4TEe6JsNzpP1XlHw",
+                "type": "_I46HoxU0Ee6PAM8hniUwVQ",
+                "id": "_I46HdhU0Ee6PAM8hniUwVQ",
                 "xmitype": "uml:Parameter"
               }
             ]
@@ -1792,54 +1801,54 @@
         },
         {
           "name": "Pedido",
-          "id": "_QadhZA4TEe6JsNzpP1XlHw",
+          "id": "_I46HdxU0Ee6PAM8hniUwVQ",
           "xmitype": "uml:Class",
           "ownedAttribute": [
             {
               "name": "date",
-              "type": "_Qac6aw4TEe6JsNzpP1XlHw",
+              "type": "_I45gIRU0Ee6PAM8hniUwVQ",
               "visibility": "private",
-              "id": "_QadhZQ4TEe6JsNzpP1XlHw",
+              "id": "_I46HeBU0Ee6PAM8hniUwVQ",
               "xmitype": "uml:Property"
             },
             {
               "name": "total",
               "type": "String",
-"oldId": "_Qac6Qw4TEe6JsNzpP1XlHw",
+"oldId": "_I445BBU0Ee6PAM8hniUwVQ",
               "visibility": "private",
-              "id": "_QadhZg4TEe6JsNzpP1XlHw",
+              "id": "_I46HeRU0Ee6PAM8hniUwVQ",
               "xmitype": "uml:Property"
             },
             {
-              "association": "_Qadhcg4TEe6JsNzpP1XlHw",
+              "association": "_I46HhRU0Ee6PAM8hniUwVQ",
               "name": "",
-              "type": "Cliente",
-"oldId": "_Qac7HQ4TEe6JsNzpP1XlHw",
+              "type": "ItemDeCarrinho",
+"oldId": "_I46HbhU0Ee6PAM8hniUwVQ",
               "visibility": "private",
-              "id": "_QadhZw4TEe6JsNzpP1XlHw",
+              "id": "_I46HehU0Ee6PAM8hniUwVQ",
               "xmitype": "uml:Property",
-              "lowerValue": {
-                "value": "1",
-                "id": "_QadhaA4TEe6JsNzpP1XlHw",
-                "xmitype": "uml:LiteralInteger"
-              },
               "upperValue": {
-                "value": "1",
-                "id": "_QadhaQ4TEe6JsNzpP1XlHw",
+                "value": "*",
+                "id": "_I46HexU0Ee6PAM8hniUwVQ",
                 "xmitype": "uml:LiteralUnlimitedNatural"
               }
             },
             {
-              "association": "_Qadhig4TEe6JsNzpP1XlHw",
+              "association": "_I46HlhU0Ee6PAM8hniUwVQ",
               "name": "",
-              "type": "ItemDeCarrinho",
-"oldId": "_QadhWw4TEe6JsNzpP1XlHw",
+              "type": "Cliente",
+"oldId": "_I46HNhU0Ee6PAM8hniUwVQ",
               "visibility": "private",
-              "id": "_Qadhag4TEe6JsNzpP1XlHw",
+              "id": "_I46HfBU0Ee6PAM8hniUwVQ",
               "xmitype": "uml:Property",
+              "lowerValue": {
+                "value": "1",
+                "id": "_I46HfRU0Ee6PAM8hniUwVQ",
+                "xmitype": "uml:LiteralInteger"
+              },
               "upperValue": {
-                "value": "*",
-                "id": "_Qadhaw4TEe6JsNzpP1XlHw",
+                "value": "1",
+                "id": "_I46HfhU0Ee6PAM8hniUwVQ",
                 "xmitype": "uml:LiteralUnlimitedNatural"
               }
             }
@@ -1847,259 +1856,239 @@
         },
         {
           "name": "",
-          "id": "_QadhbA4TEe6JsNzpP1XlHw",
+          "id": "_I46HfxU0Ee6PAM8hniUwVQ",
           "xmitype": "uml:Class",
           "templateBinding": {
-            "boundElement": "_QadhbA4TEe6JsNzpP1XlHw",
-            "id": "_QadhbQ4TEe6JsNzpP1XlHw",
+            "boundElement": "_I46HfxU0Ee6PAM8hniUwVQ",
+            "id": "_I46HgBU0Ee6PAM8hniUwVQ",
             "xmitype": "uml:TemplateBinding",
             "parameterSubstitution": {
-              "actual": "_QadhZA4TEe6JsNzpP1XlHw",
-              "templateBinding": "_QadhbQ4TEe6JsNzpP1XlHw",
-              "id": "_Qadhbg4TEe6JsNzpP1XlHw",
+              "actual": "_I46HdxU0Ee6PAM8hniUwVQ",
+              "formal": "_I45gEhU0Ee6PAM8hniUwVQ",
+              "templateBinding": "_I46HgBU0Ee6PAM8hniUwVQ",
+              "id": "_I46HgRU0Ee6PAM8hniUwVQ",
               "xmitype": "uml:TemplateParameterSubstitution"
             }
           }
         },
         {
           "name": "",
-          "id": "_Qadhbw4TEe6JsNzpP1XlHw",
+          "id": "_I46HghU0Ee6PAM8hniUwVQ",
           "xmitype": "uml:Class",
           "templateBinding": {
-            "boundElement": "_Qadhbw4TEe6JsNzpP1XlHw",
-            "id": "_QadhcA4TEe6JsNzpP1XlHw",
+            "boundElement": "_I46HghU0Ee6PAM8hniUwVQ",
+            "id": "_I46HgxU0Ee6PAM8hniUwVQ",
             "xmitype": "uml:TemplateBinding",
             "parameterSubstitution": {
-              "actual": "_QadhWw4TEe6JsNzpP1XlHw",
-              "formal": "_Qac6XA4TEe6JsNzpP1XlHw",
-              "templateBinding": "_QadhcA4TEe6JsNzpP1XlHw",
-              "id": "_QadhcQ4TEe6JsNzpP1XlHw",
+              "actual": "_I46HbhU0Ee6PAM8hniUwVQ",
+              "templateBinding": "_I46HgxU0Ee6PAM8hniUwVQ",
+              "id": "_I46HhBU0Ee6PAM8hniUwVQ",
               "xmitype": "uml:TemplateParameterSubstitution"
             }
           }
         },
         {
-          "memberEnd": "_QadhZw4TEe6JsNzpP1XlHw _Qac7IA4TEe6JsNzpP1XlHw",
+          "memberEnd": "_I46HhhU0Ee6PAM8hniUwVQ _I46HehU0Ee6PAM8hniUwVQ",
           "name": "",
-          "id": "_Qadhcg4TEe6JsNzpP1XlHw",
+          "id": "_I46HhRU0Ee6PAM8hniUwVQ",
+          "xmitype": "uml:Association",
+          "ownedEnd": {
+            "association": "_I46HhRU0Ee6PAM8hniUwVQ",
+            "name": "",
+            "owningAssociation": "_I46HhRU0Ee6PAM8hniUwVQ",
+            "type": "Pedido",
+"oldId": "_I46HdxU0Ee6PAM8hniUwVQ",
+            "visibility": "private",
+            "id": "_I46HhhU0Ee6PAM8hniUwVQ",
+            "xmitype": "uml:Property",
+            "lowerValue": {
+              "value": "1",
+              "id": "_I46HhxU0Ee6PAM8hniUwVQ",
+              "xmitype": "uml:LiteralInteger"
+            },
+            "upperValue": {
+              "value": "1",
+              "id": "_I46HiBU0Ee6PAM8hniUwVQ",
+              "xmitype": "uml:LiteralUnlimitedNatural"
+            }
+          }
+        },
+        {
+          "memberEnd": "_I46HRxU0Ee6PAM8hniUwVQ _I46HORU0Ee6PAM8hniUwVQ",
+          "name": "",
+          "id": "_I46HiRU0Ee6PAM8hniUwVQ",
           "xmitype": "uml:Association"
         },
         {
-          "memberEnd": "_QadhdA4TEe6JsNzpP1XlHw _Qac7Ig4TEe6JsNzpP1XlHw",
+          "memberEnd": "_I46HcRU0Ee6PAM8hniUwVQ _I46HixU0Ee6PAM8hniUwVQ",
           "name": "",
-          "id": "_Qadhcw4TEe6JsNzpP1XlHw",
+          "id": "_I46HihU0Ee6PAM8hniUwVQ",
           "xmitype": "uml:Association",
           "ownedEnd": {
-            "association": "_Qadhcw4TEe6JsNzpP1XlHw",
+            "association": "_I46HihU0Ee6PAM8hniUwVQ",
             "name": "",
-            "owningAssociation": "_Qadhcw4TEe6JsNzpP1XlHw",
-            "type": "Cliente",
-"oldId": "_Qac7HQ4TEe6JsNzpP1XlHw",
-            "visibility": "private",
-            "id": "_QadhdA4TEe6JsNzpP1XlHw",
-            "xmitype": "uml:Property",
-            "lowerValue": {
-              "value": "1",
-              "id": "_QadhdQ4TEe6JsNzpP1XlHw",
-              "xmitype": "uml:LiteralInteger"
-            },
-            "upperValue": {
-              "value": "1",
-              "id": "_Qadhdg4TEe6JsNzpP1XlHw",
-              "xmitype": "uml:LiteralUnlimitedNatural"
-            }
-          }
-        },
-        {
-          "memberEnd": "_QadhXg4TEe6JsNzpP1XlHw _QadheA4TEe6JsNzpP1XlHw",
-          "name": "",
-          "id": "_Qadhdw4TEe6JsNzpP1XlHw",
-          "xmitype": "uml:Association",
-          "ownedEnd": {
-            "association": "_Qadhdw4TEe6JsNzpP1XlHw",
-            "name": "",
-            "owningAssociation": "_Qadhdw4TEe6JsNzpP1XlHw",
+            "owningAssociation": "_I46HihU0Ee6PAM8hniUwVQ",
             "type": "ItemDeCarrinho",
-"oldId": "_QadhWw4TEe6JsNzpP1XlHw",
+"oldId": "_I46HbhU0Ee6PAM8hniUwVQ",
             "visibility": "private",
-            "id": "_QadheA4TEe6JsNzpP1XlHw",
+            "id": "_I46HixU0Ee6PAM8hniUwVQ",
             "xmitype": "uml:Property",
             "lowerValue": {
               "value": "1",
-              "id": "_QadheQ4TEe6JsNzpP1XlHw",
+              "id": "_I46HjBU0Ee6PAM8hniUwVQ",
               "xmitype": "uml:LiteralInteger"
             },
             "upperValue": {
               "value": "1",
-              "id": "_Qadheg4TEe6JsNzpP1XlHw",
+              "id": "_I46HjRU0Ee6PAM8hniUwVQ",
               "xmitype": "uml:LiteralUnlimitedNatural"
             }
           }
         },
         {
-          "memberEnd": "_Qac7JQ4TEe6JsNzpP1XlHw _QadhfA4TEe6JsNzpP1XlHw",
+          "memberEnd": "_I46HjxU0Ee6PAM8hniUwVQ _I46HYRU0Ee6PAM8hniUwVQ",
           "name": "",
-          "id": "_Qadhew4TEe6JsNzpP1XlHw",
+          "id": "_I46HjhU0Ee6PAM8hniUwVQ",
           "xmitype": "uml:Association",
           "ownedEnd": {
-            "association": "_Qadhew4TEe6JsNzpP1XlHw",
+            "association": "_I46HjhU0Ee6PAM8hniUwVQ",
             "name": "",
-            "owningAssociation": "_Qadhew4TEe6JsNzpP1XlHw",
+            "owningAssociation": "_I46HjhU0Ee6PAM8hniUwVQ",
+            "type": "Loja",
+"oldId": "_I46HXxU0Ee6PAM8hniUwVQ",
+            "visibility": "private",
+            "id": "_I46HjxU0Ee6PAM8hniUwVQ",
+            "xmitype": "uml:Property",
+            "lowerValue": {
+              "value": "1",
+              "id": "_I46HkBU0Ee6PAM8hniUwVQ",
+              "xmitype": "uml:LiteralInteger"
+            },
+            "upperValue": {
+              "value": "1",
+              "id": "_I46HkRU0Ee6PAM8hniUwVQ",
+              "xmitype": "uml:LiteralUnlimitedNatural"
+            }
+          }
+        },
+        {
+          "memberEnd": "_I46HPBU0Ee6PAM8hniUwVQ _I46HkxU0Ee6PAM8hniUwVQ",
+          "name": "",
+          "id": "_I46HkhU0Ee6PAM8hniUwVQ",
+          "xmitype": "uml:Association",
+          "ownedEnd": {
+            "association": "_I46HkhU0Ee6PAM8hniUwVQ",
+            "name": "",
+            "owningAssociation": "_I46HkhU0Ee6PAM8hniUwVQ",
             "type": "Cliente",
-"oldId": "_Qac7HQ4TEe6JsNzpP1XlHw",
+"oldId": "_I46HNhU0Ee6PAM8hniUwVQ",
             "visibility": "private",
-            "id": "_QadhfA4TEe6JsNzpP1XlHw",
+            "id": "_I46HkxU0Ee6PAM8hniUwVQ",
             "xmitype": "uml:Property",
             "lowerValue": {
               "value": "1",
-              "id": "_QadhfQ4TEe6JsNzpP1XlHw",
+              "id": "_I46HlBU0Ee6PAM8hniUwVQ",
               "xmitype": "uml:LiteralInteger"
             },
             "upperValue": {
               "value": "1",
-              "id": "_Qadhfg4TEe6JsNzpP1XlHw",
+              "id": "_I46HlRU0Ee6PAM8hniUwVQ",
               "xmitype": "uml:LiteralUnlimitedNatural"
             }
           }
         },
         {
-          "memberEnd": "_QadhgA4TEe6JsNzpP1XlHw _QadhRg4TEe6JsNzpP1XlHw",
+          "memberEnd": "_I46HfBU0Ee6PAM8hniUwVQ _I46HPxU0Ee6PAM8hniUwVQ",
           "name": "",
-          "id": "_Qadhfw4TEe6JsNzpP1XlHw",
+          "id": "_I46HlhU0Ee6PAM8hniUwVQ",
+          "xmitype": "uml:Association"
+        },
+        {
+          "memberEnd": "_I46HmBU0Ee6PAM8hniUwVQ _I46HShU0Ee6PAM8hniUwVQ",
+          "name": "",
+          "id": "_I46HlxU0Ee6PAM8hniUwVQ",
           "xmitype": "uml:Association",
           "ownedEnd": {
-            "association": "_Qadhfw4TEe6JsNzpP1XlHw",
+            "association": "_I46HlxU0Ee6PAM8hniUwVQ",
             "name": "",
-            "owningAssociation": "_Qadhfw4TEe6JsNzpP1XlHw",
-            "type": "Pagamento",
-"oldId": "_QadhRA4TEe6JsNzpP1XlHw",
+            "owningAssociation": "_I46HlxU0Ee6PAM8hniUwVQ",
+            "type": "Carrinho",
+"oldId": "_I46HRRU0Ee6PAM8hniUwVQ",
             "visibility": "private",
-            "id": "_QadhgA4TEe6JsNzpP1XlHw",
+            "id": "_I46HmBU0Ee6PAM8hniUwVQ",
+            "xmitype": "uml:Property",
+            "lowerValue": {
+              "value": "1",
+              "id": "_I46HmRU0Ee6PAM8hniUwVQ",
+              "xmitype": "uml:LiteralInteger"
+            },
+            "upperValue": {
+              "value": "1",
+              "id": "_I46HmhU0Ee6PAM8hniUwVQ",
+              "xmitype": "uml:LiteralUnlimitedNatural"
+            }
+          }
+        },
+        {
+          "memberEnd": "_I46HnBU0Ee6PAM8hniUwVQ _I46HYxU0Ee6PAM8hniUwVQ",
+          "name": "",
+          "id": "_I46HmxU0Ee6PAM8hniUwVQ",
+          "xmitype": "uml:Association",
+          "ownedEnd": {
+            "association": "_I46HmxU0Ee6PAM8hniUwVQ",
+            "name": "",
+            "owningAssociation": "_I46HmxU0Ee6PAM8hniUwVQ",
+            "type": "Loja",
+"oldId": "_I46HXxU0Ee6PAM8hniUwVQ",
+            "visibility": "private",
+            "id": "_I46HnBU0Ee6PAM8hniUwVQ",
+            "xmitype": "uml:Property",
+            "lowerValue": {
+              "value": "1",
+              "id": "_I46HnRU0Ee6PAM8hniUwVQ",
+              "xmitype": "uml:LiteralInteger"
+            },
+            "upperValue": {
+              "value": "1",
+              "id": "_I46HnhU0Ee6PAM8hniUwVQ",
+              "xmitype": "uml:LiteralUnlimitedNatural"
+            }
+          }
+        },
+        {
+          "memberEnd": "_I46HoBU0Ee6PAM8hniUwVQ _I46HWRU0Ee6PAM8hniUwVQ",
+          "name": "",
+          "id": "_I46HnxU0Ee6PAM8hniUwVQ",
+          "xmitype": "uml:Association",
+          "ownedEnd": {
+            "association": "_I46HnxU0Ee6PAM8hniUwVQ",
+            "name": "",
+            "owningAssociation": "_I46HnxU0Ee6PAM8hniUwVQ",
+            "type": "Pagamento",
+"oldId": "_I46HWBU0Ee6PAM8hniUwVQ",
+            "visibility": "private",
+            "id": "_I46HoBU0Ee6PAM8hniUwVQ",
             "xmitype": "uml:Property",
             "upperValue": {
               "value": "*",
-              "id": "_QadhgQ4TEe6JsNzpP1XlHw",
-              "xmitype": "uml:LiteralUnlimitedNatural"
-            }
-          }
-        },
-        {
-          "memberEnd": "_Qadhgw4TEe6JsNzpP1XlHw _QadhTg4TEe6JsNzpP1XlHw",
-          "name": "",
-          "id": "_Qadhgg4TEe6JsNzpP1XlHw",
-          "xmitype": "uml:Association",
-          "ownedEnd": {
-            "association": "_Qadhgg4TEe6JsNzpP1XlHw",
-            "name": "",
-            "owningAssociation": "_Qadhgg4TEe6JsNzpP1XlHw",
-            "type": "Loja",
-"oldId": "_QadhTA4TEe6JsNzpP1XlHw",
-            "visibility": "private",
-            "id": "_Qadhgw4TEe6JsNzpP1XlHw",
-            "xmitype": "uml:Property",
-            "lowerValue": {
-              "value": "1",
-              "id": "_QadhhA4TEe6JsNzpP1XlHw",
-              "xmitype": "uml:LiteralInteger"
-            },
-            "upperValue": {
-              "value": "1",
-              "id": "_QadhhQ4TEe6JsNzpP1XlHw",
-              "xmitype": "uml:LiteralUnlimitedNatural"
-            }
-          }
-        },
-        {
-          "memberEnd": "_Qadhhw4TEe6JsNzpP1XlHw _QadhUQ4TEe6JsNzpP1XlHw",
-          "name": "",
-          "id": "_Qadhhg4TEe6JsNzpP1XlHw",
-          "xmitype": "uml:Association",
-          "ownedEnd": {
-            "association": "_Qadhhg4TEe6JsNzpP1XlHw",
-            "name": "",
-            "owningAssociation": "_Qadhhg4TEe6JsNzpP1XlHw",
-            "type": "Loja",
-"oldId": "_QadhTA4TEe6JsNzpP1XlHw",
-            "visibility": "private",
-            "id": "_Qadhhw4TEe6JsNzpP1XlHw",
-            "xmitype": "uml:Property",
-            "lowerValue": {
-              "value": "1",
-              "id": "_QadhiA4TEe6JsNzpP1XlHw",
-              "xmitype": "uml:LiteralInteger"
-            },
-            "upperValue": {
-              "value": "1",
-              "id": "_QadhiQ4TEe6JsNzpP1XlHw",
-              "xmitype": "uml:LiteralUnlimitedNatural"
-            }
-          }
-        },
-        {
-          "memberEnd": "_Qadhiw4TEe6JsNzpP1XlHw _Qadhag4TEe6JsNzpP1XlHw",
-          "name": "",
-          "id": "_Qadhig4TEe6JsNzpP1XlHw",
-          "xmitype": "uml:Association",
-          "ownedEnd": {
-            "association": "_Qadhig4TEe6JsNzpP1XlHw",
-            "name": "",
-            "owningAssociation": "_Qadhig4TEe6JsNzpP1XlHw",
-            "type": "Pedido",
-"oldId": "_QadhZA4TEe6JsNzpP1XlHw",
-            "visibility": "private",
-            "id": "_Qadhiw4TEe6JsNzpP1XlHw",
-            "xmitype": "uml:Property",
-            "lowerValue": {
-              "value": "1",
-              "id": "_QadhjA4TEe6JsNzpP1XlHw",
-              "xmitype": "uml:LiteralInteger"
-            },
-            "upperValue": {
-              "value": "1",
-              "id": "_QadhjQ4TEe6JsNzpP1XlHw",
-              "xmitype": "uml:LiteralUnlimitedNatural"
-            }
-          }
-        },
-        {
-          "memberEnd": "_Qadhjw4TEe6JsNzpP1XlHw _Qac7Lg4TEe6JsNzpP1XlHw",
-          "name": "",
-          "id": "_Qadhjg4TEe6JsNzpP1XlHw",
-          "xmitype": "uml:Association",
-          "ownedEnd": {
-            "association": "_Qadhjg4TEe6JsNzpP1XlHw",
-            "name": "",
-            "owningAssociation": "_Qadhjg4TEe6JsNzpP1XlHw",
-            "type": "Carrinho",
-"oldId": "_Qac7LA4TEe6JsNzpP1XlHw",
-            "visibility": "private",
-            "id": "_Qadhjw4TEe6JsNzpP1XlHw",
-            "xmitype": "uml:Property",
-            "lowerValue": {
-              "value": "1",
-              "id": "_QadhkA4TEe6JsNzpP1XlHw",
-              "xmitype": "uml:LiteralInteger"
-            },
-            "upperValue": {
-              "value": "1",
-              "id": "_QadhkQ4TEe6JsNzpP1XlHw",
+              "id": "_I46HoRU0Ee6PAM8hniUwVQ",
               "xmitype": "uml:LiteralUnlimitedNatural"
             }
           }
         },
         {
           "name": "PrimitiveTypes",
-          "id": "_Qadhkg4TEe6JsNzpP1XlHw",
+          "id": "_I46HohU0Ee6PAM8hniUwVQ",
           "xmitype": "uml:Package",
           "packagedElement": [
             {
-              "name": "void",
-              "id": "_Qadhkw4TEe6JsNzpP1XlHw",
+              "name": "int",
+              "id": "_I46HoxU0Ee6PAM8hniUwVQ",
               "xmitype": "uml:PrimitiveType"
             },
             {
-              "name": "int",
-              "id": "_QadhlA4TEe6JsNzpP1XlHw",
+              "name": "void",
+              "id": "_I46HpBU0Ee6PAM8hniUwVQ",
               "xmitype": "uml:PrimitiveType"
             }
           ]
