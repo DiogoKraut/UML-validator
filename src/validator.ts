@@ -168,8 +168,8 @@ function validateOperations(metaClass: MetaClass, javaClass: MetaClass) {
       if(index != -1) {
         javaParameters.splice(index, 1);
       }
-      if((metaParameters.length && javaParameters.length) && metaParameters.length != javaParameters.length) {
-        console.log(`\t\t\t${chalk.bgRed('Parameter mismatch')}: Expected`, chalk.green.bold(metaOperation.ownedParameter.length-1), 'parameters, but found', chalk.red.bold(javaOperation.ownedParameter.length));
+      if(((metaParameters.length || metaParameters.length === 0) && (javaParameters.length)) && metaParameters.length != javaParameters.length) {
+        console.log(`\t\t\t${chalk.bgRed('Parameter mismatch')}: Expected`, chalk.green.bold(metaParameters.length), 'parameters, but found', chalk.red.bold(javaOperation.ownedParameter.length));
       }
     } else {
       console.log('\t\tOperation', chalk.underline.italic.bold(metaOperation.name), chalk.bgRed.bold('NOT FOUND'));

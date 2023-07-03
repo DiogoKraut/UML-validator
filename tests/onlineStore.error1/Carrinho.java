@@ -8,6 +8,5 @@ public class Carrinho {
 
 	}
 	public void removerProduto(Produto p) {
-
 	}
 }

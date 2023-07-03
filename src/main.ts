@@ -2,7 +2,6 @@ import * as fs from 'fs';
 import { MetaClass } from './entities/meta-class.entity';
 import { javaClassParser } from './javaParser.js';
 import chalk from 'chalk';
-import { MetaAssociationLink } from './entities/meta-association-link.entity';
 import { validateAssociations, validateAssociations2, validateClasses } from './validator';
 
 const path = process.argv.slice(2)[0];

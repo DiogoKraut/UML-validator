@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class Loja {
 
-	private String cnpj; // visibility error
+	private String cnpj;
 
 	private Cliente[] cliente;
 

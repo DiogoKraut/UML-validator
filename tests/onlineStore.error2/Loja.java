@@ -6,7 +6,7 @@ public class Loja {
 	private Cliente[] cliente;
 	private Pagamento[] pagamento;
 
-	public void listarPagamentos() {
+	public void listarPagamentos(int a) { // extra parameter
 
 	}
 

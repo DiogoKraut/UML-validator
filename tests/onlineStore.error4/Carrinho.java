@@ -7,7 +7,7 @@ public class Carrinho {
 
 	private ItemDeCarrinho[] itemDeCarrinho;
 
-	public void adicionarProduto(Produto p, int q) {
+	public void adicionarProduto(Produtos p, String q) {
 
 	}
 

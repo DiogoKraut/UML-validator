@@ -1,23 +1,15 @@
 import java.util.ArrayList;
 
 public class Cliente {
-
 	private String name;
-
-	private String cpf;
-
+	String cpf; // omit visibility
 	private Carrinho carrinho;
-
 	private Pagamento[] pagamento;
-
 	private Pedido[] pedido;
-
-	public void listarPedidos() {
+	void listarPedidos() {
 
 	}
-
 	public void iniciarPedido() {
 
 	}
-
 }
