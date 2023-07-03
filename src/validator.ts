@@ -6,9 +6,12 @@ import { isPrimitiveType } from "./utils/utils";
 export function validateClasses(classes: MetaClass[], javaClasses: MetaClass[]) {
   classes.forEach((metaClass) => {
     console.log('Analysing class', `${chalk.underline.italic.bold(metaClass.name)}...`,);
-    const javaClass = javaClasses.find((javaClass) => javaClass.name == metaClass.name);
+    const javaClass = javaClasses.find((javaClass) => javaClass.name === metaClass.name);
     if(javaClass) {
       console.log('\tMatching class', chalk.bgGreen.bold('FOUND'));
+      if(metaClass.visibility != javaClass.visibility) {
+        console.log(`\t${chalk.bgRed('Visibility mismatch')}: Expected`, chalk.green.bold(metaClass.visibility), 'but found', chalk.red.bold(javaClass.visibility));
+      }
       console.log('\tComparing attributes...');
       validateAttributes(metaClass, javaClass);
       console.log('\tComparing operations...');
@@ -23,7 +26,7 @@ export function validateClasses(classes: MetaClass[], javaClasses: MetaClass[]) 
 }
 
 export function validateAssociations2(classes: MetaClass[], javaClasses: MetaClass[]) {
-  console.log('Analysing associations...');
+  console.log('Analysing associations Code -> Diagram...');
   classes.forEach((metaClass) => {
     if(!metaClass.ownedAttribute) return;
     const metaAttributes = Array.isArray(metaClass.ownedAttribute) ? metaClass.ownedAttribute : [metaClass.ownedAttribute];
@@ -60,7 +63,7 @@ export function validateAssociations2(classes: MetaClass[], javaClasses: MetaCla
 }
 
 export function validateAssociations(classes: MetaClass[], javaClasses: MetaClass[]) {
-  console.log('Analysing associations...');
+  console.log('Analysing associations Diagram -> Code...');
   classes.forEach((metaClass) => {
     if(!metaClass.ownedAttribute) return;
     const metaAttributes = Array.isArray(metaClass.ownedAttribute) ? metaClass.ownedAttribute : [metaClass.ownedAttribute];
@@ -92,7 +95,6 @@ export function validateAssociations(classes: MetaClass[], javaClasses: MetaClas
             console.log('\tAssociation', chalk.underline.italic.bold(`${metaClass.name} --> ${attribute.type}`), chalk.bgRed.bold('NOT FOUND'));
             return;
           }
-          if(attribute.type === 'ItemDeCarrinho') debugger;
           if(
             (attribute.upperValue?.value === '*') &&
             (!javaAttribute.type?.endsWith('[]') && !javaAttribute.type?.includes('ArrayList'))
@@ -123,7 +125,7 @@ function validateAttributes(metaClass: MetaClass, javaClass: MetaClass) {
   metaAttributes.forEach((metaAttribute) => {
     if(metaAttribute.name === '' || !isPrimitiveType(metaAttribute.type)) return;
 
-    const javaAttribute = javaAttributes.find((javaAttribute) => javaAttribute.name == metaAttribute.name);
+    const javaAttribute = javaAttributes.find((javaAttribute) => javaAttribute.name === metaAttribute.name);
     if(javaAttribute) {
       console.log('\t\tAttribute', chalk.underline.italic.bold(metaAttribute.name), chalk.bgGreen.bold('FOUND'));
       if(
@@ -132,8 +134,7 @@ function validateAttributes(metaClass: MetaClass, javaClass: MetaClass) {
         (metaAttribute.type != '_I45gIRU0Ee6PAM8hniUwVQ' && (javaAttribute.type != 'Date' && javaAttribute.type != '_I45gIRU0Ee6PAM8hniUwVQ'))
       ) {
         console.log(`\t\t\t${chalk.bgRed('Parameter mismatch')}: Expected`, chalk.green.bold(metaAttribute.type), 'but found', chalk.red.bold(javaAttribute.type));
-      }
-      if(
+      } else if(
         (javaAttribute.type != metaAttribute.type) &&
         ((metaAttribute.type != 'Integer' && javaAttribute.type != 'int') && javaAttribute.type != '_I46HoxU0Ee6PAM8hniUwVQ') &&
         ((javaAttribute.type != '_I45gIRU0Ee6PAM8hniUwVQ' && javaAttribute.type != 'Date') && metaAttribute.type != 'Date')
@@ -159,7 +160,7 @@ function validateOperations(metaClass: MetaClass, javaClass: MetaClass) {
     if(index != -1) {
       metaParameters.splice(index, 1);
     }
-    const javaOperation = javaOperations.find((javaOperation) => javaOperation.name == metaOperation.name);
+    const javaOperation = javaOperations.find((javaOperation) => javaOperation.name === metaOperation.name);
     if(javaOperation) {
       console.log('\t\tOperation', chalk.underline.italic.bold(metaOperation.name), chalk.bgGreen.bold('FOUND'));
       const javaParameters = Array.isArray(javaOperation.ownedParameter) ? javaOperation.ownedParameter : [javaOperation.ownedParameter];

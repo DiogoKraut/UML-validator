@@ -1,10 +1,10 @@
 import java.util.ArrayList;
 
 public class Loja {
-
-	private ArrayList<Cliente> clientes;
-
-	private ArrayList<Pagamento> pagamentos;
+	private String cnpj;
+	private String nome; // Extra attribute
+	private Cliente[] cliente;
+	private Pagamento[] pagamento;
 
 	public void listarPagamentos() {
 

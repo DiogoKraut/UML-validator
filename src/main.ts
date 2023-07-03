@@ -15,6 +15,7 @@ async function main() {
 
     data.forEach((element: any) => {
       if(element.xmitype === 'uml:Class' && element.name != '') {
+        element.visibility = element.visibility || 'public';
         classes.push(element);
       }
     });

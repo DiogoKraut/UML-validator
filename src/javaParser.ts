@@ -24,7 +24,7 @@ export function javaClassParser(filePath: string) : MetaClass {
     }
 
     const words = newLine.split(/[\s;, ]+/);
-    let flagAtt = newLine[newLine.length-1] == ";";
+    let flagAtt = newLine[newLine.length-1] === ";";
     let flagFuncName = false;
     let flagClass = false;
 
@@ -35,24 +35,27 @@ export function javaClassParser(filePath: string) : MetaClass {
 
     // check if it is inside an operation and ignore
     if (wasOp){
-      if(newLine[newLine.length-1] == '{' || words[0] == '{')
+      if(newLine[newLine.length-1] == '{' || words[0] === '{')
         count ++;
-      if(newLine[newLine.length-1] == '}' || words[0] == '}'){
+      if(newLine[newLine.length-1] == '}' || words[0] === '}'){
         count --;
-        if (count == 0)
+        if (count === 0)
           wasOp = false;
       }
       continue;
     }
 
     // if it is import, empty line or braces, skip
-    if (words[0] == 'import' || words[0] == '}' || words[0] == '' || words[0] == '{') continue;
+    if (words[0] === 'import' || words[0] === '}' || words[0] === '' || words[0] === '{') {
+      continue;
+    } 
     
-    if (words[0] == 'class'){
+    if (words[0] === 'class'){
       newClass.name = words[1];
       flagClass = true;
     }
-    if (words[1] == 'class'){
+    if (words[1] === 'class'){
+      newClass.visibility = words[0];
       newClass.name = words[2];
       flagClass = true;
     }
@@ -60,7 +63,7 @@ export function javaClassParser(filePath: string) : MetaClass {
       if (flagAtt) {
         parseAttribute(words, newClass);
       } else {
-        if(newLine[newLine.length-1] == '{' || words[0] == '{') {
+        if(newLine[newLine.length-1] === '{' || words[0] === '{') {
           count ++;
         }
 

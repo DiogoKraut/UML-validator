@@ -8,4 +8,5 @@ export class MetaClass {
   "xmitype": string;
   "ownedAttribute": MetaAttribute[] | MetaAssociationAttribute[] = [];
   "ownedOperation": MetaOperation[] = [];
+  "visibility": string = "public";
 }
