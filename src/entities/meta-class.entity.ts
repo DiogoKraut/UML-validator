@@ -5,7 +5,6 @@ import { MetaOperation } from "./meta-operation.entity";
 export class MetaClass {
   "name": string;
   "id": string;
-  "xmitype": string;
   "ownedAttribute": MetaAttribute[] | MetaAssociationAttribute[] = [];
   "ownedOperation": MetaOperation[] = [];
   "visibility": string = "public";

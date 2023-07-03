@@ -77,6 +77,9 @@ export function javaClassParser(filePath: string) : MetaClass {
 
 function parseAttribute(words: string[], newClass: MetaClass) {
   let attribute;
+  if(words[0] !== 'private' && words[0] !== 'public') {
+    words.unshift('package');
+  }
   if(isPrimitiveType(words[1])) {
     attribute = new MetaAttribute();
   attribute.type = words[1];
@@ -96,6 +99,9 @@ function parseAttribute(words: string[], newClass: MetaClass) {
 
 function parseOperation(words: string[], newClass: MetaClass, flag: boolean) {
   const op = new MetaOperation();
+  if(words[0] !== 'private' && words[0] !== 'public') {
+    words.unshift('package');
+  }
   op.visibility = words[0];
   op.name = flag ? words[2] : words[1];
   op.name = op.name.split('(')[0];
